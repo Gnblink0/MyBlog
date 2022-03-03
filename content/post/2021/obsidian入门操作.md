@@ -91,19 +91,32 @@ image = "https://s2.loli.net/2022/03/03/CO715IDPBhT6wtE.jpg"
 
 obsidian是一个**潜力无穷**的工具，它不仅不会被我这篇入门指南定义，肯定也不会被我那篇[《黑曜石——你的第二大脑》](https://hugo-stack-theme-mod-six.vercel.app/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/)定义。这也是为什么我一开始只想写《卡片笔记法》读后感，最后却写成了两篇obsidian安利的原因。我最近突发奇想在用obsidian学英语进展顺利，有空写写。
 
-之后**具体的入门详细基础操作**，[少数派这篇](https://sspai.com/post/67476)讲得很清楚，我就不重复发明轮子了（但是它没有讲为什么和入门思路，我在这两篇文章了里讲了
 
----
 
-### 特别提示：
+这个[新手建议](https://publish.obsidian.md/chinesehelp/01+2021%E6%96%B0%E6%95%99%E7%A8%8B/%E6%9C%AC%E4%BA%BA%E5%AF%B9obsidian%E6%96%B0%E6%89%8B%E7%9A%84%E5%BB%BA%E8%AE%AE%EF%BC%882022%E7%89%88%E6%9C%AC%EF%BC%89+by+%E8%BD%AF%E9%80%9A%E8%BE%BE)说得好，刚刚接触obsidian，你只需要知道三件事：
 
-#### 链接（link）  
+1. 如何创建一个笔记 （注意理解「笔记/page」概念，这是obsidian的基础单位）
+2. 如何创建一个双链 （这是obsidian最核心的和重要的功能/概念，[之前一篇文章](https://hugo-stack-theme-mod-six.vercel.app/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/)里详细讲了，不再提。）
+3. 找到笔记库所在的位置做好备份（如果你不会git备份，甚至可以定期手动在本地拷贝一下或者拖进云盘）
 
-这是obsidian最核心的和重要的功能/概念。不过在[之前一篇文章](https://hugo-stack-theme-mod-six.vercel.app/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/)讲了，不再提。
 
-#### Markdown  
 
-slogan里也特别提到了Markdown，这是obsidian的重大特色，没有接触过这个概念的朋友可能要熟悉一下，会有一些设定上的不习惯。比如markdown作为一种轻量级标记语言而不是富文本语言（word），是没有“首行缩进”这个设定的，关于[我们为什么要用markdown](https://zhuanlan.zhihu.com/p/86516807)。
+之后**具体的入门详细基础操作**，[少数派这篇](https://sspai.com/post/67476)讲得很清楚，我就不重复发明轮子了（但是它没有讲的是「为什么」和「思路」，我在这两篇文章了里讲了）
+
+
+
+
+>入门讲这些就差不多了，我相信如果你有需求的话此时已经开始快乐探索了！
+
+
+
+## 再说一点粗的方向
+
+### Markdown  
+
+slogan里也特别提到了Markdown，这是obsidian的重大特色，没有接触过这个概念的朋友可能要熟悉一下，会有一些设定上的不习惯。
+
+比如markdown作为一种轻量级标记语言而不是富文本语言（word），是没有“首行缩进”这个设定的。关于[我们为什么要用markdown；mardown和word的区别](https://zhuanlan.zhihu.com/p/86516807)。
 
 其实也更没什么难的，本质就是一种便于码字排版的标记符号，一旦上手非常方便。
 
@@ -111,9 +124,9 @@ slogan里也特别提到了Markdown，这是obsidian的重大特色，没有接�
 
 我最常用的就是：
 
- `#`=各级标题
+ `# `=各级标题
 
-`-`=无序列表
+`- `=无序列表
 
 `4.` =有序列表
 
@@ -128,15 +141,6 @@ slogan里也特别提到了Markdown，这是obsidian的重大特色，没有接�
 ![如图为mk标记，来自少数派文章](https://s2.loli.net/2022/03/03/fBOg7UmHshETpob.jpg)
 
 更多的markdown语法请见：[obsidian官方文档](https://publish.obsidian.md/help-zh/使用指南/格式化你的笔记)；[ Markdown 官方教程](https://markdown.com.cn/intro.html)
-
-
-
-
->入门讲这些就差不多了，我相信如果你有需求的话此时已经开始快乐探索了！
-
-
-
-## 再说一点粗的方向
 
 ### 插件
 
