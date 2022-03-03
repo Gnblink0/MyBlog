@@ -1,5 +1,5 @@
 +++
-author = "关念"
++++author = "关念"
 title = "Nothing really matters——Echoes的创作过程"
 date = "2021-01-27"
 description = "Nothing really matters"
@@ -12,7 +12,7 @@ tags = [
 ]
 image = "https://s2.loli.net/2022/03/03/LaX1ic7PgtzkM3C.jpg"
 
-
++++
 
 Pink Floyd开始准备着手创造新专辑的时候并不顺利，大家头脑空空，彼此否定，一筹莫展，无所事事。不过无论如何，PF毕竟是个有灵感就上，没灵感（~~为了赚钱~~）创造灵感也得上的劳模乐队。
 
