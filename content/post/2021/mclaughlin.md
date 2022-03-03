@@ -1,7 +1,7 @@
 +++
 author = "关念"
 title = "John Mclaughlin与Fusion（1970年附近的爵士与摇滚）"
-date = "2019-03-09"
+date = "2021-07-09"
 description = "《Birds of Fire》内页翻译"
 categories = [
     "乐"
