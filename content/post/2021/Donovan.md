@@ -299,15 +299,15 @@ Donovan在16年的自传The Hurdy Gurdy Man里写“致她，我的缪斯女神�
 
 这首歌是献给乔治·哈里森的， “海上的船”这个隐喻是他的想法。
 
-#### West Indian Lady
+### West Indian Lady
 
 多诺万在印度学习冥想时写了《West Indian Lady》，他还真的在卧室的墙上贴了一张印度女孩的海报。
 
-#### The Sun Is A Very Magic Fellow
+### The Sun Is A Very Magic Fellow
 
 多诺万在他的自传中说，他和马尔·埃文斯（Mal Evans）（披头士的巡演经理）在印度时共同写了《The Sun Is A Very Magic Fellow》
 
-#### Poor Cow
+### Poor Cow
 
 从第一次创作以来《Poor Cow》经历了许多变化。它的原名不是<可怜的牛>，而是<可怜的爱>。
 
@@ -321,20 +321,16 @@ Donovan在16年的自传The Hurdy Gurdy Man里写“致她，我的缪斯女神�
 
 录音室版本《Poor Love》最终作为单曲《Jennifer Juniper》的B 面发行（尽管美国版最初计划将Poor Cow作为A 面）。它是在一个不知名的伦敦录音室录制的，可能是奥林匹克工作室，制作人 Mickie Most、Danny Thompson 担任贝斯手，Tony Carr 负责打击乐。目前还不清楚谁演奏了手风琴，也许是 Jack Emblow。后来由John Cameron安排、指挥的管弦乐队加入了弦乐。
 
-#### What A Beautiful Creature You Are
+### What A Beautiful Creature You Are
 
 2005年的再版包括一首以前从未发行过的歌曲《What A Beautiful Creature You Are》，一首与歌手Lulu对唱的小黄歌。
 这首真的很像英国处男对着美国小妞流口水……就 真爱至上里那个谁
 
-
-
-#### Colors, Catch The Wind
+### Colors, Catch The Wind
 
 《Colors》（首次出现在1965二专）和《Catch The Wind》（首次出现在1965首专）是出现在 1969 年合辑Greatest Hits中的版本，该合辑于 1968 年 11 月在伦敦 Abbey Road Studios 录制。Epic 无法获得原始录音的版权，因此多诺万不得不重新录制它们。他在这些曲目中加入了一个完整的伴奏乐队，并以比原始歌曲更柔和的声音唱歌。
 
-
-
-#### 其他
+### 其他
 
 - 由于持续的合同纠纷，直到2005出重制版为止，这张专辑其实从未在英国发行。
 - King Crimson 在 1969 年、71 年现场演奏了《Get Thy Bearings》。这首歌主要用作额外即兴。虽然 Boz Burrell 在 1971 年保持接近原词，但 Greg Lake 在 1969 年自由改动了歌词。1969.9.7在 Chesterfield Jazz Club的现场版收录在《The 21st Century Guide to King Crimson – Volume One 1969–1974》https://music.douban.com/subject/1938937/
