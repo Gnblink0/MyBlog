@@ -2,14 +2,14 @@
 author = "关念"
 title = "so real, sorry"
 date = "2021-11-30"
-description = "Jeff Buckley"
+description = "Jeff Buckley - Grace"
 categories = [
     "乐"
 ]
 tags = [
     "Jeff Buckley",
     "专辑",
-    "人物"
+    "音乐人"
 ]
 image = "https://s2.loli.net/2022/03/03/nJkNTjSiUal5gYV.jpg"
 
