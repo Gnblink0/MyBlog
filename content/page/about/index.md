@@ -15,20 +15,38 @@ menu:
             icon: user
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
-Hugo makes use of a variety of open source projects including:
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+一只日常生活在海底的普通哺乳动物ꪔ̤̮𓈒𓏸
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+
+
+他已是个怀疑论者，又远离现实，因而冷酷无情。
+
+人们可以藏在自己的形象后面，可以永远消失在自己的形象后面，可以离开自己的形象；人永远不是自己的形象。
+
+
+
+吾生也有涯，而知也无涯，而又何羡乎。
+
+我想要说的前人们都说过了，说得都没错就是太啰嗦。
+
+
+
+充满偏见的爱，才恰恰是我在这个不可靠的世界上，最为充满偏见地爱着的东西之一。
+
+美是很可怕的、怪吓人的！之所以可怕，因为它神秘莫测；之所以神秘莫测，是因为上帝尽出些让人猜不透的谜。这里好多界限是模糊不清的，各种各样的矛盾交织在一起。兄弟，我没什么学问，但我对这事儿想得很多。其中的奥秘多得不得了！世上有太多太多的谜压得人喘不过气来。你得想尽办法去解答，还得干干净净脱身。美！
+
+我们首先将是善良的，这一点最要紧，然后是正直的，再然后——我们将彼此永不相忘。
+
+
+
+
+
+
+
+♫我们都是快乐的牛羊♫
+咩～
