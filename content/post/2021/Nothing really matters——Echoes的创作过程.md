@@ -2,7 +2,7 @@
 author = "关念"
 title = "Nothing really matters——Echoes的创作过程"
 date = "2021-01-27"
-description = ""
+description = "Nothing really matters"
 categories = [
     "音乐"
 ]
