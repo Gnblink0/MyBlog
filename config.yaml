@@ -198,7 +198,7 @@ menu:
           name: Douban
           url: https://www.douban.com/people/Gnblink/?_i=6284418tzth8nk
           params:
-              icon: douban-icon
+              icon:
 
 related:
     includeNewer: true
