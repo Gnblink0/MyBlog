@@ -5,7 +5,7 @@ title = "Nothing really matters——Echoes的创作过程"
 date = "2021-01-27"
 description = "Nothing really matters"
 categories = [
-    "音乐"
+    "乐"
 ]
 tags = [
     "Pink Floyd",
