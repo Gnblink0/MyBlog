@@ -1,16 +1,15 @@
 +++
-author = "Hugo Authors"
-title = "Placeholder Text"
-date = "2019-03-09"
-description = "Lorem Ipsum Dolor Si Amet"
+author = "关念"
+title = "so real, sorry"
+date = "2021-11-30"
+description = "Sketches for My Sweetheart the Drunk"
 categories = [
-    "Test",
-    "Test with whitespaces"
+    "乐"
 ]
 tags = [
-    "markdown",
-    "text",
-    "tag with whitespaces"
+    "Jeff Buckley",
+    "专辑",
+    "人物"
 ]
 image = "https://s2.loli.net/2022/03/03/s8XKDiybUzHGp6T.png"
 
