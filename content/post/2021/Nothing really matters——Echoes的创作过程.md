@@ -11,7 +11,7 @@ tags = [
     "Pink Floyd",
     "专辑"
 ]
-image = "https://s2.loli.net/2022/03/03/LaX1ic7PgtzkM3C.jpg"
+image = "https://s2.loli.net/2022/03/03/iZhoVRu1B8OcrfH.jpg"
 
 +++
 
