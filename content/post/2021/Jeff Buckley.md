@@ -64,9 +64,9 @@ image = "https://s2.loli.net/2022/03/03/s8XKDiybUzHGp6T.png"
 其实又想起一个我一直很在意的现象，就说是“爱到深处自然黑”吧。据说《卡拉马佐夫兄弟》里的二哥伊万代表理性，果不其然最后把自己搞疯了，我一直觉得这就是象征了理性有不断内省自我否认的倾向，最终必然把自己导向疯狂。我见过关于这个最妙的说法就是《不朽》里说“绝对现代化就是**自己的掘墓人的同盟**”，当时看到让我惊喜同感到拍大腿。
 
 > 于是我们的主人公在几个朋友（对现代艺术同样爱得要死）的面前，冷嘲热讽地否定他曾经喜爱过的一切（他曾经真正地、由衷地喜爱过的一切），为的是不违背“绝对现代化”的伟大命令。
-
+>
 > ……
-
+>
 > 在他的否定里，他投入了一个希望通过粗暴行动，进入成年人生活的少年的全部狂热、全部热情。他的朋友们看见他怎样固执地否定他曾经视为最珍贵的一切，他曾经经历过也愿意经历的一切。他的朋友们喉咙哽住，先是感到惊奇，接着感到恶心，最后感到了害怕。这个少年赞成那些声明自己是现代化的事物，并不是出于卑怯（为了自己的飞黄腾达）而赞成，而是像忍受着痛苦，牺牲自己心爱东西的人那样出于勇敢而赞成；他的这种公开表现，是的，他的这种公开表现确实有着可怕的成分。也许当时有人一边观察他，一边对自己说：“雅罗米尔是他自己的掘墓人的同盟者。”
 
 好扯远了……我们聊盘古开天辟地是为了什么来着，哦是为了说他在这专里的的创作和演奏。
@@ -97,10 +97,10 @@ image = "https://s2.loli.net/2022/03/03/s8XKDiybUzHGp6T.png"
 
 其实我大多数时候都很冷漠/平和，但昨天听Grace越听越生气，Jeff Buckley这种人，怎么能一生只做了一张专辑就死了，越想越郁闷。。继Jimi Hendrix之后最让我可惜早逝的人，都是我相信本可以用作品改变历史的人，然而最后只是留下一些posthumous legacies和无数sorry sighs。
 
-看到rym的一个短评，我直接表演一个泪目。
+看到rym的一个二专短评，我直接表演一个泪目。
 
 > Jeff Buckley was more than a musician. He was a brilliant songwriter, a gentle soul, a complex and emotional human being. Jeff Buckley was a lot of things, and nobody but Jeff Buckley can definitively say who he was. To keep things simple, I'll say this: Jeff Buckley was an angel and this was his goodbye kiss. Sleep well, beautiful creature. The world is too cruel to gems such as thee.
-
+>
 > Jeff Buckley远不止是一个音乐家，他是一个才华横溢的作曲家，一个温柔的灵魂，一个复杂且敏感的人，是如此如此之多的事物，除了他自己，没有人可以定义他是谁。简而言之，我愿这么说：Jeff Buckley是一个天使，这是他的吻别。安睡吧，美丽的生物，这个世界对像你这样的珍宝太残酷了。
 
 
@@ -125,15 +125,13 @@ image = "https://s2.loli.net/2022/03/03/s8XKDiybUzHGp6T.png"
 
 anyway，感受魅力强烈安利这个live，[1975.2.24,Frankfurt,German](https://www.bilibili.com/video/BV1np4y1v7EG?from=search&seid=7590500951096365056&spm_id_from=333.337.0.0)
 
-![](https://img9.doubanio.com/view/thing_review/l/public/p6763086.webp)
+![](https://s2.loli.net/2022/03/03/swODfp7QgCUj4aB.png)
 
 我不是说专封给我的感觉是美国金曲歌手，这个视频里他把刘海放下来拿个吉他站那完全就是英国吉他手啊（至于啥是[英国吉他手气质](https://www.douban.com/group/topic/242861105/?_i=3827433663564d8&dt_dapp=1)）。
 
 肩宽头小的好看，就是说搞回授的姿势动作都很好看……一些0q0瞬间，唱一半把棕外套脱了剩件v领白t/唱到高潮会脸泛潮红汗如雨下/唱完会像洗完澡一样拿橙色浴巾一样擦头/interval时的说话声音居然是弱气少年音，介绍乐手的时候就显得很sweet，好像还过去抱了一下贝斯。从他在interval里说的话和开的戏谑玩笑（经常没事怪学其他乐队/歌手）可以看出他性格，加上一些他在采访里说的话推测，感觉他是那种非常聪明又有点神经刀的人？或许……彼得潘/syd？
 
-![抱贝斯这个，后来居然刷到了动图（ok并不是抱 但还是很sweet](https://img9.doubanio.com/view/thing_review/raw/public/p6828196.jpg)
-
-
+![抱贝斯这个，后来居然刷到了动图（ok并不是抱 但还是很sweet](https://s2.loli.net/2022/03/03/NAmpB14kjnzF6UY.jpg)
 
 
 
