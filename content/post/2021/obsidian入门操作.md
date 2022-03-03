@@ -12,6 +12,7 @@ tags = [
     "方法论"
 ]
 image = "https://s2.loli.net/2022/03/03/CO715IDPBhT6wtE.jpg"
+
 +++
 
 "我为什么要用这个玩意"，[这篇文章](https://hugo-stack-theme-mod-six.vercel.app/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/)已经花了几千字说明白了，接下来就是"我怎么用这个玩意"。
@@ -24,33 +25,46 @@ image = "https://s2.loli.net/2022/03/03/CO715IDPBhT6wtE.jpg"
 
 !["for you"?"forever"?](https://s2.loli.net/2022/03/03/GCc64Uvar3HhRLf.jpg)
 
-这就要展开说到slogan里除了a second brain剩下的部分，什么叫"**for you**"和"**forever**"？
+这就要展开说到slogan里剩下的部分，什么叫「**for you**」和「**forever**」？
 
-这其实体现了开发团队背后的节操和信念。
+这其实体现了开发团队背后的节操和信念，说得肉麻点就是，我觉得真正优秀的好产品，你在使用过程中一定可以感觉到背后有一个和你共鸣的灵魂，我多痛恨现在大厂为了追求利益无所不用其极，不择手段疯狂下沉的嘴脸啊。（拓展可以看[印象笔记抄袭flomo事件](https://mp.weixin.qq.com/s/iuhd-SmfPGHa_s5g2f1MYg)）
 
-**我为什么会不熟悉**？现在简中用户第一次打开一个软件熟悉的是什么？3秒开屏广告、5页矫情更新动画，要求你填写手机号注册、要求你同意隐私协议。
+
+
+**我为什么会不熟悉**？现在简中用户第一次打开一个软件熟悉的是什么？
+
+3秒开屏广告、5页矫情更新动画，要求你填写手机号注册、要求你同意隐私协议。
+
+
 
 这些，obsidian都没有，因为
 
-"for you"的意思是obsidian所有的文件都以markdown形式储存在你的本地硬盘里（local folder）
+「**for you**」的意思是obsidian所有的文件都以markdown形式储存在你的本地硬盘里（local folder）
 
-"forever"没有明说，但我推测是他们承诺未来会坚持极其宽容的收费政策
+「**forever**」没有明说，但我推测是他们承诺未来会坚持极其宽容的收费政策
+
 （有收费版，但我一直用的是免费版从未感觉有任何功能限制，甚至因此从没去看过收费版到底有什么新功能……熟悉国外软件圈生态的人都知道这有多么不容易，拓展可以看看[notability被骂事件](https://mp.weixin.qq.com/s/CTA20GhhFm3Frof6XsoJIA)）。
+
+
 
 
 扯了这么多情怀话，主要还是想说，不要被不熟悉的界面和操作劝退啊！！**只要你有使用需求，只要用起来，一定收益、受益最大、甚至唯一受益的就是你自己**！
 
 而且真的超简单不难用啊！反正我会提供细致入微呵护贴心保姆级别入门教程！！
 
+
+
 ---
+
+
 
 ## 五秒钟即可掌握，五分钟即可实操的obsidian入门步骤
 
 ### 第一步
 
-第一步当然是先去下载，obsidian今年已经支持全平台。
+第一步当然是先去[官网](https://obsidian.md/)下载，obsidian今年已经支持全平台。
 
-https://obsidian.md/
+
 
 ### 第二步
 
@@ -71,7 +85,9 @@ https://obsidian.md/
 
 好了！面对这一片白茫茫真干净，你肯定像刚拿到试卷先翻到作文看看命题时一样大脑空白、神志恍惚。此时千万别头脑风暴啊XD 又不是真的写作文！
 
-入门起步我最建议的还是**先把这么多年来散布在各种地方的、你念念不忘的、 不管是看到的还是自己写的一些话和文章搬运到obsidian**。
+入门起步我最建议的还是**先把 这么多年来散布在各种地方的、你念念不忘的或者是日常经常用到的、不管是看到的还是自己写的 一些文字文章搬运到obsidian**。
+
+
 
 obsidian是一个**潜力无穷**的工具，它不仅不会被我这篇入门指南定义，肯定也不会被我那篇[《黑曜石——你的第二大脑》](https://hugo-stack-theme-mod-six.vercel.app/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/)定义。这也是为什么我一开始只想写《卡片笔记法》读后感，最后却写成了两篇obsidian安利的原因。我最近突发奇想在用obsidian学英语进展顺利，有空写写。
 
@@ -81,11 +97,11 @@ obsidian是一个**潜力无穷**的工具，它不仅不会被我这篇入门�
 
 ### 特别提示：
 
-1. 链接（link）  
+#### 链接（link）  
 
 这是obsidian最核心的和重要的功能/概念。不过在[之前一篇文章](https://hugo-stack-theme-mod-six.vercel.app/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/)讲了，不再提。
 
-2. Markdown  
+#### Markdown  
 
 slogan里也特别提到了Markdown，这是obsidian的重大特色，没有接触过这个概念的朋友可能要熟悉一下，会有一些设定上的不习惯。比如markdown作为一种轻量级标记语言而不是富文本语言（word），是没有“首行缩进”这个设定的，关于[我们为什么要用markdown](https://zhuanlan.zhihu.com/p/86516807)。
 
@@ -98,14 +114,14 @@ slogan里也特别提到了Markdown，这是obsidian的重大特色，没有接�
 
 ![如图为mk标记，来自少数派文章](https://s2.loli.net/2022/03/03/fBOg7UmHshETpob.jpg)
 
-更多的markdown语法请见
+更多的markdown语法请见：[obsidian官方文档](https://publish.obsidian.md/help-zh/使用指南/格式化你的笔记)；[ Markdown 官方教程](https://markdown.com.cn/intro.html)
 
-[obsidian官方文档](https://publish.obsidian.md/help-zh/使用指南/格式化你的笔记)
 
-[ Markdown 官方教程](https://markdown.com.cn/intro.html)
 
 
 >入门讲这些就差不多了，我相信如果你有需求的话此时已经开始快乐探索了！
+
+
 
 
 ## 再说一点粗的方向
@@ -137,6 +153,8 @@ obsidian有很多精美的主题，它的极简颜值也是激励我使用下去
 ![red graphite](https://s2.loli.net/2022/03/03/tTdNgPkS9XaOeBV.jpg)
 
 ---
+
+
 
 ## 附录
 
