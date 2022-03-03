@@ -11,7 +11,7 @@ tags = [
     "专辑",
     "人物"
 ]
-image = "https://s2.loli.net/2022/03/03/s8XKDiybUzHGp6T.png"
+image = "https://s2.loli.net/2022/03/03/nJkNTjSiUal5gYV.jpg"
 
 +++
 
