@@ -190,15 +190,15 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/Gnblink0
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
+        - identifier: douban
+          name: Douban
+          url: https://www.douban.com/people/Gnblink/?_i=6284418tzth8nk
           params:
-              icon: brand-twitter
+              icon: douban-icon.svg
 
 related:
     includeNewer: true
