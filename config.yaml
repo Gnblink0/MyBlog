@@ -187,18 +187,18 @@ menu:
               newTab: flase
               icon: home
 
-    social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/Gnblink0
-          params:
-              icon: brand-github
+  #  social:
+     #   - identifier: github
+     #     name: GitHub
+     #     url: https://github.com/Gnblink0
+     #     params:
+     #         icon: brand-github
 
-        - identifier: douban
-          name: Douban
-          url: https://www.douban.com/people/Gnblink/?_i=6284418tzth8nk
-          params:
-              icon:
+     #   - identifier: douban
+     #     name: Douban
+     #     url: https://www.douban.com/people/Gnblink/?_i=6284418tzth8nk
+     #     params:
+     #         icon:
 
 related:
     includeNewer: true
