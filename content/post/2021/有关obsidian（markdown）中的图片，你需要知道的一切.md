@@ -140,14 +140,14 @@ image = "https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg"
 你可以把shortcuts理解为：由可视化图形组成、不涉及代码、但是运用了编程逻辑的、ios上的脚本app。
 
 1. 去App Store下Shortcuts（捷径/快捷指令）  
-2. 点击这个链接：https://www.icloud.com/shortcuts/5bde780cdadc4e4b82fc43f1c4c8cec2 ，在捷径app里打开下载这个捷径。  
+2. 点击这[此处](https://www.icloud.com/shortcuts/5bde780cdadc4e4b82fc43f1c4c8cec2)，在捷径app里打开下载这个捷径。  
 3. 打开此捷径的编辑界面（右上角三个点），在图中寻找该位置：获取URL内容-头部- Authorization（一共有三个所以要操作三次，名字都是一样的但是位置不一样），在Authorization右边的框里粘贴你复制的Token，保存 
 
 然后就可以用了！
 
 注意：
 1. 这个捷径接受两个图片来源，一是相册，二是直接在分享界面选这个捷径
-2. 一开始是为了单词配图做的这个捷径，所以大小统一设置成了200像素宽度以保证整齐，不需要的话可以在文本里自行修改。
+2. 一开始是为了单词配图做的这个捷径，所以大小统一设置成了200像素宽度以保证整齐，不需要的话可以在「文本」里自行修改。
 
 
 
