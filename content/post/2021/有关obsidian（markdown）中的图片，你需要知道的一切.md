@@ -188,4 +188,4 @@ markdown里的图片浏览体验非常简陋，只能放大查看。这个插件
 
 好吧，反正这个插件可以拓展可渲染媒体，包括音频、视频等，而且额外提供提供倍速播放等功能。
 
-效果：https://user-images.githubusercontent.com/31102694/118903678-dd82fe00-b94a-11eb-8ef3-7b5044a2bab8.mp4
+[效果](https://user-images.githubusercontent.com/31102694/118903678-dd82fe00-b94a-11eb-8ef3-7b5044a2bab8.mp4)
