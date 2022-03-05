@@ -1,8 +1,8 @@
 +++
 author = "关念"
-title = "有关Obsidian（Markdown）中的图片，你需要知道的一切"
+title = "有关Markdown中的图片，你需要知道的一切"
 date = "2022-03-05"
-description = "Everything you need to know about pictures in Markdown/Obsidian"
+description = "Obsidian使用场景下的Markdown图片设定与操作"
 categories = [
     "工具"
 ]
