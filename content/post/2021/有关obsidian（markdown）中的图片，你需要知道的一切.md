@@ -134,11 +134,12 @@ image = "https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg"
 #### Upic
 
 去他们的[官网](https://blog.svend.cc/upic/) ，按照指示下载软件、配置好API token、设置好快捷键就可以使用了。
-我一般用的是最多的是「上传剪贴板图片」（我设置的快捷键：cmd+shift+s）和「截图上传」（我设置的快捷键：cmd+shift+2）。
+
+我一般用的最多的是「上传剪贴板图片」（我设置的快捷键：cmd+shift+s）和「截图上传」（我设置的快捷键：cmd+shift+2）。
 
 #### Shortcuts
 
-你可以把shortcuts理解为：由可视化图形组成、不涉及代码、但是运用了编程逻辑的、ios上的脚本app。
+你可以把shortcuts理解为：由可视化图形组成操作界面、不涉及代码友好易上手、但是运用了编程逻辑的、ios上的脚本app。
 
 1. 去App Store下Shortcuts（捷径/快捷指令）  
 2. 点击[此处](https://www.icloud.com/shortcuts/5bde780cdadc4e4b82fc43f1c4c8cec2)，在捷径app里打开下载这个捷径。  
