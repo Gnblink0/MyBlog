@@ -129,13 +129,21 @@ PicGo正是如此一个集合各大图床的脚本工具，它可以帮你把图
 
 请看神器：ob插件—— Image auto upload Plugin（[Github下载地址](https://github.com/renmu123/obsidian-image-auto-upload-plugin)；你也可以在官方插件社区中直接搜索名字下载）
 
+![o6JExeBiLr2mKqw](https://s2.loli.net/2022/03/21/o6JExeBiLr2mKqw.png)
+
 只要你完成了PicGo的设置可以正常使用，直接下载这个插件就可以做到「直接粘贴/拖入图片→自动上传到图床→返回外链显示」，究极丝滑全自动化操作完全实现！<img src="https://media.cmx.edu.kg/cache/custom_emojis/images/000/129/022/original/c05485f442d4f70c.png" alt=":ablobcall:" style="zoom:25%;" />
+
+
 
 ### 图床转本地
 
 没错，居然还没圆满结束结束，谁还记得我开头说的是以外链为主的两种方法的互补和转换……
 
 图床转本地也是用插件实现的——Local Images（[Github下载地址](https://github.com/aleksey-rezvov/obsidian-local-images)），可以实现单页或全库的图床图片下载且转换为本地。
+
+![2QXjhNbBtAsl1Of](https://s2.loli.net/2022/03/21/2QXjhNbBtAsl1Of.png)
+
+
 
 
 ## 改变图片大小
