@@ -11,7 +11,7 @@ tags = [
     "生产力",
     "方法论"
 ]
-image = "https://s2.loli.net/2022/03/03/CO715IDPBhT6wtE.jpg"
+image = "https://www.solidsmack.com/wp-content/uploads/2020/08/obsidian-resin-block-finished--1100x618.jpg"
 
 +++
 

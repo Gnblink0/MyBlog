@@ -142,6 +142,8 @@ PicGo正是如此一个集合各大图床的脚本工具，它可以帮你把图
 
 
 
+## 本地
+
 ### 图床转本地
 
 没错，居然还没圆满结束结束，谁还记得我开头说的是以外链为主的两种方法的互补和转换……
@@ -149,6 +151,12 @@ PicGo正是如此一个集合各大图床的脚本工具，它可以帮你把图
 图床转本地也是用插件实现的——Local Images（[Github下载地址](https://github.com/aleksey-rezvov/obsidian-local-images)），可以实现单页或全库的图床图片下载且转换为本地。
 
 ![Local Images](https://s2.loli.net/2022/03/21/2QXjhNbBtAsl1Of.png)
+
+
+
+### 提醒
+
+如果要常用本地文件
 
 
 
