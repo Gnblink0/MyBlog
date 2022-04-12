@@ -74,10 +74,12 @@ image = "https://www.solidsmack.com/wp-content/uploads/2020/08/obsidian-resin-bl
 
 打开下好的软件，第一眼看到的应该是这个画面。
 
-1. vault=「库，（常特指银行的）金库」（obsidian中的logo也很形象）
-   这是obsidian的基础概念，前文已经提到所有obsidian的文件都是储存在本地的，所以**库本质上就是电脑上的文件夹**，所以ob里的文件（page）就是md文件。
+1. 选中自己需要的语言
+2. vault = 库
+   这是obsidian的基础概念，前文已经提到所有obsidian的文件都是储存在本地的，所以**库本质上就是电脑上的文件夹**，**ob里的文件（page）就是本地md文件**。
    初上手一个库就够了所以不深入讲，取名困难建议取自己名字或者admin。
-2. 选中自己需要的文字，点击create new vault（创建新库）
+
+3. 点击create new vault（创建新库）
    选电脑里自己想放文件的地址即可
    这里涉及一个同步问题，后文会详细讲，此处先不同步。
 
