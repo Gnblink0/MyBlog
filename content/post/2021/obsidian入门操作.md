@@ -124,9 +124,9 @@ image = "https://www.solidsmack.com/wp-content/uploads/2020/08/obsidian-resin-bl
 
 关于[我们为什么要用markdown；mardown和word的区别](https://zhuanlan.zhihu.com/p/86516807)
 
-其实也更没什么难的，本质就是**一种便于码字排版的标记符号**，一旦上手非常方便。
-
  <br/>
+
+其实也更没什么难的，本质就是**一种便于码字排版的标记符号**，一旦上手非常方便。
 
 我最常用的就是：
 
