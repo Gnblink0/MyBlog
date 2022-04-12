@@ -70,9 +70,9 @@ image = "https://www.solidsmack.com/wp-content/uploads/2020/08/obsidian-resin-bl
 
 ### 第二步
 
-![image-20220412122510488](/Users/gnblink/Library/Application Support/typora-user-images/image-20220412122510488.png)
-
 打开下好的软件，第一眼看到的应该是这个画面。
+
+![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220412125721.png)
 
 1. 选中自己需要的语言
 2. vault = 库
