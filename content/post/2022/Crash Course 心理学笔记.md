@@ -24,7 +24,7 @@ image = "https://cdn.jsdelivr.net/gh/mrinflated/ccwebAssets@main/static/img/uplo
 
 感谢前人栽树：[十分钟速成课：心理学 第一季 - 剧评](https://movie.douban.com/review/9577384/)
 
-大概前几天开始看的（4月中），
+大概前几天开始看的（4月中）
 
 ### 原则
 
@@ -448,3 +448,9 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 
 - 颞叶特殊部位的损伤，导致失去面孔识别的能力。
 - 创伤性记忆和过量的激素会对我们的行为和情绪造成深远的影响
+
+
+
+---
+
+to be continued……
