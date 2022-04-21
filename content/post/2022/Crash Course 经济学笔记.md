@@ -22,9 +22,9 @@ image = "https://cdn.jsdelivr.net/gh/mrinflated/ccwebAssets@main/static/img/uplo
 
 ### 说明
 
-视频链接：[【合集】10分钟速成课：经济学【预告+全35集+花絮】哔哩哔哩_bilibili](https://www.bilibili.com/video/av5525125)
+视频链接：[【合集】10分钟速成课：经济学 - bilibili](https://www.bilibili.com/video/av5525125)
 
-感谢前人栽树：[经济学学习笔记-Notion](https://www.notion.so/0ad52ed84d114ce0b04de938895256de)，
+感谢前人栽树：[经济学学习笔记-Notion](https://www.notion.so/0ad52ed84d114ce0b04de938895256de)
 
 一边看一边在obsidian做的笔记，做得比较细，10min差不多都要看半小时以上，整个过程断断续续大概花了两个月（2月中-4月初）。以notion那位的文字稿作为基础（懒），再加上其他截图ocr字幕、图片补充和自己思路修改。今天整理成一篇发在博客，主要是给看课的各位提供一个可复制粘贴、省的打字/ocr的参考笔记，不建议只看笔记。
 
