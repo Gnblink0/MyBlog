@@ -149,14 +149,9 @@ ul {
 //标题大小
 h2 {
     font-size: 1.6em;
-    background: #F4F4F4;
+    background: var(--table-border-color);
 }
 
-
-h2[data-scheme=dark]  {
-    font-size: 1.6em;
-    background: #4A4B4B;
-}
 
 h3 {
     font-size: 1.4em;
