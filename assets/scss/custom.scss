@@ -138,10 +138,15 @@ blockquote.quote {
     background: #34495e;
 }
 
+
+// 自加改变
+
+//列表左侧减少距离
 ul {
     padding-inline-start: 20px;
 }
 
+//标题大小
 h2 {
     font-size: 1.6em;
 }
@@ -162,8 +167,19 @@ h6 {
     font-size: 0.9em;
 }
 
+//引用上下减少距离
 .article-content blockquote {
     position: relative;
     padding-top: 4px ;
     padding-bottom: 4px ;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 0;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
