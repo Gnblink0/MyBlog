@@ -12,7 +12,7 @@ tags = [
     "CrashCourse",
     "网课"
 ]
-image = " https://cdn.jsdelivr.net/gh/mrinflated/ccwebAssets@main/static/img/uploads/episode/1497387853.jpg"
+image = "https://cdn.jsdelivr.net/gh/mrinflated/ccwebAssets@main/static/img/uploads/episode/1497387853.jpg"
 
 +++
 
