@@ -152,6 +152,12 @@ h2 {
     background: #F4F4F4;
 }
 
+
+h2[data-scheme=dark]  {
+    font-size: 1.6em;
+    background: #4A4B4B;
+}
+
 h3 {
     font-size: 1.4em;
 }
