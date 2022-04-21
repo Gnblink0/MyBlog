@@ -1,5 +1,5 @@
-```
 +++
+
 author = "关念"
 title = "Crash Course 经济学笔记"
 date = "2022-04-21"
@@ -13,8 +13,10 @@ tags = [
     "网课"
 ]
 image = "https://cdn.jsdelivr.net/gh/mrinflated/ccwebAssets@main/static/img/uploads/episode/1498319838.jpg"
+
 +++
-```
+
+
 
 # 前言
 
