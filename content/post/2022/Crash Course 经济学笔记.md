@@ -88,6 +88,10 @@ image = "https://cdn.jsdelivr.net/gh/mrinflated/ccwebAssets@main/static/img/uplo
 
 <img src="https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220421121434.png" style="zoom:50%;" />
 
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26609750&auto=0&height=66"></iframe>
+
+来听听滚石～ you can't always get what you want🎵
+
 #### 机会成本（opportunity cost）
 
 **每一件事，都是有成本的**
