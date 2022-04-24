@@ -16,6 +16,10 @@ image = "https://cdn.jsdelivr.net/gh/mrinflated/ccwebAssets@main/static/img/uplo
 
 +++
 
+This is <span class="blur">模糊 text</span>.
+
+This is <span class="shady">黑幕 text</span>.
+
 ## 前言
 
 ### 说明
