@@ -24,6 +24,14 @@ image = "https://cdn.jsdelivr.net/gh/mrinflated/ccwebAssets@main/static/img/uplo
 
 大概前几天开始看的（4月中）
 
+### 主讲人
+
+![Hank Green](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422141340.png)
+
+Crash Course最开始是Green两兄弟做的，Hank就是其中之一，除了心理学，还有哲学、科学史也是他主讲的。
+
+![Green兄弟<br>左边是哥哥John，还得过普利策奖。。他主讲文学](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220425151549.png)
+
 ### 原则
 
 在[Crash Course 经济学笔记](https://shutgnblink.me/2022/crash-course-%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%AC%94%E8%AE%B0/)里有说：crash course的主持人都会反复在课中提及一个“梗化了”的原则，这可能就是这门学科最重要的一个特征/方法/精神。
