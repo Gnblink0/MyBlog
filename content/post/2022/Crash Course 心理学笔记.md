@@ -14,12 +14,6 @@ tags = [
 ]
 image = "https://cdn.jsdelivr.net/gh/mrinflated/ccwebAssets@main/static/img/uploads/episode/1497387853.jpg"
 
-+++
-
-This is <span class="blur">模糊 text</span>.
-
-This is <span class="shady">黑幕 text</span>.
-
 ## 前言
 
 ### 说明
@@ -707,7 +701,7 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 
 你平时用视觉下意识辨别事物，看起来很简单，但我们已经发现这过程其实十分复杂，复杂到我们必须要给它命个名——「形状知觉」（form perception） / 主体与背景关系（Figure ground relationship）：我们如何将眼前正在注视的景象 组织和简化为少数主要的目标或主体。努力将主体有意义化。并将剩余部分看作是背景，与主体分离开来。
 ![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220424095302.png)
-"主体-背景动态变化”会一直持续
+大脑会设法使看到的图像变得有意义，但如果图像提供的信息是模棱两可的，不足以从两种解释中做出选择的时候，两种画面就会轮番在大脑中出现，“主体-背景动态变化”会一直持续。
 
 这个概念在非视觉领域也一样适用，你会更清楚地听到你留心的声音，而过滤掉其他“杂音”
 
