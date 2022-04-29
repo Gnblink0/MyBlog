@@ -189,7 +189,7 @@ image = "https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg"
 
 ## 我可以改变图片大小吗？
 
-⚠️ ：这并不是markdown通用方法，而是obsidian特有的。
+❗️：这并不是markdown通用方法，而是obsidian特有的。
 
 你可以在图片名称里输入`|像素数字`改变图片大小，单独输入的数字默认是「宽度的像素值」。
 
