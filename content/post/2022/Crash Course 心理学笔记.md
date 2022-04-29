@@ -30,7 +30,7 @@ image = "https://cdn.jsdelivr.net/gh/mrinflated/ccwebAssets@main/static/img/uplo
 
 Crash Course最开始是Green两兄弟做的，Hank就是其中之一，除了心理学，还有哲学、科学史也是他主讲的。
 
-![Green兄弟<br>左边是哥哥John，还得过普利策奖。。他主讲文学](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220425151549.png)
+![Green兄弟<br>左边是哥哥John，他得过普利策奖。。主讲过cc的文学](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220425151549.png)
 
 ### 原则
 

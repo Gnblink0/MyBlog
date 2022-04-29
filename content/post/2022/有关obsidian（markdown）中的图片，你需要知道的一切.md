@@ -19,10 +19,6 @@ image = "https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg"
 
 所以如果你正在使用markdown，而且对它的图片设定抱有疑惑，比如：**为什么我的图片是一个单独的page**？**为什么不能直接长按保存图片**？**为什么不能直接编辑图片**？**我要怎么修改图片大小**？这篇文章应该能一次性解决你的很多疑惑。
 
-现在每次回头看自己磕磕绊绊摸爬滚打的经历和逻辑也会觉得很蠢，自己折腾了很久自以为恍然大悟，其实后来一搜发现图床托管md中的图片早已是被探索得很完善的一种方法了。但没办法，毕竟路都是人用脚一步一步走出来的， 就算有什么先辈遗产也得自己先走起来才能找到。
-
-![我12月份的时候也还是这个状态 笑](https://s2.loli.net/2022/03/03/DiCYbJh74qG9Oxo.png)
-
 
 
 ## 弱图文排版特质
@@ -33,21 +29,16 @@ image = "https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg"
 
 在markdown里可以链接插入图片以实现最基本的图片显示功能，但是如果想实现像word或者微信公众号里一样的丰富图文排版……几乎不可能，除非打很多插件疯狂折腾，但我觉得应该把合适的使用场景留给合适的工具，没有必要魔改强求。如果你有很高的图文排版要求，markdown并不是适合你的文本格式。
 
----
+
+
+> 关于markdown格式的进一步介绍：
+> [Markdown 入门基础 | Markdown 官方教程](https://markdown.com.cn/intro.html)；
+> [MarkDown超级教程 by 成雙醬 - Obsidian中文教程 - Obsidian Publish](https://publish.obsidian.md/chinesehelp/01+2021%E6%96%B0%E6%95%99%E7%A8%8B/MarkDown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B+by+%E6%88%90%E9%9B%99%E9%86%AC)；
+> [为什么用Markdown，而不用Word？ - 知乎](https://zhuanlan.zhihu.com/p/86516807)
 
 
 
-关于markdown格式的进一步介绍：
-
-[Markdown 入门基础 | Markdown 官方教程](https://markdown.com.cn/intro.html)
-
-[MarkDown超级教程 by 成雙醬 - Obsidian中文教程 - Obsidian Publish](https://publish.obsidian.md/chinesehelp/01+2021%E6%96%B0%E6%95%99%E7%A8%8B/MarkDown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B+by+%E6%88%90%E9%9B%99%E9%86%AC)
-
-[为什么用Markdown，而不用Word？ - 知乎](https://zhuanlan.zhihu.com/p/86516807)
-
-
-
-## 两种储存图片方式
+## Markdown中的两种图片形式
 
 首先介绍一个概念：
 
@@ -59,10 +50,10 @@ image = "https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg"
 
 
 
-然后，Markdown之中有两种储存图片的方式。
+其次，Markdown之中有两种储存图片的方式。
 ### 本地储存（internal embeds）
 
-![本地储存图片的格式与效果](https://s2.loli.net/2022/03/05/j9qiAQfdGWObMDK.png)
+<img src="https://s2.loli.net/2022/03/05/j9qiAQfdGWObMDK.png" alt="本地储存图片的格式与效果🌰" style="zoom:50%;" />
 
 将图片以png、jpg、gif等图片格式直接存在你的本地硬盘（也就是你的 obsidian vault中）
 
@@ -76,7 +67,7 @@ image = "https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg"
 
 ### 外链渲染（external embeds）
 
-![外链渲染图片的格式与效果](https://s2.loli.net/2022/03/05/swz4xPeSoyp2QBc.png)
+<img src="https://s2.loli.net/2022/03/05/swz4xPeSoyp2QBc.png" alt="外链渲染图片的格式与效果🌰" style="zoom:50%;" />
 
 像渲染外部网页链接一样直接渲染图片外链
 
@@ -107,12 +98,28 @@ image = "https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg"
 
 下面会介绍以**外链为主**的**两种方法的互补和转换**。
 
+## 我该如何上传图片？
+
+### 本地
+
+- 在pc端非常方便，直接复制图片粘贴、把图片拖入ob都行
+
+- 在移动端只能按按钮从相册导入，这也是本地图片不方便的一点
 
 
-## 图床
+
+#### 提醒
+
+如果要常用本地文件，最好设置一下单独的「附件」文件夹，位置在 设置-文件与链接 ，最下方的两个选项设置成如图（文件夹名称可以自定义 但首先你得创建这个文件夹）
+
+![](https://s2.loli.net/2022/04/08/uGLIPRQkEanXcAr.png)
+
+
+
+### 图床
 本地图片是没有网络链接的，要把本地图片转成一个随处可以读取的链接，就要用到图床。
 
-### 什么是图床？
+#### 什么是图床？
 
 图床就是给图片提供一个容身之处。
 
@@ -120,19 +127,17 @@ image = "https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg"
 
 其实你平时用的微博、朋友圈，都在帮你托管着图片，只是这仅仅是它们的一个附带功能，所以你并不会把它们看成是图床。而图床网站就是专门帮你托管图片、提供图片链接的网站。
 
-关于主流图床的选择：[分享8个高速稳定的图床网站 - 简书](https://www.jianshu.com/p/c35091dcba84) [markdown图床 - 简书](https://www.jianshu.com/p/ea1eb11db63f)
+关于主流图床的选择请自行搜索，我目前认为最好的方法是【GitHub自建图床+jsDelivr国内加速】，同样请靠关键字自行搜索，此处不细讲。
 
-### 自动化图床
+#### 自动化图床
 
 现在我们有了图床，问题是，如果每次使用图片都需要**手动操作**（复制图片、粘贴图片、打开网站、点击上传、复制链接、粘贴链接）也太麻烦了。
 
 好在计算机工具的最大特点就是让人类可以通过脚本从重复劳动中解放出来。
 
-请看神器：PicGo （[Github下载地址](https://github.com/Molunerfinn/PicGo)、[帮助文档](https://picgo.github.io/PicGo-Doc/) 、[配置手册](https://picgo.github.io/PicGo-Doc/zh/guide/config.html#%E5%9B%BE%E5%BA%8A%E5%8C%BA)）
+请看神器：PicGo （[Github下载地址](https://github.com/Molunerfinn/PicGo)、[帮助文档](https://picgo.github.io/PicGo-Doc/) 、[配置手册](https://picgo.github.io/PicGo-Doc/zh/guide/config.html#%E5%9B%BE%E5%BA%8A%E5%8C%BA)），PicGo正是如此一个集合各大图床的脚本工具，它可以帮你把图床操作简化到**图片上传、获取链接**两步。
 
-PicGo正是如此一个集合各大图床的脚本工具，它可以帮你把图床操作简化到**图片上传、获取链接**两步。
-
-### Obsidian与图床联动
+#### Obsidian与图床联动
 
 没错，两步还不是最简单的，还有更简单的一步操作，你甚至不用上传图片只要复制粘贴就行了！
 
@@ -144,29 +149,42 @@ PicGo正是如此一个集合各大图床的脚本工具，它可以帮你把图
 
 
 
-## 本地
+#### 图床转本地
 
-### 图床转本地
+如果你的图床跑路了，或者因为其他奇奇怪怪的原因你不想再用图床了，感觉还是自己的图片放在自己硬盘最舒心，你可以用插件把图床图片下载到本地
 
-没错，居然还没圆满结束结束，谁还记得我开头说的是以外链为主的两种方法的互补和转换……
-
-图床转本地也是用插件实现的——Local Images（[Github下载地址](https://github.com/aleksey-rezvov/obsidian-local-images)），可以实现单页或全库的图床图片下载且转换为本地。
+插件：Local Images（[Github下载地址](https://github.com/aleksey-rezvov/obsidian-local-images)），可以实现单页或全库的图床图片下载且转换为本地。
 
 ![Local Images](https://s2.loli.net/2022/03/21/2QXjhNbBtAsl1Of.png)
 
 
 
-### 提醒
+## 我该如何导出图片？
 
-如果要常用本地文件，最好设置一下单独的「附件」文件夹，位置在 设置-文件与链接 ，最下方的两个选项设置成如图（文件夹名称可以自定义 但首先你得创建这个文件夹）
+上传到obsidian的图片在手机上无法直接长按保存，pc端也无法右键保存，这也是最开始困扰我的点。
 
-![](https://s2.loli.net/2022/04/08/uGLIPRQkEanXcAr.png)
+![](https://s2.loli.net/2022/03/03/DiCYbJh74qG9Oxo.png)
 
+解决方式是
 
+- 截图
 
+  没错，如果你只是想快速分享，不追求保留原画质，截图仍是最方便快捷的方法
 
-## 改变图片大小
-注意：这并不是markdown通用方法，而是obsidian特有的。
+- 因为**本地图片**本身就是一个图片附件，所以你可以直接找到并保存这个附件
+
+  ⚠ 但我认为这个方法比较繁琐，不推荐使用
+
+  - pc端：把图片附件当成一个界面打开→点击右上角三个点→在系统资源管理器中显示→在弹出来的系统文件夹中右键拷贝/保存此图
+  - 移动端：把图片附件当成一个界面打开→点击右上角三个点→分享→在弹出来的系统分享界面里拷贝/保存此图
+
+- 下载下面的Image Toolkit插件！
+
+  下面那排的最后一个键就是复制此图，无论是本地还是外链皆可一键复制，这是我平时最常用的方法
+
+## 我可以改变图片大小吗？
+
+⚠️ ：这并不是markdown通用方法，而是obsidian特有的。
 
 你可以在图片名称里输入`|像素数字`改变图片大小，单独输入的数字默认是「宽度的像素值」。
 
