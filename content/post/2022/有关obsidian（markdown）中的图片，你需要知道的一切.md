@@ -32,9 +32,12 @@ image = "https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg"
 
 
 > 关于markdown格式的进一步介绍：
+>
+> [为什么用Markdown，而不用Word？ - 知乎](https://zhuanlan.zhihu.com/p/86516807)；
+>
 > [Markdown 入门基础 | Markdown 官方教程](https://markdown.com.cn/intro.html)；
-> [MarkDown超级教程 by 成雙醬 - Obsidian中文教程 - Obsidian Publish](https://publish.obsidian.md/chinesehelp/01+2021%E6%96%B0%E6%95%99%E7%A8%8B/MarkDown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B+by+%E6%88%90%E9%9B%99%E9%86%AC)；
-> [为什么用Markdown，而不用Word？ - 知乎](https://zhuanlan.zhihu.com/p/86516807)
+>
+> [MarkDown超级教程 by 成雙醬 - Obsidian中文教程](https://publish.obsidian.md/chinesehelp/01+2021%E6%96%B0%E6%95%99%E7%A8%8B/MarkDown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B+by+%E6%88%90%E9%9B%99%E9%86%AC)；
 
 
 
