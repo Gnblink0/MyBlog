@@ -760,8 +760,7 @@ ob有些页我会收集很多乱七八糟的引用，有些还会很长，直接
 
 ## 后话
 
-!!! warning
-    千万不要在家中尝试！
+
 
 ![前几天看到这个感觉简直太精准了XD](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511174142.png)
 
