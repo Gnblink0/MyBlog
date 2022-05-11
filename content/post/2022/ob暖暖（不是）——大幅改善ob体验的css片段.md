@@ -125,9 +125,6 @@ blockquote p {
 
 来源：这个片段来源于制作bt实例库的，下面同样有几个片段是来自于此的！强烈建议感兴趣的，下一个bt实例库来把玩研究一下
 
-
-
-~~~html
 <details>
   <summary>点击查看详细代码</summary>
   <p>
@@ -362,7 +359,5 @@ https://yoksel.github.io/url-encoder/
 ```
 
 </p>
-  <pre><code>title，value，callBack可以缺省</code></pre>
-</details>
-~~~
 
+</details>
