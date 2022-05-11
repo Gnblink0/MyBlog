@@ -15,27 +15,15 @@ image = "https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511174142.png"
 
 +++
 
-## 前言
-
-### 前端训练营
-
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511174142.png)
-
-前几天看到这个感觉简直太精准了XD
-
-obsidian：md双链笔记软件❌ 沉浸式前端训练营✅
-
-几个月前我还不知道css是什么呢，现在已经为了让ob变得更好看点，天天打开 开发者界面和vscode开始就是~~领悟~~折腾
-
-
-
 ## css片段
 
 首先，**什么是css片段呢**？
 
 从盘古开天辟地说起，你看到的网页，基本由三个东西组成，html、css、javascript，它们一起被称为前端三大件，其中html控制内容，js控制行为，而css控制样式。简单比喻呢，html是你的身体，js是你的大脑，css就是你穿的衣服化的妆啦。
 
-ob提供了一个功能，你可以直接用自己的css片段（css snippets）去覆盖在ob主题完整的css之上，从而小范围地自定义某些样式！~~这不就是obsidian暖暖环游世界吗？！还不要钱耶！~~
+众所周知，markdown格式是平平无奇的
+
+ob提供了一个功能，你可以直接用自己的css片段（css snippets）去覆盖在主题已经做好的完整css之上，从而小范围地自定义某些样式！相当于你这辈子没法换脸换身体，但是衣服和妆容可以随时随便换（当然在ob里换脸也很简单啦）~~这不就是obsidian暖暖环游世界吗？！还不要钱耶！~~
 
 然后，**怎么用css片段呢**？
 
@@ -71,7 +59,7 @@ ob提供了一个功能，你可以直接用自己的css片段（css snippets）
 
 ### 为引文增加引号
 
-作者：https://forum.obsidian.md/u/Thery/summary
+
 来源: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/39
 
 ![效果](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511181711.png)
@@ -488,7 +476,7 @@ callout是obsidian 0.14.2 版本 增加的新功能（之前有个类似的插�
 
 ![官方自带callout效果](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511192223.png)
 
-callout看似简单直接把ob的md可折腾性又提升了一个新台阶。依然被bt实例库启发，大家把简单的callout玩出了花
+callout看似简单，实则直接把ob的md可折腾性又提升了一个新台阶。依然被bt实例库启发，大家把简单的callout玩出了花
 
 #### 人物卡片
 
@@ -584,9 +572,9 @@ md格式的表格和排版一直是个大问题，自从有了callout，配合cs
 
 来源：[bt实例库](https://github.com/cumany/Blue-topaz-examples)
 
-在遇见camus大佬做的这个callout之前，我已经在用dataview管理ob里的书籍了，但那时简直丑的像原始人有没有！
-
 ![之前](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511193645.png)
+
+在遇见camus大佬做的这个callout之前，我已经在用dataview管理ob里的书籍了，但那时简直丑的像原始人有没有！
 
 ![现在](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511194023.png)
 
@@ -669,4 +657,62 @@ done: ""
 
 来源：自制
 
-ob有些页我会收集很多乱七八糟的引用，直接作为纯文本平铺在那会让我的
+ob有些页我会收集很多乱七八糟的引用，有些还会很长，直接作为纯文本平铺在那会，让我的整个页看起来很乱，我一直希望能把它们直接折叠收起来，然后今天晚上自己倒腾了一下，实现了这个效果～
+
+![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/2022-05-11 20.02.20.gif)
+
+```
+
+.callout[data-callout=collapse].is-collapsed {
+    width:fit-content;
+    /* margin-left:600px; */
+    }
+    .callout[data-callout=collapse]{
+    --callout-color: white;
+    --callout-icon: none;
+    background-color: #F5F5F5;
+    }
+    
+
+    .callout[data-callout=collapse] .callout-icon{
+    display: none;
+    }
+    
+    /* 
+    .callout[data-callout=collapse].is-collapsed .callout-title-inner{
+    display: none;
+    } */
+    
+    
+    .callout[data-callout=collapse].is-collapsed .callout-icon{
+    display: none;
+    }
+    
+    .callout[data-callout=collapse] .callout-content {
+      padding-top: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+      
+```
+
+## 后话
+
+
+
+![前几天看到这个感觉简直太精准了XD](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511174142.png)
+
+
+
+obsidian：md双链笔记软件❌ 沉浸式前端训练营✅
+
+我上面给出的全部是已经写好，只需要复制粘贴即可使用的css片段，其实，你完全可以自己研究css！
+
+几个月前我还不知道css是什么呢，现在已经为了让ob变得更好看点，天天打开 开发者界面和vscode 就是开始~~领悟~~折腾
+
+<img src="https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511201348.png" style="zoom:33%;" />
+
+obsidian可以用快捷键`CTRL(CMD)+SHIFT+I`打开和chorme一样的开发者界面，自己一边试一边改css，详细请看：https://forum-zh.obsidian.md/t/topic/180
+
+来，试试看！~~从暖暖换装变成暖暖裁缝吧！~~
+
