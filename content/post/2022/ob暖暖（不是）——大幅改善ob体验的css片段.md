@@ -1,7 +1,7 @@
 +++
 
 author = "关念"
-title = "ob暖暖（不是）——大幅改善ob体验的css片段"
+title = "ob暖暖换装（不是）——大幅美化ob的css片段"
 date = "2022-05-11"
 description = ""
 categories = [
@@ -33,9 +33,9 @@ obsidian：md双链笔记软件❌ 沉浸式前端训练营✅
 
 首先，**什么是css片段呢**？
 
-从盘古开天辟地说起，你看到的网页，基本由三个东西组成，html、css、javascript，它们一起被称为前端三大件，其中html控制内容，js控制行为，而css就是控制样式的。
+从盘古开天辟地说起，你看到的网页，基本由三个东西组成，html、css、javascript，它们一起被称为前端三大件，其中html控制内容，js控制行为，而css控制样式。简单比喻呢，html是你的身体，js是你的大脑，css就是你穿的衣服化的妆啦。
 
-ob提供了一个功能，你可以直接用自己的css片段（css snippets）去覆盖在ob和主题做好的完整css之上，从而小范围地自定义某些样式！~~这不就是obsidian暖暖环游世界吗？！~~
+ob提供了一个功能，你可以直接用自己的css片段（css snippets）去覆盖在ob主题完整的css之上，从而小范围地自定义某些样式！~~这不就是obsidian暖暖环游世界吗？！还不要钱耶！~~
 
 然后，**怎么用css片段呢**？
 
@@ -136,7 +136,7 @@ blockquote p {
 ⚠️ 只有预览模式下会显示
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>点击展开css片段</summary>
   <p>
 
 
@@ -492,4 +492,181 @@ callout看似简单直接把ob的md可折腾性又提升了一个新台阶。依
 
 #### 人物卡片
 
-md格式的表格和排版一直是个大问题，自从有了callout，配合css样式可以做出
+来源：[bt实例库](https://github.com/cumany/Blue-topaz-examples)
+
+md格式的表格和排版一直是个大问题，自从有了callout，配合css样式可以做出类似wiki界面的人物卡片效果
+
+![预览效果](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511192720.png)
+
+![源码](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511193034.png)
+
+##### css片段
+
+```
+/*Infobox from https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/S%20-%20Callouts.css*/
+:is(.is-mobile, .is-live-preview) .callout[data-callout*=infobox] {
+  float: unset !important;
+  max-width: 100%;
+  margin-left: 5px;
+}
+
+.callout.callout[data-callout*=infobox] {
+  --callout-color: var(--interactive-accent-rgb);
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  margin: 0;
+  margin-left: 8px;
+  float: right;
+}
+.callout.callout[data-callout*=infobox] .callout-title {
+  background-color: transparent;
+  padding: 0;
+  justify-content: center;
+}
+.callout.callout[data-callout*=infobox].is-collapsed .callout-fold {
+  border: 1px solid var(--hr, var(--background-modifier-border));
+  padding: 5px 10px;
+}
+.callout.callout[data-callout*=infobox]:not(:hover):not(.is-collapsible) .callout-title, .callout.callout[data-callout*=infobox]:not(.is-collapsible) .callout-title :is(.callout-icon, .callout-fold,.callout-title-inner) {
+  display: none;
+}
+.callout.callout[data-callout*=infobox] .callout-content {
+  padding: 1px;
+  margin: 0;
+  border-radius: var(--radius, var(--co-radius));
+}
+.callout.callout[data-callout*=infobox] table {
+  width: 100%;
+}
+.callout.callout[data-callout*=infobox] :is(p, table) {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+}
+.callout.callout[data-callout*=infobox] :is(h1, h2, h3, h4, h5, h6) {
+  text-align: center;
+  margin: 0;
+  padding: 2px;
+  color: var(--text-normal);
+}
+.callout.callout[data-callout*=infobox] p, 
+.callout.callout[data-callout*=infobox] .internal-embed,
+ .callout.callout[data-callout*=infobox] img {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+```
+
+##### 卡片模版
+
+```
+> [!Infobox right 45%]
+> 图片连接
+> 
+|  wiki链接 |       中文名<br>原名    |
+|:--------:|:---------------------------------------------: |
+| 国籍     |                  |
+| 出生     |                  |
+| 逝世     |                  |
+| 身份     |                  |
+| 活跃     |                  |
+| 相关     |                  |
+```
+
+依然可以自己按需修改模版
+
+建议配合另一个插件：wikipedia（直接在插件社区搜这个名字）使用，这个插件可以抓取维基链接和第一段话，也可以在设置里插入这个模版
+
+#### 书籍信息卡片
+
+来源：[bt实例库](https://github.com/cumany/Blue-topaz-examples)
+
+在遇见camus大佬做的这个callout之前，我已经在用dataview管理ob里的书籍了，但那时简直丑的像原始人有没有！
+
+![之前](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511193645.png)
+
+![现在](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511194023.png)
+
+现在，多么的 赏！心！悦！目！
+
+##### css片段
+
+```
+.callout.callout[data-callout*="bookinfo"] {
+  --callout-color: 64, 201, 75;
+  --callout-icon:'<svg t="1648743111717" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2202" ><path d="M559.936 144.064l0 745.344 42.112-51.84c6.4-7.872 18.112-9.216 26.176-3.008 1.152 0.896 2.112 1.856 3.008 3.008l0.064-0.128 38.016 46.656L669.312 115.392 559.936 144.064 559.936 144.064zM160.512 558.976C153.536 561.664 145.664 558.208 142.976 551.232 140.288 544.256 143.68 536.384 150.72 533.632c42.496-16.832 88.384-24.768 135.168-24.768 48.512 0 98.24 8.512 146.624 24.512 7.104 2.368 11.008 10.048 8.64 17.216C438.784 557.696 431.104 561.6 424 559.168 378.368 544.128 331.52 536.064 285.888 536.064 242.24 536.064 199.872 543.424 160.512 558.976L160.512 558.976zM160.512 472.064C153.536 474.752 145.664 471.36 142.976 464.32 140.288 457.344 143.68 449.408 150.72 446.72c42.496-16.896 88.384-24.832 135.168-24.832 48.512 0 98.24 8.512 146.624 24.512 7.104 2.368 11.008 10.048 8.64 17.216C438.784 470.784 431.104 474.688 424 472.32 378.368 457.216 331.52 449.152 285.888 449.152 242.24 449.152 199.872 456.448 160.512 472.064L160.512 472.064zM160.512 393.152C153.536 395.904 145.664 392.384 142.976 385.408 140.288 378.432 143.68 370.56 150.72 367.808c42.496-16.896 88.384-24.832 135.168-24.832 48.512 0 98.24 8.576 146.624 24.576 7.104 2.304 11.008 10.048 8.64 17.216C438.784 391.872 431.104 395.776 424 393.344 378.368 378.304 331.52 370.176 285.888 370.176 242.24 370.176 199.872 377.536 160.512 393.152L160.512 393.152zM160.512 310.08c-6.976 2.752-14.848-0.704-17.536-7.68C140.288 295.36 143.68 287.488 150.72 284.736c42.496-16.832 88.384-24.768 135.168-24.768 48.512 0 98.24 8.512 146.624 24.512 7.104 2.368 11.008 10.048 8.64 17.216C438.784 308.864 431.104 312.704 424 310.336 378.368 295.296 331.52 287.232 285.888 287.232 242.24 287.232 199.872 294.528 160.512 310.08L160.512 310.08zM160.512 234.816c-6.976 2.688-14.848-0.704-17.536-7.68C140.288 220.16 143.68 212.224 150.72 209.472 193.216 192.64 239.104 184.704 285.888 184.704c48.512 0 98.24 8.512 146.624 24.512 7.104 2.368 11.008 10.048 8.64 17.216C438.784 233.536 431.104 237.44 424 235.072 378.368 220.032 331.52 211.968 285.888 211.968 242.24 211.968 199.872 219.328 160.512 234.816L160.512 234.816zM983.36 202.56C1005.888 203.776 1024 222.08 1024 244.288l0 570.048c0 22.976-19.392 41.792-43.008 41.792l-274.24 0 0 80.128-0.064 0c0 5.248-2.432 10.624-7.04 14.144-8.128 6.336-19.84 4.992-26.24-2.88l-56.768-69.376-59.776 73.472C553.536 956.608 547.712 960 541.248 960c-10.368 0-18.752-8.256-18.752-18.24l0-85.632L43.008 856.128C19.392 856.128 0 837.312 0 814.336L0 244.288C0 223.36 16.064 205.824 36.8 202.944L36.8 147.008c0-11.904 7.232-22.208 17.728-26.752C135.552 80.448 214.976 62.848 293.12 64c73.984 1.152 146.112 19.072 216.704 50.88C586.944 78.848 662.656 62.912 737.28 64c78.336 1.216 154.624 21.248 229.12 56.64 10.752 5.12 17.024 15.552 17.024 26.368l0 0L983.424 202.56 983.36 202.56zM706.752 676.288c10.112-0.512 20.352-0.704 30.528-0.576 63.232 1.088 125.12 15.36 185.792 40.96l0-551.04c-61.504-27.008-123.776-42.176-186.816-43.2-9.792-0.128-19.648 0.064-29.504 0.64L706.752 676.288 706.752 676.288zM292.16 122.496C228.736 121.536 163.776 134.976 97.088 165.312l0 550.656c66.304-28.544 131.584-41.344 196.032-40.256 63.296 1.088 125.248 15.36 185.92 40.96l0-551.04C417.408 138.624 355.2 123.456 292.16 122.496z" p-id="2203" ></path></svg>';
+  background: transparent;
+  border: 0;
+  width: auto;
+  padding: 0;
+}
+
+.callout.callout[data-callout*=bookinfo]  .callout-title {
+  text-align: center;
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.callout.callout[data-callout*=bookinfo]  .callout-content {
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.callout.callout[data-callout*=bookinfo] .callout-content table {
+  width: 68%;
+  margin-left: 2%;
+  margin-top: 15px;
+}
+```
+
+##### 界面模版
+
+```
+---
+title: {{VALUE:name}}
+author: {{VALUE:authorWithQuote}}
+written: 
+published: 
+version: {{VALUE:publisher}} / {{VALUE:publishDate}}
+ISBN: {{VALUE:isbn}} 
+pages: {{VALUE:pages}} 
+from: 
+done: ""
+---
+
+> [!bookinfo]+ 《{{VALUE:name}}》
+> ![bookcover|200]({{VALUE:coverUrl}})
+>
+| 书名     | {{VALUE:name}}<br>{{VALUE:originalName}}                                          |
+|:-------|:---------------------------------------------|
+|  作者    |   {{VALUE:author}}                           |
+|  版本   |  {{VALUE:publisher}} / {{VALUE:publishDate}}                            |
+|  链接    | []({{VALUE:link}})   |
+|  状态    |   #书                              |
+
+> [!abstract]- **作者&内容简介**
+> 
+> {{VALUE:authorIntro}}>
+>---
+>{{VALUE:intro}}
+> [!example]- 目录
+> {{VALUE:catalog}}
+
+```
+
+⚠️：我这里的变量配合了另一个插件，可以抓取豆瓣数据导入ob：https://b23.tv/cNwe0Od，非常推荐配合使用
+
+模版同样可以自己自定义，如果不用豆瓣插件，请 至少在模版里 1.删掉那些变量 2. 在[!example]- 目录那一行上加空格
+
+
+
+#### 折叠文本
+
+来源：自制
+
+ob有些页我会收集很多乱七八糟的引用，直接作为纯文本平铺在那会让我的
