@@ -23,7 +23,7 @@ image = "https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511174142.png"
 
 众所周知，markdown格式是富文本的对立面，只有 平平无奇的、平铺线性 的 白纸黑字和标记符号 。
 
-但是！ob提供了一个功能，你可以直接用自己的css片段（css snippets）去覆盖在主题已经做好的完整css之上，从而小范围地自定义某些样式！相当于你这辈子没法换脸换身体，但是衣服和妆容可以随时随便换（当然在ob里换脸=换主题，随便换无压力![:0350:](https://media.cmx.edu.kg/custom_emojis/images/000/000/472/original/f32a6d83eb2b3eff.png))~~这不就是obsidian暖暖环游世界吗？！还不要钱耶！~~
+但是！ob提供了一个功能，你可以直接用自己的css片段（css snippets）去覆盖在主题已经做好的完整css之上，从而小范围地自定义某些样式！相当于你这辈子没法换脸换身体，但是衣服和妆容可以随时随便换（当然在ob里换脸=换主题，随便换无压力<img src="https://media.cmx.edu.kg/custom_emojis/images/000/000/472/original/f32a6d83eb2b3eff.png" align="inline" />~~这不就是obsidian暖暖环游世界吗？！还不要钱耶！~~
 
 然后，**怎么用css片段呢**？
 
