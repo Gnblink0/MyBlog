@@ -362,6 +362,8 @@ https://yoksel.github.io/url-encoder/
 
 </details>
 
+
+
 ### 改变行内脚注样式
 
 来源：https://forum.obsidian.md/t/footnotes-as-sidenotes/10533/14（我自己改了一下图标）
@@ -380,6 +382,12 @@ ob有两种注释模式，【标记脚注】和【行内脚注】，
 ![添加前](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511191153.png)
 
 ![添加后](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511191233.png)
+
+
+
+<details>
+  <summary>点击展开css片段</summary>
+  <p>
 
 ```
 .cm-inline-footnote-start,
@@ -422,7 +430,9 @@ ob有两种注释模式，【标记脚注】和【行内脚注】，
 
 ```
 
+</p>
 
+</details>
 
 ### 改变注释样式
 
@@ -435,6 +445,10 @@ ob里可以增加注释，格式是`%%文本%%`，快捷键是`ctrl（cmd）+/`
 ![添加前](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511190001.png)
 
 ![添加后](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511190030.png)
+
+<details>
+  <summary>点击展开css片段</summary>
+  <p>
 
 ```
 .cm-comment-start::before{
@@ -466,6 +480,10 @@ ob里可以增加注释，格式是`%%文本%%`，快捷键是`ctrl（cmd）+/`
 
 ```
 
+</p>
+
+</details>
+
 ### callout
 
 callout是obsidian 0.14.2 版本 增加的新功能（之前有个类似的插件：admonition，相当于被官方吸收加入了吧）
@@ -489,6 +507,10 @@ md格式的表格和排版一直是个大问题，自从有了callout，配合cs
 ![源码](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511193034.png)
 
 ##### css片段
+
+<details>
+  <summary>点击展开css片段</summary>
+  <p>
 
 ```
 /*Infobox from https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/S%20-%20Callouts.css*/
@@ -548,6 +570,10 @@ md格式的表格和排版一直是个大问题，自从有了callout，配合cs
 
 ```
 
+</p>
+
+</details>
+
 ##### 卡片模版
 
 ```
@@ -582,6 +608,10 @@ md格式的表格和排版一直是个大问题，自从有了callout，配合cs
 
 ##### css片段
 
+<details>
+  <summary>点击展开css片段</summary>
+  <p>
+
 ```
 .callout.callout[data-callout*="bookinfo"] {
   --callout-color: 64, 201, 75;
@@ -611,6 +641,10 @@ md格式的表格和排版一直是个大问题，自从有了callout，配合cs
   margin-top: 15px;
 }
 ```
+
+</p>
+
+</details>
 
 ##### 界面模版
 
@@ -661,6 +695,10 @@ ob有些页我会收集很多乱七八糟的引用，有些还会很长，直接
 
 ![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/2022-05-11.gif)
 
+<details>
+  <summary>点击展开css片段</summary>
+  <p>
+
 ```
 
 .callout[data-callout=collapse].is-collapsed {
@@ -695,6 +733,10 @@ ob有些页我会收集很多乱七八糟的引用，有些还会很长，直接
     }
       
 ```
+
+</p>
+
+</details>
 
 ## 后话
 
