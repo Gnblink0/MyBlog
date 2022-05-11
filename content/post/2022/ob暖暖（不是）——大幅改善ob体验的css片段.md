@@ -721,36 +721,28 @@ ob有些页我会收集很多乱七八糟的引用，有些还会很长，直接
 
 ```
 
-.callout[data-callout=collapse].is-collapsed {
+.callout[data-callout=collapse]{
     width:fit-content;
-    /* margin-left:600px; */
-    }
-    .callout[data-callout=collapse]{
     --callout-color: white;
     --callout-icon: none;
     background-color: #F5F5F5;
     }
     
 
-    .callout[data-callout=collapse] .callout-icon{
-    display: none;
-    }
-    
-    /* 
-    .callout[data-callout=collapse].is-collapsed .callout-title-inner{
-    display: none;
-    } */
-    
-    
-    .callout[data-callout=collapse].is-collapsed .callout-icon{
-    display: none;
-    }
-    
-    .callout[data-callout=collapse] .callout-content {
-      padding-top: 0px;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
+.callout[data-callout=collapse] .callout-icon{
+display: none;
+}
+
+
+.callout[data-callout=collapse].is-collapsed .callout-icon{
+display: none;
+}
+
+.callout[data-callout=collapse] .callout-content {
+padding-top: 0px;
+padding-left: 20px;
+padding-right: 20px;
+}
       
 ```
 
