@@ -35,6 +35,8 @@ image = "https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511174142.png"
 
 然后挑选我下面列出的、你需要的css片段，直接复制粘贴进去，再保存，再回ob点📁旁边的<svg t="1652263378100" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1277" width="16" height="16"><path d="M763.555671 291.857305a510.329361 510.329361 0 0 0-717.348314 18.428987 510.482936 510.482936 0 0 1 837.546261-153.57489L977.485493 51.256644v460.724671h-409.533041z m-495.790939 440.24802a501.422018 501.422018 0 0 0 709.976719-18.428987 506.797139 506.797139 0 0 1-465.843834 310.323662 501.370826 501.370826 0 0 1-363.460574-156.646388L56.03615 972.705987v-460.724672h405.335328z" p-id="1278"></path></svg>更新，这个片段就会被更新覆盖到css上了，大功告成！
 
+![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511203035.png)
+
 ---
 
 下面是我具体安利的css片段
@@ -91,9 +93,9 @@ blockquote p {
 
 ### 更大的预览窗口
 
-![添加前](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511182121.png)
+<img src="https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511182121.png" alt="添加前" style="zoom:50%;" />
 
-![添加后](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511182200.png)
+<img src="https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511182200.png" alt="添加后" style="zoom:50%;" />
 
 ```
 
@@ -108,6 +110,8 @@ blockquote p {
   height: 800px;
 }
 ```
+
+<br>
 
 ### 外链前显示网站图标
 
@@ -362,7 +366,9 @@ https://yoksel.github.io/url-encoder/
 
 </details>
 
+<br>
 
+<br>
 
 ### 改变行内脚注样式
 
@@ -434,6 +440,8 @@ ob有两种注释模式，【标记脚注】和【行内脚注】，
 
 </details>
 
+<br>
+
 ### 改变注释样式
 
 来源：参考了上面那个+自制
@@ -484,6 +492,8 @@ ob里可以增加注释，格式是`%%文本%%`，快捷键是`ctrl（cmd）+/`
 
 </details>
 
+<br>
+
 ### callout
 
 callout是obsidian 0.14.2 版本 增加的新功能（之前有个类似的插件：admonition，相当于被官方吸收加入了吧）
@@ -495,6 +505,8 @@ callout是obsidian 0.14.2 版本 增加的新功能（之前有个类似的插�
 ![官方自带callout效果](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511192223.png)
 
 callout看似简单，实则直接把ob的md可折腾性又提升了一个新台阶。依然被bt实例库启发，大家把简单的callout玩出了花
+
+<br>
 
 #### 人物卡片
 
@@ -574,6 +586,8 @@ md格式的表格和排版一直是个大问题，自从有了callout，配合cs
 
 </details>
 
+<br>
+
 ##### 卡片模版
 
 ```
@@ -593,6 +607,8 @@ md格式的表格和排版一直是个大问题，自从有了callout，配合cs
 依然可以自己按需修改模版
 
 建议配合另一个插件：wikipedia（直接在插件社区搜这个名字）使用，这个插件可以抓取维基链接和第一段话，也可以在设置里插入这个模版
+
+<br>
 
 #### 书籍信息卡片
 
@@ -646,6 +662,8 @@ md格式的表格和排版一直是个大问题，自从有了callout，配合cs
 
 </details>
 
+<br>
+
 ##### 界面模版
 
 ```
@@ -685,7 +703,7 @@ done: ""
 
 模版同样可以自己自定义，如果不用豆瓣插件，请 至少在模版里 1.删掉那些变量 2. 在[!example]- 目录那一行上加空格
 
-
+<br>
 
 #### 折叠文本
 
@@ -737,6 +755,8 @@ ob有些页我会收集很多乱七八糟的引用，有些还会很长，直接
 </p>
 
 </details>
+
+<br>
 
 ## 后话
 
