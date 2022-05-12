@@ -510,6 +510,11 @@ callout是obsidian 0.14.2 版本 增加的新功能（之前有个类似的插�
 
 我相信有很多人在博客里见过类似的效果
 
+<div class="boxinfo">结果我写完这篇，就自己在博客里也加了个css<img src="https://media.cmx.edu.kg/custom_emojis/images/000/000/472/original/f32a6d83eb2b3eff.png" align="inline" />
+
+
+</div>
+
 ![官方自带callout效果](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511192223.png)
 
 callout看似简单，实则直接把ob的md可折腾性又提升了一个新台阶。依然被bt实例库启发，大家把callout玩出了花
@@ -612,9 +617,12 @@ md格式的表格和排版一直是个大问题，自从有了callout，配合cs
 | 相关     |                  |
 ```
 
-依然可以自己按需修改模版
+<div class="boxinfo">
 
-建议配合另一个插件：wikipedia（直接在插件社区搜这个名字）使用，这个插件可以抓取维基链接和第一段话，也可以在设置里插入这个模版
+- 依然可以自己按需修改模版
+
+- 建议配合另一个插件：wikipedia（直接在插件社区搜这个名字）使用，这个插件可以抓取维基链接和第一段话，也可以在设置里插入这个模版
+</div>
 
 <br>
 
@@ -624,7 +632,7 @@ md格式的表格和排版一直是个大问题，自从有了callout，配合cs
 
 ![之前](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511193645.png)
 
-在遇见camus大佬做的这个callout之前，我已经在用dataview管理ob里的书籍了，但那时简直丑的像原始人有没有！
+在遇见Cuman大佬做的这个callout之前，我已经在用dataview管理ob里的书籍了，但那时简直丑的像原始人有没有！
 
 ![现在](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511194023.png)
 
@@ -707,9 +715,15 @@ done: ""
 
 ```
 
-⚠️：我这里的变量配合了[另一个插件，可以抓取豆瓣数据导入ob](https://b23.tv/cNwe0Od)，非常推荐配合使用
+<div class="boxinfo">
 
-模版同样可以自己自定义，如果不用豆瓣插件，请 至少在模版里 1.删掉那些变量 2. 在[!example]- 目录那一行上加空格
+1. 我这里的变量配合了[另一个插件，可以抓取豆瓣数据导入ob](https://b23.tv/cNwe0Od)，非常推荐配合使用
+
+2. 模版同样可以自己自定义，如果不用豆瓣插件，请 至少在模版里
+- 删掉那些变量
+- 在[!example]- 目录那一行上加空格</div>
+
+
 
 <br>
 
@@ -772,11 +786,11 @@ obsidian：md双链笔记软件❌ 沉浸式前端训练营✅
 
 我上面给出的全部是已经写好，只需要复制粘贴即可使用的css片段，其实，你完全可以自己研究css！
 
-几个月前我还不知道css是什么呢，现在已经为了让ob变得更好看点，天天打开 开发者界面和vscode 就是开始~~领悟~~折腾
-
 <img src="https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511201348.png" style="zoom:33%;" />
 
 obsidian可以用快捷键`CTRL(CMD)+SHIFT+I`打开和chorme一样的开发者界面，自己一边试一边改css，详细请看：https://forum-zh.obsidian.md/t/topic/180
+
+几个月前我还不知道css是什么呢，现在已经为了让ob变得更好看点，天天打开 开发者界面和vscode 就是开始~~领悟~~折腾
 
 来，试试看！~~从暖暖换装变成暖暖裁缝吧！~~
 
