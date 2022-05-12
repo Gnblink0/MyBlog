@@ -372,7 +372,7 @@ https://yoksel.github.io/url-encoder/
 
 ### 改变行内脚注样式
 
-来源：https://forum.obsidian.md/t/footnotes-as-sidenotes/10533/14（我自己改了一下图标）
+来源：https://forum.obsidian.md/t/footnotes-as-sidenotes/10533/14 （我自己改了一下图标）
 
 ob有两种注释模式，【标记脚注】和【行内脚注】，
 
