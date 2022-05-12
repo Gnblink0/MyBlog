@@ -510,13 +510,11 @@ ob里可以增加注释，格式是`%%文本%%`，快捷键是`ctrl（cmd）+/`
 
 ### callout
 
-callout是obsidian 0.14.2 版本 增加的新功能（之前有个类似的插件：admonition，相当于被官方吸收加入了吧）
+callout是一个多月前 obsidian 0.14.2 版本 增加的新功能，官方的解释：https://help.obsidian.md/How+to/Use+callouts
 
-官方的解释：https://help.obsidian.md/How+to/Use+callouts
+我相信有很多人在博客里见过类似的效果，这其实是md格式的附加效果之一，叫法有【admonition】【infobox】等等，可以把一段话变成块 从而起强调作用，这次相当于被ob官方吸收了吧，callout这个名字应该是出自微软
 
-我相信有很多人在博客里见过类似的效果
-
-<div class="boxInfo">结果我写完这篇，就自己在博客里也加了个css<img src="https://media.cmx.edu.kg/custom_emojis/images/000/000/472/original/f32a6d83eb2b3eff.png" align="inline" />
+<div class="boxInfo">结果我写完这篇，就自己在博客里也加了一个<img src="https://media.cmx.edu.kg/custom_emojis/images/000/000/472/original/f32a6d83eb2b3eff.png" align="inline" />
 
 
 </div>
