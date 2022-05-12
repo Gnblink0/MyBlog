@@ -229,7 +229,3 @@ markup:
         lineNumbersInTable: true
         tabWidth: 4
 
-
-
-[markup.highlight]
-  style = 'manni' # 样式参考 https://swapoff.org/chroma/playground
