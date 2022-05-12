@@ -617,7 +617,7 @@ md格式的表格和排版一直是个大问题，自从有了callout，配合cs
 | 相关     |                  |
 ```
 
-<div class="boxinfo">
+<div class="boxInfo">
 
 - 依然可以自己按需修改模版
 
