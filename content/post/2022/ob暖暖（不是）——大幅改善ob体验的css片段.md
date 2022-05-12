@@ -15,6 +15,8 @@ image = "https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511174142.png"
 
 +++
 
+<div class="boxInfo">Your text</div>
+
 ## css片段
 
 首先，**什么是css片段呢**？
