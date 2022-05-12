@@ -217,9 +217,11 @@ mark {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: "icons-boxes" !important;
     background-color: #fffeb4a3;
-  
+    
     padding: 0.5em;
     margin-top: 1em;
+
+    border-radius: 5px;
   
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
@@ -278,6 +280,11 @@ mark {
   
   .boxInfo {
     background-color: #bde5f8;
+  }
+
+  .boxHeart {
+    background-color: #FFF8E6;
+    border-left: 4px solid #E7A700;
   }
 
   
