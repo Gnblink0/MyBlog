@@ -220,6 +220,7 @@ mark {
     
     padding: 0.5em;
     margin-top: 1em;
+    margin-bottom: 1em;
 
     border-radius: 5px;
   
@@ -279,7 +280,8 @@ mark {
   }
   
   .boxInfo {
-    background-color: #bde5f8;
+    background-color: #EEFAFC;
+    border-left: 4px solid #4BB3D4;
   }
 
   .boxHeart {
