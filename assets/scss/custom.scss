@@ -214,7 +214,8 @@ mark {
   [class^="box"]::before {
     padding-left: 0.4em;
     padding-right: 0.8em;
-    color: var(--accent-color);
+    color: var(--card-text-color-main);
+    top: 0.2em;
   }
   
   /* Add icons */
