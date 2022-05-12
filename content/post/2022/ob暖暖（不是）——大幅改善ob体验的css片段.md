@@ -15,8 +15,6 @@ image = "https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511174142.png"
 
 +++
 
-<div class="boxHeart">Your text</div>
-
 ## css片段
 
 首先，**什么是css片段呢**？
@@ -127,7 +125,7 @@ blockquote p {
 
 很全了，了解css和svg之后也可以自己加，我就加了一个长毛象
 
-⚠️ 只有预览模式下会显示
+<div class="boxHeart">只有预览模式下会显示</div>
 
 <details>
   <summary>点击展开css片段</summary>
@@ -382,11 +380,13 @@ ob有两种注释模式，【标记脚注】和【行内脚注】，
 
 但是ob的脚注显示非常朴实无华。。基本上和纸质书一模一样显示在底部，为什么不把行内脚注显示在侧栏呢？
 
-⚠️ 
+<div class="boxHeart">
 
 1. 只有live/源码模式下会显示
 2. 这样改，会导致编辑位置和显示位置分离，有时候会有一些问题，不过问题不大
-3. 脚注里的文字只能是纯文本，不能包涵任何链接、md特殊语法等
+3. 脚注里的文字只能是纯文本，不能包涵任何链接、md特殊语法等</div>
+
+
 
 ![添加前](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511191153.png)
 
