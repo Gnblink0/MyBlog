@@ -715,7 +715,8 @@ done: ""
 
 ```
 
-<div class="boxinfo">
+<div class="boxInfo">
+
 
 1. 我这里的变量配合了[另一个插件，可以抓取豆瓣数据导入ob](https://b23.tv/cNwe0Od)，非常推荐配合使用
 
