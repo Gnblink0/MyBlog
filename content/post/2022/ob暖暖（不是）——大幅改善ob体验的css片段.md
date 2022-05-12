@@ -510,7 +510,7 @@ callout是obsidian 0.14.2 版本 增加的新功能（之前有个类似的插�
 
 我相信有很多人在博客里见过类似的效果
 
-<div class="boxinfo">结果我写完这篇，就自己在博客里也加了个css<img src="https://media.cmx.edu.kg/custom_emojis/images/000/000/472/original/f32a6d83eb2b3eff.png" align="inline" />
+<div class="boxInfo">结果我写完这篇，就自己在博客里也加了个css<img src="https://media.cmx.edu.kg/custom_emojis/images/000/000/472/original/f32a6d83eb2b3eff.png" align="inline" />
 
 
 </div>
