@@ -1,0 +1,42 @@
++++
+
+author = "关念"
+title = "总结一下自己平时找电子书资源的流程"
+date = "2022-05-17"
+description = ""
+categories = [
+    "工具"
+]
+tags = [
+    "资源",
+    "电子书",
+    "网站"
+]
+image = "https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220517113422.png"
+
++++
+
+## zlibrary
+
+首先肯定是 zlibrary
+需要注意，因为版权敏感问题，它的域名经常变更，解决方法是：
+
+1. 谷歌搜索“zlibrary”后直接点开第一个，一般都可以进去
+
+2. 收藏登陆页：https://singlelogin.me/ 登陆后会自动跳转到可用域名
+
+3. 使用 telegram 上的 bot，搜索「@firstlibrarybot」后关注，绑定完账户后就可以用了。
+
+   发送书名会返回搜索列表，点击选择下载。
+
+   好处是不受域名改变限制、不需要重复登录、直接在 tg 里下载文件方便快捷。
+
+   唯一的缺点是文件大小有 50m 限制，超过限制会给你链接让你去网站下载。
+
+
+
+## 超星PDF互助平台
+
+如果 zlibrary 上没有，建议直奔：https://bk.5mbook.com/
+这个依靠的是超星库，和淘宝上的 PDF 代找的原理是一样的，所以必须付费（因为超星本身就是要收钱……）但是它是互助平台所以便宜很多（3¥ vs 1.8¥），详细原理请看：https://mp.weixin.qq.com/s/7SX-Oztgx2q76AN5YpntTA
+btw 获得了zl上没有的资源，也建议顺便上传zl造福大家 <img src="https://media.cmx.edu.kg/custom_emojis/images/000/067/595/original/3af17a12cb968ac9.png" alt="" style="zoom:20%;" /> 
