@@ -5,7 +5,7 @@ title = "Crash Course 经济学笔记"
 date = "2022-04-21"
 description = ""
 categories = [
-    "笔记"
+    "学习"
 ]
 tags = [
     "经济学",

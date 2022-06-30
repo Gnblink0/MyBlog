@@ -5,7 +5,7 @@ title = "Crash Course 心理学笔记"
 date = "2022-04-21"
 description = ""
 categories = [
-    "笔记"
+    "学习"
 ]
 tags = [
     "心理学",
