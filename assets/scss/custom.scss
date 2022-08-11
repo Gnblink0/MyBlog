@@ -149,6 +149,13 @@ blockquote.quote {
 
 // 自加改变
 
+// 段落缩小上下距离
+p {
+  display: block;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
+
 //列表左侧减少距离
 ul {
   padding-inline-start: 20px;
