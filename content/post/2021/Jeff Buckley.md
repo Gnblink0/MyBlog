@@ -23,7 +23,7 @@ image = "https://s2.loli.net/2022/03/03/nJkNTjSiUal5gYV.jpg"
 
 时间跨度极短所以可以从头说起，前天晚上我去听了Robin的live。
 
-![](https://s2.loli.net/2022/03/03/tzglJ6SVZHKx2yu.png)
+<img src="https://s2.loli.net/2022/03/03/tzglJ6SVZHKx2yu.png" alt=" " style="zoom:33%;" />
 
 他在台上就翻了一首歌，就是Jeff Buckley的，说这是对他影响最大的音乐人。
 
@@ -133,13 +133,11 @@ image = "https://s2.loli.net/2022/03/03/nJkNTjSiUal5gYV.jpg"
 
 anyway，感受魅力强烈安利这个live，[1975.2.24,Frankfurt,German](https://www.bilibili.com/video/BV1np4y1v7EG?from=search&seid=7590500951096365056&spm_id_from=333.337.0.0)
 
-![](https://s2.loli.net/2022/03/03/swODfp7QgCUj4aB.png)
-
 我不是说专封给我的感觉是美国金曲歌手，这个视频里他把刘海放下来拿个吉他站那完全就是英国吉他手啊（至于啥是[英国吉他手气质](https://www.douban.com/group/topic/242861105/?_i=3827433663564d8&dt_dapp=1)）。
 
 肩宽头小的好看，就是说搞回授的姿势动作都很好看……一些0q0瞬间，唱一半把棕外套脱了剩件v领白t/唱到高潮会脸泛潮红汗如雨下/唱完会像洗完澡一样拿橙色浴巾一样擦头/interval时的说话声音居然是弱气少年音，介绍乐手的时候就显得很sweet，好像还过去抱了一下贝斯。从他在interval里说的话和开的戏谑玩笑（经常没事怪学其他乐队/歌手）可以看出他性格，加上一些他在采访里说的话推测，感觉他是那种非常聪明又有点神经刀的人？或许……彼得潘/syd？
 
-![抱贝斯这个，后来居然刷到了动图（ok并不是抱 但还是很sweet](https://s2.loli.net/2022/03/03/NAmpB14kjnzF6UY.jpg)
+
 
 
 
