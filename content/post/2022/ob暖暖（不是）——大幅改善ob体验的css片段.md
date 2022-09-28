@@ -11,7 +11,7 @@ tags = [
     "obsidian",
     "css",
 ]
-image = "https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511174142.png"
+image = "https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511174142.png"
 
 +++
 
@@ -39,7 +39,7 @@ image = "https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511174142.png"
 
 然后挑选我下面列出的、你需要的css片段，直接复制粘贴进去，再保存，再回ob点📁旁边的<svg t="1652263378100" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1277" width="16" height="16"><path d="M763.555671 291.857305a510.329361 510.329361 0 0 0-717.348314 18.428987 510.482936 510.482936 0 0 1 837.546261-153.57489L977.485493 51.256644v460.724671h-409.533041z m-495.790939 440.24802a501.422018 501.422018 0 0 0 709.976719-18.428987 506.797139 506.797139 0 0 1-465.843834 310.323662 501.370826 501.370826 0 0 1-363.460574-156.646388L56.03615 972.705987v-460.724672h405.335328z" p-id="1278"></path></svg>更新，这个片段就会被更新覆盖到css上了，大功告成！（别忘了把下面的开关打开啊！名字就是你取的文件名）
 
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511203035.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511203035.png)
 
 ## CSS片段
 
@@ -72,7 +72,7 @@ image = "https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511174142.png"
 
 来源: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/39
 
-![效果](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511181711.png)
+![效果](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511181711.png)
 
 ```
 blockquote:before {
@@ -103,9 +103,9 @@ blockquote p {
 
 ### 更大的预览窗口
 
-<img src="https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511182121.png" alt="添加前" style="zoom:50%;" />
+<img src="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511182121.png" alt="添加前" style="zoom:50%;" />
 
-<img src="https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511182200.png" alt="添加后" style="zoom:50%;" />
+<img src="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511182200.png" alt="添加后" style="zoom:50%;" />
 
 ```
 
@@ -129,7 +129,7 @@ blockquote p {
 
 下面同样有几个片段是来自于此的！强烈建议感兴趣的，下一个[bt实例库](https://github.com/cumany/Blue-topaz-examples)来把玩研究一下
 
-![效果](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511185235.png)
+![效果](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511185235.png)
 
 效果如图，在外链前增加网站的标志
 
@@ -404,9 +404,9 @@ ob有两种注释模式，【标记脚注】和【行内脚注】，
 
 
 
-![添加前](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511191153.png)
+![添加前](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511191153.png)
 
-![添加后](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511191233.png)
+![添加后](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511191233.png)
 
 
 
@@ -469,9 +469,9 @@ ob里可以增加注释，格式是`%%文本%%`，快捷键是`ctrl（cmd）+/`
 
 %%但是就这样光秃秃的还怪丑的，所以我自己改了个样式，从此可以尽情发挥无处安放的吐槽之魂了！%%
 
-![添加前](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511190001.png)
+![添加前](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511190001.png)
 
-![添加后](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511190030.png)
+![添加后](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511190030.png)
 
 <details>
   <summary>点击展开css片段</summary>
@@ -523,7 +523,7 @@ callout是一个多月前 obsidian 0.14.2 版本 增加的新功能，官方的�
 
 </div>
 
-![官方自带callout效果](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511192223.png)
+![官方自带callout效果](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511192223.png)
 
 callout看似简单，实则直接把ob的md可折腾性又提升了一个新台阶。依然被bt实例库启发，大家把callout玩出了花
 
@@ -535,9 +535,9 @@ callout看似简单，实则直接把ob的md可折腾性又提升了一个新台
 
 md格式的表格和排版一直是个大问题，自从有了callout，配合css样式可以做出类似wiki界面的人物卡片效果
 
-![预览效果](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511192720.png)
+![预览效果](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511192720.png)
 
-![源码](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511193034.png)
+![源码](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511193034.png)
 
 ##### css片段
 
@@ -615,14 +615,14 @@ md格式的表格和排版一直是个大问题，自从有了callout，配合cs
 > [!Infobox right 45%]
 > 图片连接
 > 
-|  wiki链接 |       中文名<br>原名    |
-|:--------:|:---------------------------------------------: |
-| 国籍     |                  |
-| 出生     |                  |
-| 逝世     |                  |
-| 身份     |                  |
-| 活跃     |                  |
-| 相关     |                  |
+| wiki链接 | 中文名<br>原名 |
+| :------: | :------------: |
+|   国籍   |                |
+|   出生   |                |
+|   逝世   |                |
+|   身份   |                |
+|   活跃   |                |
+|   相关   |                |
 ```
 
 <div class="boxInfo">
@@ -639,11 +639,11 @@ md格式的表格和排版一直是个大问题，自从有了callout，配合cs
 
 来源：[bt实例库](https://github.com/cumany/Blue-topaz-examples)
 
-![之前](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511193645.png)
+![之前](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511193645.png)
 
 在遇见Cuman大佬做的这个callout之前，我已经在用dataview管理ob里的书籍了，但那时简直丑的像原始人有没有！
 
-![现在](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511194023.png)
+![现在](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511194023.png)
 
 现在，多么的 赏！心！悦！目！
 
@@ -707,12 +707,12 @@ done: ""
 > [!bookinfo]+ 《{{VALUE:name}}》
 > ![bookcover|200]({{VALUE:coverUrl}})
 >
-| 书名     | {{VALUE:name}}<br>{{VALUE:originalName}}                                          |
-|:-------|:---------------------------------------------|
-|  作者    |   {{VALUE:author}}                           |
-|  版本   |  {{VALUE:publisher}} / {{VALUE:publishDate}}                            |
-|  链接    | []({{VALUE:link}})   |
-|  状态    |   #书                              |
+| 书名 | {{VALUE:name}}<br>{{VALUE:originalName}}    |
+| :--- | :------------------------------------------ |
+| 作者 | {{VALUE:author}}                            |
+| 版本 | {{VALUE:publisher}} / {{VALUE:publishDate}} |
+| 链接 | []({{VALUE:link}})                          |
+| 状态 | #书                                         |
 
 > [!abstract]- **作者&内容简介**
 > 
@@ -747,7 +747,7 @@ ob有些页我会收集很多乱七八糟的引用，有些还会很长，直接
 
 我一直希望能把它们直接折叠收起来节省空间，然后今天晚上自己倒腾了一下，实现了这个效果～
 
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/2022-05-11.gif)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/2022-05-11.gif)
 
 <details>
   <summary>点击展开css片段</summary>
@@ -790,7 +790,7 @@ padding-right: 20px;
 
 
 
-![前几天看到这个感觉简直太精准了XD](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511174142.png)
+![前几天看到这个感觉简直太精准了XD](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511174142.png)
 
 
 
@@ -798,7 +798,7 @@ obsidian：md双链笔记软件❌ 沉浸式前端训练营✅
 
 我上面给出的全部是已经写好，只需要复制粘贴即可使用的css片段，其实，你完全可以自己研究css！
 
-<img src="https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220511201348.png" style="zoom:33%;" />
+<img src="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511201348.png" style="zoom:33%;" />
 
 obsidian可以用快捷键`CTRL(CMD)+SHIFT+I`打开和chorme一样的开发者界面，自己一边试一边改css，详细请看：https://forum-zh.obsidian.md/t/topic/180
 

@@ -27,7 +27,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/favicon.png
+    favicon: https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/favicon.png
 
     footer:
         since: 2022.03.03

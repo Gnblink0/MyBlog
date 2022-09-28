@@ -30,11 +30,11 @@ image = "https://cdn.jsdelivr.net/gh/mrinflated/ccwebAssets@main/static/img/uplo
 
 ### 主讲人
 
-![Hank Green](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422141340.png)
+![Hank Green](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422141340.png)
 
 Crash Course最开始是Green两兄弟做的，Hank就是其中之一，除了心理学，还有哲学、科学史也是他主讲的。
 
-![Green兄弟<br>左边是哥哥John，他得过普利策奖。。主讲过cc的文学](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220425151549.png)
+![Green兄弟<br>左边是哥哥John，他得过普利策奖。。主讲过cc的文学](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220425151549.png)
 
 ### 原则
 
@@ -42,7 +42,7 @@ Crash Course最开始是Green两兄弟做的，Hank就是其中之一，除了�
 
 目前感觉心理学是：
 
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220421164846.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220421164846.png)
 
 不过我看完经济学后会选继续看心理学，其实原因也是一直对大脑构造挺感兴趣，「了解人类」是人类最难做到的事，我一直以来就感觉未来的切入点还是从大脑的生理结构。
 
@@ -184,7 +184,7 @@ B. F. 斯金纳（B. F. Skinner）
 ### 研究与实验
 #### 常规的科学研究方法
 
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220419155848.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220419155848.png)
 
 - 提出一个一般性的问题、理论
 
@@ -246,7 +246,7 @@ eg.金赛《金赛性学报告》
 
 结果，或者说因变量（dependent variable），就是那些会根据你改变的条件而变化的内容：被试在玉米地迷宫中探索出口的速度
 
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220419161835.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220419161835.png)
 
 
 
@@ -255,11 +255,11 @@ eg.金赛《金赛性学报告》
 ### 神经（neuron）
 
 神经，即神经细胞，神经元，是组成我们神经系统的建筑块，电化学反应使得它们可以在彼此之间传递信息。
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220419165046.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220419165046.png)
 有的神经和腿一样长
 
 3 个相同的基本组成：细胞体、树突和轴突
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220419165206.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220419165206.png)
 
 - **细胞体**（soma）：神经细胞的生命支持部分，包含所有细胞活动所需的物质。
 
@@ -271,19 +271,19 @@ eg.金赛《金赛性学报告》
 	**髓鞘**（myelin sheath）：轴突上包裹着的厚厚组织，像电线的绝缘外套，使得神经细胞间信息的传导更加迅速。
 	
 	多样硬化症发作，使得髓鞘分解，则轴突上髓鞘帮助传送的信号也会一同分解，最终导致肌肉的活动失去控制。
-	![髓鞘](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220419165554.png)
+	![髓鞘](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220419165554.png)
 
 一个完整的传导过程：树突接受信号，激活神经细胞的动作电位，或者激活全部树突，产生电位，下行到轴突直至末端，将信号传递给下一个相邻的神经细胞。
 
 ---
 
 神经细胞问连接的部位叫做**突触**，所有茂密的树突分支都有突触
-![突触](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220419165852.png)
+![突触](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220419165852.png)
 
 **突触**（synapses）：神经细胞间连接的部位，在树突分支的前端。
 
 突触中树突和轴突距离很近，但没有相互接触，它们的间隔不到百万英尺分之一，这个很小的缝隙叫作**突触间隙**（synaptic gap）。
-<img src="https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220419170157.png" style="zoom:50%;" />
+<img src="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220419170157.png" style="zoom:50%;" />
 
 当动作电位到达轴突末端时，<mark>化学信使（**神经递质**）被激活，从而跳进突触间隙，就像一个飞吻，然后再降落到有特定受体的神经细胞上</mark>（一把钥匙开一把锁）。虽然神经递质会进入特定的受体，神经递质不会和接收信息的神经一直保持结合的状态，引起兴奋或抑制后，神经递质被泵出，然后被最开始释放出它们的神经细胞重新吸收。这个过程叫作**再摄取**（reuptake）。
 
@@ -311,7 +311,7 @@ eg.金赛《金赛性学报告》
 	- 内分泌系统则喜欢慢慢来，<mark>腺体分泌激素到血液中，从而到达其他组织</mark>，尤其是大脑。
 		- 慢的好处：和短信相比，你的身体对信的内容会记得更牢，激素会持续作用于我们的机体（可以解释为什么受到惊吓或大发脾气之后要过一会才能平静下来）。
 - 激素种类
-	![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220419185721.png)
+	![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220419185721.png)
 	- 肾上腺：“打架/逃跑”肾上腺素，加快心率，提高血压和提升血糖含量。
 	- 胰腺：胰岛素和胰高血糖素，监控你摄入的血糖（体内的主要燃料）。
 	- 甲状腺和甲状旁腺：调节身体代谢，监控体内的钙含量，对于雄性（睾丸），分泌雌激素和睾酮；对于雌性（卵巢），分泌雌激素和孕激素。
@@ -341,7 +341,7 @@ eg.你的神经和内分泌系统如何一起工作（被吓到）发出叫喊�
 竟然广泛流行了数十年，加尔因此成为了社会名流
 
 伪科学：头的形状并不能告诉我们大脑内部究竟在发生什么。大脑有自己的工作机制，大脑的不同部位控制我们某方面特定的行为，换句话说，功能在大脑中是有定位的。
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220420152738.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220420152738.png)
 
 在心理学界和人类实验领域中，一个推动着我们不断探索和前进的**问题**就是：<mark>我们大脑的功能，是如何与心理活动相联系的？</mark>（HOW DO OUR BRAINS' FUNCTIONS TIE TO THE
 BEHAVIOR OF THE MIND?）
@@ -376,7 +376,7 @@ eg.关于10％使用量的谣言
 新的高级的大脑建立在以前低级的大脑基础之上。大脑很像俄罗斯套娃。最外层的是最后才演化出的，是分化最细致的，也是最复杂的。但随着逐渐打开，里面额套娃越古老，越小，功能也越一般化。
 
 #### 旧脑系统
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220420183407.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220420183407.png)
 - 最里面的娃娃是最古老的，最基础的，就像你头里的化石。
   
   这个最内核的部分，有时候叫做**旧脑（old brain）/原脑**，它在我们的大脑中仍然扮演着和我们祖先进化时期一样的作用，维持我们机体的基本功能顺利进行，任何的动物都需要这些功能，爬行动物的大脑差不多就进化到这个阶段
@@ -390,7 +390,7 @@ eg.关于10％使用量的谣言
 
 #### 边缘系统
 差不多类似于大脑的边境地区，将旧脑和更新的、更高级的脑区分隔开来。
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220420184149.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220420184149.png)
 
 - 杏仁核（amygdala）：两个扁豆大小的神经核团。负责记忆的整合。情绪登记所。以及最深层次的恐惧和最猛烈的攻击性。
 eg.刺激杏仁核某处，狗炸毛，电击旁移，狗害怕蝴蝶皮影。
@@ -420,30 +420,30 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 在包括人类在内的大型哺乳动物中，大脑皮层的表面会折叠形成脑沟和脑回（沟与沟之间所夹细长的部分称为脑回），从而增加表面积。脑沟并非是在脑的成长过程中随意形成，什么形态出现在何处都完全有规律（其深度和弯曲度因人稍有差异）。每一条脑沟在解剖学上都有专有名称。脑沟与脑回的形态基本左右半球对称，是对脑进行分叶和定位的重要标志。
 
 - 大脑皮层的四个分区，它们都皮层上突出的沟或裂所分割开：
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220420184825.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220420184825.png)
 
 - 额叶（frontal）：说话，计划，判断，抽象思维，人格。（[[精神分裂疾病史|额叶切除]]）
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220420184928.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220420184928.png)
 
 - 顶叶（parietal）：接收并处理触觉和身体姿势。（站起来磕到东西会疼得要死）
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220420185014.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220420185014.png)
 
 
 - 枕叶（occipital）：后脑勺，接收与视觉相关的信息。（摔跤跌到头会一片黑）
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220420185028.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220420185028.png)
 
 
 - 颞（niè，指太阳穴）叶（temporal）：耳朵上方，处理声音信息，包括言语理解。
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220420185040.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220420185040.png)
 每一侧的脑半球控制的是对侧的身体，所以左侧颞叶加工来自右边耳朵听到的声音
 
 - 在这 4 个分区之中仍然有许多特殊化功能的区域
-  ![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220408044348.png)
+  ![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220408044348.png)
 	- 运动皮层（额叶后方）控制随意运动，并从大脑发出信息传达给身体。（发出指令：端起茶！）
-	![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220420185229.png)
+	![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220420185229.png)
 	
 	- 感觉皮层（运动皮层正后方）加工输入的感觉信息（处理指令感受：茶真烫！）
-	![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220420185314.png)
+	![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220420185314.png)
 	- [[前额叶皮质]]
 
 
@@ -470,7 +470,7 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 
 有一件连普通幼儿都能做到的事，萨克斯博土却做不到，他不能在镜子中认出自己的脸，萨克斯患有面孔失认症（PROSOPAGNOSIA / 脸盲症：一种神经性疾病 患者丧失感知和识别面孔的能力）
 
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422121052.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422121052.png)
 视觉和判断力都没有问题，问题在于他的知觉，至少是识别面孔那部分的知觉
 
 面孔失认症很好地证明了<mark>感觉和知觉是有联系的，但又是不同的</mark>
@@ -482,18 +482,18 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 	- 知觉：你的大脑在告诉你，你正在看一个示意國，解释感觉和知觉的不同 `禁止套娃！`，这就好比是贴标签，下定义。
 	- 现在，你的大脑正在将屏幕发出的光理解成一个正在说话的人
 	  
-	  ![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422141340.png)
+	  ![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422141340.png)
 
 ## 感觉 E5
 
 ### 感觉阈值
 
 我们一直在被大量的刺激所轰炸着，但是我们只能意识到自己的感官所能接收的有限的信息。
-![狗狗这么可爱怎么能不给狗狗放图！](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422121828.png)
+![狗狗这么可爱怎么能不给狗狗放图！](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422121828.png)
 但我无法像蝙蝠一样用声纳来狩猎，或是像猫头鹰一样能听到地底下有鼹鼠在打洞，又或者是像螳螂虾一样能看见紫外线和红外线
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422125654.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422125654.png)
 
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422125615.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422125615.png)
 
 
 世界上有许许多多的感觉，并不是每个人都需要去感受相同的东西，所以每个动物都有自己的极限
@@ -528,21 +528,21 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 
 #### 光
 人类能看见的光只是全部电磁辐射光谱中的一小部分：从伽马射线到无线电波
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422131030.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422131030.png)
 
 
 
 此处将光视为波（`没错现在物理学也没有确凿定论光是啥...`）。短波的频率高。
 
 - 波的波长和频率（wavelength and frequency）决定了它的色调（hue）。
-  ![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422131120.png)
+  ![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422131120.png)
 	- 波长短，频率高：我们的眼睛把其看成蓝色光
 	- 波长长，频率低：我们的眼睛把其看成红色光
 
 
 
 - 波的振幅（amplitude）决定了光的强度或亮度（intensity or brightness）。
-  ![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422131206.png)
+  ![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422131206.png)
 	- 辨别同种颜色的深浅。或者说光波散发的能量。
 	- 振幅大意味着强度高，色彩更亮
 
@@ -550,15 +550,15 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 #### 视觉的感知
 ##### 整体过程
 1 光通过眼球的角膜（cornea）和瞳孔（pupil）击中瞳孔后方的透明圆盘 **晶状体**（lens），它将光线汇聚成特定的图像→ 2 将这些图像投射到**视网膜** （retina） ，其中的传感器**棒体细胞和椎体细胞**开始接收视觉信息，引发化学变化，产生神经信号→ 3 使**双极细胞**（bipolar cell）兴奋，将信号传递给**神经节细胞**（ganglion cell），神经节细胞的长轴突会聚在一起，形成束状的视神经，从而将眼球的神经冲动传递给大脑 → 4 视觉信息沿着—系列复杂程度递增的通路，从视神经（optic nerve）出发，经过丘脑（visual area of thalamus），最后达到大脑的**视觉皮层**（brain's visual cortex）
-![1](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422140244.png)
-![2 3](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422140428.png)
-![4](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422140020.png)
+![1](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422140244.png)
+![2 3](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422140428.png)
+![4](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422140020.png)
 
 ##### 视网膜 （retina）
 视网膜位于眼球内壁的表面，上面包含所有的**感受器**，视网膜不像投影仪和大屏幕，更像是一束由光能组成的像素点，将信息转化为神经冲动打包给大脑）
 
 这些视网膜上的感受器叫做棒体细胞（rods）和椎体细胞（cones）
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422131912.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422131912.png)
 
 - 棒体细胞检测灰度，用于周边视力（间接视力），还使我们在光线昏暗看不清颜色的时候，能看到事物的轮廓
 - 椎体细胞检测细节和色彩，它们集中于视网膜中心的焦点，即中央凹，椎体细胞只有在光线良好的环境下才起作用
@@ -576,13 +576,13 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 
 
 ##### 视觉皮层
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422140711.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422140711.png)
 
 视觉信息从视神经出发，经过丘脑，最后达到大脑的视觉皮层。
 
 视觉皮层坐落于大脑背面的枕叶，右侧视觉皮层加工来自左眼的信息，视觉皮层有特殊化的神经细胞，叫做**特征觉察器**，对特定的特征进行反应，比如形状，角度和运动，也就是说，<mark>视觉皮层的不同部位负责识别事物的不同特征</mark>。
 
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220422121052.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220422121052.png)
 
 也就是为何开头的脸盲症为何只是识别不出人脸，梭状回在看到面孔时得到激活，此处天生、病变、受损都会导致脸盲。梭状回中的细胞有的只对一种特定类型的刺激进行反应，比如姿势，运动或面部表情，而其他的细胞核团将这些分散的信息编织在一起，对情境做出即时分析。
 
@@ -595,20 +595,20 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 - 高低 - 振动频率
   声音越低振动越慢、声音越高振动越快
 
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220423182448.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220423182448.png)
 
 - 强弱 - 振动幅度
   波的高度，也就是振幅，决定声音的响度，我们用分贝（decibels）来测量
-  ![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220423182532.png)
+  ![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220423182532.png)
 
 **外耳**，也就是你能够看见，戳到和揪住的这部分耳朵，收集声波，并通过耳道传到**中耳**，在这里使**鼓膜**（ear drum）产生振动→声音的振动通过所谓的“**听小骨**”（ossicle bones）得到放大，它的组成部分恰好也是你身体中命名最奇特的骨头，镫骨（stirrup），锤骨（hammer）和砧骨（anvil），在这里，物理振动传到**内耳**，进入形状像蜗牛壳的**耳蜗**（cochlea），它的周围流动着的液体互相推挤，造成你耳蜗中一万六干多个细小的毛细胞产生弯曲，毛细胞的运动触发相邻的神经细胞兴奋，集中于听觉神经，然后传向大脑的听觉皮层
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220423183313.png)
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220423183337.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220423183313.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220423183337.png)
 
 ### 味觉
 我们成千上万的味蕾中，每一个都包含许多像口袋一样的小孔，其中又包含50到100多个毛发一样的味觉感受细胞，它们识别食物分子，并报告给大脑
 
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220423183458.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220423183458.png)
 
 现在，每个人都习惯性地相信我们的舌头只能检测到 4 种味道甜咸酸苦和味觉地图（它描述的特定味道分配在舌头的特定部位是错误的）
 
@@ -617,7 +617,7 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 不同于视觉和听觉，我们的味觉和嗅觉是化学性的感觉
 
 空气中的分子进入鼻孔，到达鼻腔的顶部，这里有五百万到—千万个感受器细胞，这些感受器将信息发送给大脑中的嗅球（OLFACTORY BULB），然后将信息打包传送至初级嗅觉皮层以及负责情绪和记忆的边缘系统中的一些部位
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220423184644.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220423184644.png)
 
 虽然我们的味觉有 5 种感受细胞，视网膜上有 2 种感受细胞，我们的嗅觉并没有针对特定气味分化的感受细胞，相反，气味感受器（odour receptors）是通过不同的组合来一起作用的，兴奋的嗅觉感受细胞的不同组合可以分辦出一万种不同的气味
 
@@ -639,7 +639,7 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 **平衡觉/前庭觉**（vestibular sense）：监控头部的位置和平衡感
 
 平衡感受到麻花状的半规管的控制，充满液体的前庭囊将半规管的和内耳耳蜗连接起来
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220423185644.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220423185644.png)
 如果你原地转圈圈然后突然停住，由于内耳中的液体需要花—些时间才能恢复平静，你会感到一阵眩晕，那些旋转着的液体实际上在忽悠你的大脑让它以为你还在转
 
 ### 通感
@@ -664,7 +664,7 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 
 小矮人：人类身体的一种感觉地图（sensory map），是我们理解身体如何与环境互动的一个很形象的模型
 如果身体部位的大小和我们使用它们的程度按比例生长，我们会长这样⬇️
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220423181957.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220423181957.png)
 
 这个怪异的家伙展示了按重要程度划分，身体不同感受器所占的比重
 
@@ -672,7 +672,7 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 
 - 同时，他的嘴很大，因为在我们的舌头和嘴唇中感受器的数量非常之多，我们用它们来品尝美食和亲吻
 
-  ![笑死滚石又出现了](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220423182228.png)
+  ![笑死滚石又出现了](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220423182228.png)
 
 
 
@@ -686,12 +686,12 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 知觉是一种加工过程，使得我们能够理解感觉的意义，从而更好地体验周围的世界，它使得生活变得可以理解，不过同时这也意味着，有时候，眼睛看到的并不是事物的真相
 
 ### 知觉定势
-![把屏幕倒过来看看～](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220424093447.png)
+![把屏幕倒过来看看～](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220424093447.png)
 你的大脑并不习惯看上下颠倒的面孔，所以，它基本上是在尽全力把每一部分整合到一起；但它知道正常的面孔看起来应该是什么样的，而这完全不符合实际！
 
 证明恰恰是你的大脑在做知觉工作，而你的眼睛真的只是在接收原始信息，这些信息很重要，但并它并不是我们所看见的实际内容，我们看见的是心理活动的结果，而不是眼睛的
 
-![这是兔子还是鸭子？](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220424101626.png)
+![这是兔子还是鸭子？](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220424101626.png)
 
 你的期望只是一种知觉定势（perceptual set），心理学因素影响你如何知觉环境
 
@@ -712,7 +712,7 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 尽管视觉错觉有时候很滑稽，却能帮助我们理解知觉工作的原理，我们的大脑接收的信息数量非常庞大，尤其是通过眼睛获得的，但我们需要快速对它们进行加工
 
 你平时用视觉下意识辨别事物，看起来很简单，但我们已经发现这过程其实十分复杂，复杂到我们必须要给它命个名——「形状知觉」（form perception） / 主体与背景关系（Figure ground relationship）：我们如何将眼前正在注视的景象 组织和简化为少数主要的目标或主体。努力将主体有意义化。并将剩余部分看作是背景，与主体分离开来。
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220424095302.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220424095302.png)
 大脑会设法使看到的图像变得有意义，但如果图像提供的信息是模棱两可的，不足以从两种解释中做出选择的时候，两种画面就会轮番在大脑中出现，“主体-背景动态变化”会一直持续。
 
 这个概念在非视觉领域也一样适用，你会更清楚地听到你留心的声音，而过滤掉其他“杂音”
@@ -796,7 +796,7 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 
 ## 意识的状态
 
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220426173228.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220426173228.png)
 
 ### 清醒
 
@@ -809,11 +809,11 @@ eg、老鼠下丘脑奖励中枢植入电极，并给予它们自我刺激的方
 对大脑进行扫描的方法有很多种
 
 - 结构成像（Structural imaging）：显示大脑的解剖画面。识别大块肿瘤、疾病和损伤非常有效。
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220426131549.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220426131549.png)
 
 
 - 功能成像（functional imaging）：显示大脑中的电磁变化或代谢活动。观察到特定的脑功能活动与特定脑区域的关联情况。
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220426131620.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220426131620.png)
 
 神经影像学在心理学领域中掀起了一场革命，就像望远镜和显微镜对天文学和生物学的作用一样；但另一方面，这项技术有些内容还不够成熟，所以在如何理解神经影像的发现成果上学界内还存在大量的分歧
 

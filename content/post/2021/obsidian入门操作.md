@@ -78,7 +78,7 @@ image = "https://www.solidsmack.com/wp-content/uploads/2020/08/obsidian-resin-bl
 
 打开下好的软件，第一眼看到的应该是这个画面。
 
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220412125721.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220412125721.png)
 
 1. 选中自己需要的语言
 2. vault = 库
@@ -93,7 +93,7 @@ image = "https://www.solidsmack.com/wp-content/uploads/2020/08/obsidian-resin-bl
 
 接下来进入刚建好还热乎着的库，你会看到这个界面
 
-![](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220412122402.png)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220412122402.png)
 
 好了！面对这一片白茫茫真干净，你肯定像刚拿到试卷先翻到作文看看命题时一样大脑空白、神志恍惚。此时千万别头脑风暴啊XD 又不是真的写作文！
 
@@ -164,7 +164,7 @@ image = "https://www.solidsmack.com/wp-content/uploads/2020/08/obsidian-resin-bl
 
 `>` = 引用
 
-![如图为mk标记，来自少数派文章](https://cdn.jsdelivr.net/gh/Gnblink0/Picture/img/20220412122735.png))
+![如图为mk标记，来自少数派文章](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220412122735.png))
 
 更多的markdown语法请见：[obsidian官方文档](https://publish.obsidian.md/help-zh/使用指南/格式化你的笔记)；[ Markdown 官方教程](https://markdown.com.cn/intro.html)
 
