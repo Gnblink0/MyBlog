@@ -21,11 +21,8 @@ li:has(> input[type="checkbox"])::marker {
 
 /* 隐藏默认的复选框样式 */
 .custom-checkbox input[type="checkbox"] {
-  position: absolute;
   opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+  position: absolute;
 }
 
 /* 创建一个新的自定义复选框样式 */
