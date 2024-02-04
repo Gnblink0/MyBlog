@@ -11,9 +11,9 @@
   }
 }
 
-
-[type="checkbox"] {
-  list-style-type: none;
+// 去除复选框前的点
+li:has(> input[type="checkbox"])::marker {
+  content: none;
 }
 
 // .widget {
