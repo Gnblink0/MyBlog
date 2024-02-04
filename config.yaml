@@ -229,3 +229,7 @@ markup:
         lineNumbersInTable: true
         tabWidth: 4
 
+
+# Blackfriday 渲染选项
+blackfriday:
+  taskLists: true
