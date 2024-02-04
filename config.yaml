@@ -232,4 +232,4 @@ markup:
 
 # Blackfriday 渲染选项
 blackfriday:
-  taskLists: true
+  taskLists: false
