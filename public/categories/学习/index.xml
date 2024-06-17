@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>学习 on 关门说话</title>
+    <link>http://localhost:1313/categories/%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 学习 on 关门说话</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>雅思经验分享</title>
+      <link>http://localhost:1313/2022/%E9%9B%85%E6%80%9D%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/</link>
+      <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/%E9%9B%85%E6%80%9D%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/</guid>
+      <description>前言 惯例先放成绩，还挺唬人，我查成绩的时候也被唬到了哈哈哈，其实有点发挥超常和出乎我意料，具体感受和体验如何，放到最后再说，先讲正事。 写得比</description>
+    </item>
+    <item>
+      <title>Crash Course 心理学笔记</title>
+      <link>http://localhost:1313/2022/crash-course-%E5%BF%83%E7%90%86%E5%AD%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/crash-course-%E5%BF%83%E7%90%86%E5%AD%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>前言 说明 视频链接： 心理学 - Crash Course 中文字幕组 感谢前人栽树：十分钟速成课：心理学 第一季 - 剧评 大概前几天开始看的（4月中） 主讲人 Hank Green Crash Course最</description>
+    </item>
+    <item>
+      <title>Crash Course 经济学笔记</title>
+      <link>http://localhost:1313/2022/crash-course-%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/crash-course-%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>前言 说明 视频链接：【合集】10分钟速成课：经济学 - bilibili 感谢前人栽树：经济学学习笔记-Notion 一边看一边在obsidian做的笔记，做得比较</description>
+    </item>
+  </channel>
+</rss>

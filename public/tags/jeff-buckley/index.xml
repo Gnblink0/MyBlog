@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeff Buckley on 关门说话</title>
+    <link>http://localhost:1313/tags/jeff-buckley/</link>
+    <description>Recent content in Jeff Buckley on 关门说话</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/jeff-buckley/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>so real, sorry</title>
+      <link>http://localhost:1313/2021/so-real-sorry/</link>
+      <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2021/so-real-sorry/</guid>
+      <description>其实前几天才第一次正式听他，现在了解仅限于一专、几场live视频和录音、一部纪录片、几篇采访、维基百科。不过我码字一直是心血来潮，冷静下来就</description>
+    </item>
+  </channel>
+</rss>

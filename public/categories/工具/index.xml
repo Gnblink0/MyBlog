@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工具 on 关门说话</title>
+    <link>http://localhost:1313/categories/%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 工具 on 关门说话</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>舍友/伴侣同居防闹掰互检表</title>
+      <link>http://localhost:1313/2024/%E8%88%8D%E5%8F%8B/%E4%BC%B4%E4%BE%A3%E5%90%8C%E5%B1%85%E9%98%B2%E9%97%B9%E6%8E%B0%E4%BA%92%E6%A3%80%E8%A1%A8/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/%E8%88%8D%E5%8F%8B/%E4%BC%B4%E4%BE%A3%E5%90%8C%E5%B1%85%E9%98%B2%E9%97%B9%E6%8E%B0%E4%BA%92%E6%A3%80%E8%A1%A8/</guid>
+      <description>受到旅游防闹掰互检表的启发，而且自己的同居生活也踩了一些雷，我终于悟了：你们是很好的爱人、朋友、亲人，完全不代表你们能成为很好的舍友。 是否能</description>
+    </item>
+    <item>
+      <title>总结一下自己平时找电子书资源的流程</title>
+      <link>http://localhost:1313/2022/%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8B%E8%87%AA%E5%B7%B1%E5%B9%B3%E6%97%B6%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E8%B5%84%E6%BA%90%E7%9A%84%E6%B5%81%E7%A8%8B/</link>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8B%E8%87%AA%E5%B7%B1%E5%B9%B3%E6%97%B6%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E8%B5%84%E6%BA%90%E7%9A%84%E6%B5%81%E7%A8%8B/</guid>
+      <description>zlibrary 首先肯定是 世界上最大的电子书图书馆 zlibrary 需要注意，因为版权敏感问题，它的域名经常变更，解决方法是： 谷歌搜索“zlibrary”后直接点开第一个</description>
+    </item>
+    <item>
+      <title>ob暖暖换装（不是）——大幅美化ob的css片段</title>
+      <link>http://localhost:1313/2022/ob%E6%9A%96%E6%9A%96%E6%8D%A2%E8%A3%85%E4%B8%8D%E6%98%AF%E5%A4%A7%E5%B9%85%E7%BE%8E%E5%8C%96ob%E7%9A%84css%E7%89%87%E6%AE%B5/</link>
+      <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/ob%E6%9A%96%E6%9A%96%E6%8D%A2%E8%A3%85%E4%B8%8D%E6%98%AF%E5%A4%A7%E5%B9%85%E7%BE%8E%E5%8C%96ob%E7%9A%84css%E7%89%87%E6%AE%B5/</guid>
+      <description>前言 首先，什么是css片段呢？ 从盘古开天辟地说起，你看到的网页，基本由三个东西组成，html、css、javascript ，它们一起被称为前</description>
+    </item>
+    <item>
+      <title>有关Markdown中的图片，你需要知道的一切</title>
+      <link>http://localhost:1313/2022/%E6%9C%89%E5%85%B3markdown%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E5%88%87/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/%E6%9C%89%E5%85%B3markdown%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E5%88%87/</guid>
+      <description>我一直觉得「图片」是理解markdown格式的一个艰难之处，因为它的图片逻辑和我们平时接触的图片逻辑都不一样，我一开始也完全不理解，花了挺久</description>
+    </item>
+    <item>
+      <title>保姆级别Obsidian入门操作思路指南</title>
+      <link>http://localhost:1313/2021/%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%88%ABobsidian%E5%85%A5%E9%97%A8%E6%93%8D%E4%BD%9C%E6%80%9D%E8%B7%AF%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2021/%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%88%ABobsidian%E5%85%A5%E9%97%A8%E6%93%8D%E4%BD%9C%E6%80%9D%E8%B7%AF%E6%8C%87%E5%8D%97/</guid>
+      <description>&amp;ldquo;我为什么要用这个玩意&amp;rdquo;，这篇文章已经花了几千字说明白了，接下来就是&amp;quot;我怎么用这个玩意&amp;quot;。 真·极</description>
+    </item>
+    <item>
+      <title>黑曜石——你的第二大脑</title>
+      <link>http://localhost:1313/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/</guid>
+      <description>以下大多是理论和“为什么”，字多不看行动派请点击：保姆级别 Obsidian 入门操作思路指南 A second brain, for you, forever. 你永远的第二大脑。 A second brain, for you, forever. 我21年9月通过《卡片</description>
+    </item>
+  </channel>
+</rss>

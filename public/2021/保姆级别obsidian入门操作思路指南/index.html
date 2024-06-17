@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='A second brain for you'><title>保姆级别Obsidian入门操作思路指南</title>
+
+<link rel='canonical' href='http://localhost:1313/2021/%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%88%ABobsidian%E5%85%A5%E9%97%A8%E6%93%8D%E4%BD%9C%E6%80%9D%E8%B7%AF%E6%8C%87%E5%8D%97/'>
+
+<link rel="stylesheet" href="/scss/style.min.a244b3b8c8f3e003abb4e22ba4401040ec1547ab2b1a0b28ad34c433f3e56906.css"><meta property='og:title' content='保姆级别Obsidian入门操作思路指南'>
+<meta property='og:description' content='A second brain for you'>
+<meta property='og:url' content='http://localhost:1313/2021/%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%88%ABobsidian%E5%85%A5%E9%97%A8%E6%93%8D%E4%BD%9C%E6%80%9D%E8%B7%AF%E6%8C%87%E5%8D%97/'>
+<meta property='og:site_name' content='关门说话'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='obsidian' /><meta property='article:tag' content='生产力' /><meta property='article:tag' content='方法论' /><meta property='article:published_time' content='2021-12-29T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2021-12-29T00:00:00&#43;00:00'/><meta property='og:image' content='https://www.solidsmack.com/wp-content/uploads/2020/08/obsidian-resin-block-finished--1100x618.jpg' />
+<meta name="twitter:title" content="保姆级别Obsidian入门操作思路指南">
+<meta name="twitter:description" content="A second brain for you"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://www.solidsmack.com/wp-content/uploads/2020/08/obsidian-resin-block-finished--1100x618.jpg' />
+    <link rel="shortcut icon" href="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/favicon.png" />
+
+  
+
+<style>
+    :root {
+        --article-font-family: "Noto Serif SC", var(--base-font-family);
+    }
+</style>
+
+<script> 
+		(function () {
+		    const customFont = document.createElement('link');
+		    customFont.href = "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;700&display=swap"; 
+		    customFont.type = "text/css";
+		    customFont.rel = "stylesheet";
+		
+		    document.head.appendChild(customFont);
+		}());
+</script>
+
+    </head>
+    <body class="
+    article-page
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    <!-- 
+        extended
+     -->
+    on-phone--column extended
+">
+    
+<div id="article-toolbar">
+    <a href="http://localhost:1313/" class="back-home">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+        <span>Back</span>
+    </a>
+</div>
+    <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu7331c604e51c27b6e5cfc85d6dac2614_113250_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <h1 class="site-name"><a href="/">关门说话</a></h1>
+        <h2 class="site-description">𓆡𓆝𓆟𓆜 𓆞𓆝𓆟 𓆜𓆞</h2></header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>friends</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E%E6%88%91/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于我</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>Dark Mode</span>
+            </li>
+        
+    </ol>
+</aside>
+
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/2021/%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%88%ABobsidian%E5%85%A5%E9%97%A8%E6%93%8D%E4%BD%9C%E6%80%9D%E8%B7%AF%E6%8C%87%E5%8D%97/">
+                
+                    <img src="https://www.solidsmack.com/wp-content/uploads/2020/08/obsidian-resin-block-finished--1100x618.jpg" loading="lazy" alt="Featured image of post 保姆级别Obsidian入门操作思路指南" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E5%B7%A5%E5%85%B7/" >
+                工具
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/2021/%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%88%ABobsidian%E5%85%A5%E9%97%A8%E6%93%8D%E4%BD%9C%E6%80%9D%E8%B7%AF%E6%8C%87%E5%8D%97/">保姆级别Obsidian入门操作思路指南</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        A second brain for you
+    </h3>
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 29, 2021</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-words">
+                    5307字
+                </time>
+            </div>
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>&ldquo;我为什么要用这个玩意&rdquo;，<a class="link" href="https://hugo-stack-theme-mod-six.vercel.app/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/"  target="_blank" rel="noopener"
+    >这篇文章</a>已经花了几千字说明白了，接下来就是&quot;我怎么用这个玩意&quot;。</p>
+<hr>
+<p><figure 
+	>
+	<a href="https://s2.loli.net/2022/03/03/3WEQ6PnAkszNeFH.jpg" >
+		<img src="https://s2.loli.net/2022/03/03/3WEQ6PnAkszNeFH.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="真·极简">
+	</a>
+	
+	<figcaption>真·极简</figcaption>
+	
+</figure></p>
+<p>我知道推荐一个新工具，<strong>第一步通常是最劝退的</strong>，甚至我自己第一次接触一打开软件面对**↑这个↑毫不熟悉**的界面都是一脸懵逼不懂操作，后来在热心象友的帮助下才上手。</p>
+<p><figure 
+	>
+	<a href="https://s2.loli.net/2022/03/03/GCc64Uvar3HhRLf.jpg" >
+		<img src="https://s2.loli.net/2022/03/03/GCc64Uvar3HhRLf.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="&ldquo;for you&rdquo;?&ldquo;forever&rdquo;?">
+	</a>
+	
+	<figcaption>“for you”?“forever”?</figcaption>
+	
+</figure></p>
+<p><strong>我为什么会不熟悉</strong>？这就要展开说到slogan里剩下的部分，什么叫「<strong>for you</strong>」和「<strong>forever</strong>」？</p>
+<p>现在简中用户第一次打开一个软件熟悉的是什么？</p>
+<p>3秒开屏广告、5页更新动画，要求你填写手机号注册、要求你同意隐私协议。</p>
+<p>这些，obsidian都没有，因为</p>
+<p>「<strong>for you</strong>」= obsidian所有的文件都以markdown格式储存在你的本地硬盘里（local folder）</p>
+<p>「<strong>forever</strong>」没有明说，但我推测是他们承诺未来会坚持极其宽容的收费政策（有收费版，但我一直用的是免费版从未感觉有任何功能限制，甚至因此从没去看过收费版到底有什么新功能……熟悉国外软件圈生态的人都知道这有多么不容易，拓展可以看看<a class="link" href="https://mp.weixin.qq.com/s/CTA20GhhFm3Frof6XsoJIA"  target="_blank" rel="noopener"
+    >notability被骂事件</a>）。</p>
+<p>这其实体现了开发团队背后的节操和信念，说得肉麻点就是，我觉得真正优秀的好产品，你在使用过程中一定可以感觉到背后有一个和你共鸣的灵魂。我很厌恶现在大厂为了追求利益无所不用其极，不择手段疯狂下沉的嘴脸。（拓展可以看<a class="link" href="https://mp.weixin.qq.com/s/iuhd-SmfPGHa_s5g2f1MYg"  target="_blank" rel="noopener"
+    >印象笔记抄袭flomo事件</a>）但是值得庆幸的是，在生产力领域，有越来越多的独立开发者创造出了越来越多用户本位的产品，像marginnote、flomo、notion、cubox，而obsidian无疑是其中最令我惊喜的一个。</p>
+<blockquote>
+<p>相反，我倒觉得 Emacs 相当超前。<strong>看看这个技术世界的现状，大家已经习惯了充当技术即商品的被动消费者</strong>。我们下载的净是些自己无法控制的应用程序，只能按开发者的既定意图来使用，并且根据服务商的提示放弃了自己的隐私跟自由。大家也习惯了不纠结这些问题，甚至将其视为“新常态”。</p>
+<p>直到你意识到，技术本身不是商品。技术是一种资源，可以直接被应用的知识。技术应该是我们用来改善生活的工具，就如同锤子或者螺丝刀。它们存在的意义，绝不是帮助某些软件开发商“远程控制”我们的计算人生（computing life），也绝不是为了维持一种榨取式的政治 - 经济秩序。</p>
+<p>总有一天，我们会认识到主导计算的重要性。我们的数据、我们的程序，都应该再次由我们所主导。这种认识无论是对全人类、还是对整个地球都是好事，将会帮助我们消灭当前那些机构的浪费行为。</p>
+<p>via. <a class="link" href="https://bafybeiclgnehzczk64bsau2veispsb4cr2btm4wd6osytvjc4w576isidy.ipfs.cf-ipfs.com/"  target="_blank" rel="noopener"
+    >隐居、反内卷，不意味着躺平｜专访2021年度“杰出新自由软件贡献者”奖得主</a></p>
+</blockquote>
+<p>扯了这么多肉麻兮兮情怀话，主要还是想说：不要被不熟悉的界面和操作劝退啊！<strong>只要你有使用需求，只要用起来，一定受益、受益最大、甚至唯一受益的就是你自己</strong>！</p>
+<p>而且真的超简单不难用啊！反正我会提供细致入微呵护贴心保姆级别入门教程！！！</p>
+<hr>
+<h2 id="五秒钟即可掌握五分钟即可实操的obsidian入门步骤">五秒钟即可掌握，五分钟即可实操的obsidian入门步骤</h2>
+<h3 id="第一步">第一步</h3>
+<p>第一步当然是先去<a class="link" href="https://obsidian.md/"  target="_blank" rel="noopener"
+    >官网</a>下载，obsidian今年已经支持全平台。</p>
+<h3 id="第二步">第二步</h3>
+<p>打开下好的软件，第一眼看到的应该是这个画面。</p>
+<p><figure 
+	>
+	<a href="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220412125721.png" >
+		<img src="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220412125721.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<ol>
+<li>
+<p>选中自己需要的语言</p>
+</li>
+<li>
+<p>vault = 库
+这是obsidian的基础概念，前文已经提到所有obsidian的文件都是储存在本地的，所以<strong>库本质上就是电脑上的文件夹</strong>，<strong>ob里的文件（page）就是本地md文件</strong>。
+初上手一个库就够了所以不深入讲，取名困难建议取自己名字或者admin。</p>
+</li>
+<li>
+<p>点击create new vault（创建新库）
+选电脑里自己想放文件的地址即可
+这里涉及一个同步问题，后文会详细讲，此处先不同步。</p>
+</li>
+</ol>
+<h3 id="第三步">第三步</h3>
+<p>接下来进入刚建好还热乎着的库，你会看到这个界面</p>
+<p><figure 
+	>
+	<a href="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220412122402.png" >
+		<img src="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220412122402.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>好了！面对这一片白茫茫真干净，你肯定像刚拿到试卷先翻到作文看看命题时一样大脑空白、神志恍惚。此时千万别头脑风暴啊XD 又不是真的写作文！</p>
+<p>入门起步我最建议的还是先把 <strong>这么多年来散布在各种地方的、你念念不忘的or日常经常用到的、不管是看到的还是自己写的 一些文字文章</strong>搬运到obsidian。</p>
+<hr>
+<p>拨开那些概念和用法，obsidian的本质就是一个<strong>双链管理的markdown文本编辑器</strong>而已。</p>
+<p>这个<a class="link" href="https://publish.obsidian.md/chinesehelp/01&#43;2021%E6%96%B0%E6%95%99%E7%A8%8B/%E6%9C%AC%E4%BA%BA%E5%AF%B9obsidian%E6%96%B0%E6%89%8B%E7%9A%84%E5%BB%BA%E8%AE%AE%EF%BC%882022%E7%89%88%E6%9C%AC%EF%BC%89&#43;by&#43;%E8%BD%AF%E9%80%9A%E8%BE%BE"  target="_blank" rel="noopener"
+    >新手建议</a>说得好，刚刚接触obsidian，你只需要知道三件事：</p>
+<ol>
+<li>
+<p>如何创建一个笔记 （注意理解「笔记/page」概念，这是obsidian的基础单位）</p>
+<p>快捷键<code>Ctrl/Cmd + N</code> = 新建笔记</p>
+</li>
+<li>
+<p>如何创建一个双链 （这是obsidian最核心的和重要的功能/概念，<a class="link" href="https://hugo-stack-theme-mod-six.vercel.app/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/"  target="_blank" rel="noopener"
+    >之前一篇文章</a>里详细讲了）</p>
+<p><code>Ctrl/Cmd + [</code> = 创建双链；打两个<code>[[</code>也可以创建，输入文字会自动联想标题</p>
+</li>
+<li>
+<p>找到笔记库所在的位置做好备份（如果你不会git备份，可以定期手动在本地拷贝一下或者拖进云盘。随便用什么方法备份都行，千万 不要 不备份，我有好几个朋友朋友惨痛丢失过文件后才学习备份的。）</p>
+</li>
+</ol>
+<hr>
+<p>再额外强调一点：我认为<strong>我们应该在obisdian里写什么内容</strong>？</p>
+<p>一个词概括——「<strong>inspired</strong>」，即让你有感触和联想的东西，可以脑补脑袋上冒出的💡</p>
+<p>一句话概括——「<strong>以我为主，为我所用</strong>」，整个过程一定要自己手动操作，加上思考理解，不要复制粘贴机械搬运，不要被某种范式固定死。</p>
+<p>这个单位的选定范围应该类似「<strong>心流</strong>」（flow）？</p>
+<p>没有感觉和需求的就无视掉不要记（你的学习速度永远赶不上信息的生产速度），太简单的和完全掌握的也不要记（这个领域属于anki），在有一点压力的基础上自己怎么舒服怎么来就行。just go with the flow.</p>
+<hr>
+<p>之后<strong>具体的入门详细基础操作</strong>，<a class="link" href="https://sspai.com/post/67476"  target="_blank" rel="noopener"
+    >少数派这篇</a>讲得很清楚，我就不重复发明轮子了（但是它没有讲的是「为什么」和「思路」，我在这两篇文章了里讲了）</p>
+<blockquote>
+<p>入门讲这些就差不多了，我相信如果你有需求的话此时已经开始快乐探索了！</p>
+</blockquote>
+<h2 id="再说一点粗的方向">再说一点粗的方向</h2>
+<h3 id="markdown">Markdown</h3>
+<p>markdown是什么？</p>
+<p>和txt格式、doc格式本质上一样，md是一个通用的文本格式，其中的文本是用markdown标记语言写的，这是obsidian的重大特色。</p>
+<p>为什么要用markdown呢？</p>
+<p>比起txt这种纯文本，markdown可以快速提供一些简洁重要的排版（比如标题、加粗、斜体、引用）；比起doc这种富文本，markdown不用操纵和规划复杂的样式，只需要输入符号就能快速排版。总而言之，markdown是一种兼顾了专注输入和便于阅读的文本格式。</p>
+<p>没有接触过Markdown语言这个概念的朋友可能要熟悉一下，会有一些设定上的不习惯。比如markdown作为一种轻量级标记语言而不是富文本语言（word），是没有“首行缩进”这个设定的。</p>
+<p>关于<a class="link" href="https://zhuanlan.zhihu.com/p/86516807"  target="_blank" rel="noopener"
+    >我们为什么要用markdown；mardown和word的区别</a></p>
+ <br/>
+<p>其实也更没什么难的，本质就是<strong>一种便于码字排版的标记符号</strong>，一旦上手非常方便。</p>
+<p>我最常用的就是：</p>
+<p><code># </code>（空格）= 各级标题</p>
+<p><code>- </code>（空格）= 无序列表</p>
+<p><code>4.</code> （空格）= 有序列表</p>
+<p><code>*xx*</code>= 斜体</p>
+<p><code>**xx**</code>= 粗体</p>
+<p><code>&quot;==xx==&quot;</code>= 高亮</p>
+<p><code>&gt;</code> = 引用</p>
+<p><figure 
+	>
+	<a href="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220412122735.png" >
+		<img src="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220412122735.png"
+			
+			
+			
+			loading="lazy"
+			alt="如图为mk标记，来自少数派文章">
+	</a>
+	
+	<figcaption>如图为mk标记，来自少数派文章</figcaption>
+	
+</figure>)</p>
+<p>更多的markdown语法请见：<a class="link" href="https://publish.obsidian.md/help-zh/%e4%bd%bf%e7%94%a8%e6%8c%87%e5%8d%97/%e6%a0%bc%e5%bc%8f%e5%8c%96%e4%bd%a0%e7%9a%84%e7%ac%94%e8%ae%b0"  target="_blank" rel="noopener"
+    >obsidian官方文档</a>；<a class="link" href="https://markdown.com.cn/intro.html"  target="_blank" rel="noopener"
+    > Markdown 官方教程</a></p>
+<h3 id="快捷键">快捷键</h3>
+<p>有一句话叫做：一个东西如果是真的好用，你会感受不到它的存在。</p>
+<p>obsidian的另一大特色就是因为<strong>它极其符合我们人脑的思路，所以操作起来非常流畅毫无阻力</strong>。而要达到这个目标，快捷键无疑是十分重要的。</p>
+<blockquote>
+<p>以下几个快捷键都是我平时使用最多的，最好更改和熟悉一下，其中有几个甚至是我使用了很久之后才发现的…… 直接告诉大家，降低学习成本了。其他有需要的可以在<code>设置-快捷键</code>中自行寻找和更改。</p>
+<p><strong>注意⚠️</strong>：你并不需要马上一次性记下这些快捷键，建议截图保存，上手后感觉到需要再来查找。</p>
+</blockquote>
+<ul>
+<li>
+<p>快捷键更改在：<code>设置-快捷键</code>中</p>
+</li>
+<li>
+<p>「默认自带的」不标记，「需要自己更改的」标记为<code>*</code></p>
+</li>
+</ul>
+<p><code>Ctrl/Cmd + N</code> = 新建笔记</p>
+<p><code>Ctrl/Cmd + E</code> = 切换编辑/预览视图</p>
+<p>因为markdown是标记语言，所以你打的字和显示出来的其实是不一样的，即编辑/预览视图的区别。这个键之前是必备，但是新版本更新了live mode （所见即所得、编辑/预览视图几乎同步）之后就不太用了。</p>
+<p><code>Ctrl/Cmd + O</code> = 快速切换</p>
+<p>其实意思就是「快速搜索标题」，只要你记得标题，就可以不用去文件列表里找文章，而是直接搜索</p>
+<p><code>Ctrl/Cmd + shift+ F</code> = 在所有文件中搜索</p>
+<p>与「快速切换」相对应，如果你不记得标题但是记得文章中的文字，可以用这个搜索</p>
+<p><code>Ctrl/Cmd + F</code> = 文件内搜索</p>
+<p>和网页与word中的搜索没有什么区别</p>
+<p>*<code>Ctrl/Cmd + [</code> = 插入内部链接</p>
+<p>当然打两个<code>[[</code>就可以生成内链，但加上这个键，你可以选取文本后直接把其转换为内链。</p>
+<p>*<code>Ctrl/Cmd + 回车</code> = 访问光标处的链接</p>
+<p>这个键原本是「切换待办标签状态」，但是建议改成「访问光标处的链接」，这样就可以和上面的「插入内部链接」联动，直接回车就可以进入刚刚创建好的内链，更加提升流畅度。</p>
+<p><code>Ctrl/Cmd + opt + ←</code> = 后退；<code>Ctrl/Cmd + opt + →</code> = 前进</p>
+<p>同样衍生自上一个动作的逻辑，你可以回到你上一个在看的笔记，也可以再回来。反复横跳，流畅度加倍！</p>
+<p>*<code>Ctrl/Cmd + ;</code> =  折叠/展开右侧边栏；<code>Ctrl/Cmd + ‘</code> =  折叠/展开左侧边栏</p>
+<p>左右边栏的使用率很高，加上这两个相邻的快捷键会方便很多。</p>
+<p>一般左边栏是文件列表，右边栏是出链面板，当然这些元素你都是<strong>可以自由拖动</strong>的（我用了好久才发现……）！</p>
+<p><code>Ctrl/Cmd + w</code> = 关闭当前面板</p>
+<p>*<code>Ctrl/Cmd + shift + w</code> = 删除当前文件</p>
+<p>这个快捷键默认是没有的，但是可以根据上面那个的逻辑改一下。</p>
+<p><code>Ctrl/Cmd + P</code> = 打开命令面板</p>
+<p>快捷键界面之中所有操作 都可以通过这个面板看到</p>
+<p><code>Ctrl/Cmd + D</code> = 删除段落</p>
+<p>这个键可以直接删除光标处的整段，编辑的时候极其方便，再也不用鼠标选取半天之后再删除了。</p>
+<p><code>Ctrl/Cmd + Shift + V</code>  = 无格式粘贴</p>
+<p><code>Ctrl/Cmd + B</code> 文本加粗；<code>Ctrl/Cmd + I</code> 文本斜体</p>
+<p>上面这两个是所有md笔记软件中最常用的，此外建议加一个*<code>Ctrl/Cmd + L</code> 文本高亮</p>
+<h3 id="插件">插件</h3>
+<p>插件也是ob的重大特色之一，开发者在“关于我们”里提到，obsidian最初的三大开发理念是——「本地」「双链」「可拓展性」，而这个可拓展性就是依靠「插件」和「css魔改」实现的。</p>
+<p><code>设置-核心插件</code> 里：文件列表、搜索、快速切换、关系图谱、反向链接 是默认打开的，都很有用；此外最好额外打开：出链、标签面板、模板、星标、大纲。</p>
+<p><code>设置-第三方插件</code>里也有很多有用的，但是必须翻墙才可以访问，我在此处不展开了。</p>
+<h3 id="主题外观">主题外观</h3>
+<p>obsidian有很多精美的主题，它的极简颜值也是激励我使用下去的重要原因。</p>
+<p>虽然默认主题就很不错，但难能可贵的是几乎其他所有主题都是由第三方用户自发开发的，你可以在<code>设置-外观-主题</code>里找到它们，甚至懂css的话还可以自己魔改。</p>
+<p>我最喜欢的是things和red graphite和自定义小改过的California Coast（基于苹果UI，我改了颜色）</p>
+<p><figure 
+	>
+	<a href="https://s2.loli.net/2022/03/03/dtIVaWBoOSXQ8uJ.jpg" >
+		<img src="https://s2.loli.net/2022/03/03/dtIVaWBoOSXQ8uJ.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="California Coast">
+	</a>
+	
+	<figcaption>California Coast</figcaption>
+	
+</figure></p>
+<p><figure 
+	>
+	<a href="https://s2.loli.net/2022/03/03/et9oXSbgGcn1AJd.jpg" >
+		<img src="https://s2.loli.net/2022/03/03/et9oXSbgGcn1AJd.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="things">
+	</a>
+	
+	<figcaption>things</figcaption>
+	
+</figure></p>
+<p><figure 
+	>
+	<a href="https://s2.loli.net/2022/03/03/tTdNgPkS9XaOeBV.jpg" >
+		<img src="https://s2.loli.net/2022/03/03/tTdNgPkS9XaOeBV.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="red graphite">
+	</a>
+	
+	<figcaption>red graphite</figcaption>
+	
+</figure></p>
+<hr>
+<h3 id="同步问题">同步问题</h3>
+<p>大的就两种选择：官方和第三方。</p>
+<p>一年400人民币觉得肉疼的就不用看官方同步了，不肉疼可以支持一下。（官方同步最近放出了60%的教育折扣）</p>
+<p>第三方，ios设备多用icloud、安卓设备选择多多，其他操作和软件请自行搜索【obsidian+同步】/<a class="link" href="https://publish.obsidian.md/chinesehelp/03&#43;%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E5%90%8C%E6%AD%A5obsidian%E6%96%87%E4%BB%B6%EF%BC%88MOC%EF%BC%89"  target="_blank" rel="noopener"
+    >查看落山鸡文档总结</a></p>
+<h4 id="具体讲一下icloud">具体讲一下iCloud</h4>
+<ol>
+<li>去官网在电脑上下iCloud客户端，然后“我的电脑”和侧栏里就会出现icloud云盘</li>
+<li>打开obsidian把库直接建在iCloud</li>
+<li>同步成功后手机平板（也要先下obsidian app）会自动出现这个库</li>
+<li>如果是在苹果端创建库的话会问你要不要用icloud同步，有需求就勾上，也是存在icloud里，可以直接苹果端的&quot;文件&quot;这个app里看icloud的文件。（所以如果你之前没选同步，在&quot;文件&quot;里找到obsidian然后把文件夹剪贴到icloud文件夹里就好，电脑操作同理）</li>
+</ol>
+<blockquote>
+<p>⚠️：蛋疼的是 ，iCloud在pc上虽然可以用，但是支持得极不友好，我甚至有两次差点丢失所有文件。建议和git配合着用，iCloud主同步和储存，git备份保险+版本控制。</p>
+</blockquote>
+<blockquote>
+<p>⚠️：2024年更新：不建议使用icloud！！！iCloud在跨pc-移动上非常拉垮，不仅速度很慢，还很可能成为丢失文件、奇怪bug的元凶。</p>
+</blockquote>
+<h4 id="remotely-save">Remotely Save</h4>
+<p>2024年更新一下</p>
+<p>Remotely Save是一个同步插件，免费，需要用户自己配置储存库（比如云盘、oss等），同步非常快捷，体验非常良好。</p>
+<p>其实我2022年转到Remotely Save之后就一直用这个方法了，目前感觉也是ob同步的最优解，甚至比官方同步还好（官方同步我也买过，用了半个月嫌慢，退款了）</p>
+<p>具体方法不展开了，还是谷歌关键字吧，我用的是「Remotely Save+阿里oss」。</p>
+<h2 id="结尾">结尾</h2>
+<p>obsidian是一个<strong>潜力无穷</strong>的工具，它不仅不会被我这篇入门指南定义，肯定也不会被我那篇<a class="link" href="https://hugo-stack-theme-mod-six.vercel.app/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/"  target="_blank" rel="noopener"
+    >《黑曜石——你的第二大脑》</a>定义。这也是为什么我一开始只想写《卡片笔记法》读后感，最后却写成了两篇obsidian安利的原因。而另一方面说，ob根本不是什么“上手难度大”的神秘软件，它的<strong>本质就是一个双链管理的markdown文本编辑器</strong>，请不吝用途和脑洞，赶紧下载打开ob来开发出你自己的用法吧！</p>
+<p>PS:我最近突发奇想在用obsidian+anki学英语，进展顺利，有空写写。</p>
+<h2 id="附录">附录</h2>
+<ul>
+<li><a class="link" href="https://publish.obsidian.md/help-zh"  target="_blank" rel="noopener"
+    >obsidian官方中文帮助</a></li>
+<li><a class="link" href="https://publish.obsidian.md/chinesehelp/01&#43;2021%E6%96%B0%E6%95%99%E7%A8%8B/2021%E5%B9%B4%E6%96%B0%E6%95%99%E7%A8%8B"  target="_blank" rel="noopener"
+    >obsidian落山鸡中文教程</a></li>
+<li><a class="link" href="https://forum-zh.obsidian.md/"  target="_blank" rel="noopener"
+    >obsidian官方中文论坛</a></li>
+<li><a class="link" href="https://sspai.com/post/68427"  target="_blank" rel="noopener"
+    >Obsidian 优质中文内容合集 - 少数派</a></li>
+<li><a class="link" href="https://medium.com/pm%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B%E5%B7%A5%E5%85%B7%E7%AE%B1/productivity/home"  target="_blank" rel="noopener"
+    >这位博主写了30多篇obsidian相关的文章</a></li>
+<li>之前<a class="link" href="https://www.douban.com/note/807432536/"  target="_blank" rel="noopener"
+    >友邻用obsidin做的希腊神话族谱</a>，我大为震撼</li>
+</ul>
+
+</section>
+
+
+    
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Related contents</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="has-image">
+    <a href="/2022/%E6%9C%89%E5%85%B3markdown%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E5%88%87/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg" loading="lazy" data-key="" data-hash="https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">有关Markdown中的图片，你需要知道的一切</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://s2.loli.net/2022/03/03/Eef1TqSDl9QuGNd.jpg" loading="lazy" data-key="" data-hash="https://s2.loli.net/2022/03/03/Eef1TqSDl9QuGNd.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">黑曜石——你的第二大脑</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/2022/ob%E6%9A%96%E6%9A%96%E6%8D%A2%E8%A3%85%E4%B8%8D%E6%98%AF%E5%A4%A7%E5%B9%85%E7%BE%8E%E5%8C%96ob%E7%9A%84css%E7%89%87%E6%AE%B5/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511174142.png" loading="lazy" data-key="" data-hash="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511174142.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ob暖暖换装（不是）——大幅美化ob的css片段</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+     
+     
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (DISQUS) {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+  
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+<script>
+(function(u, c) {
+  var d = document, t = 'script', o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+  o.src = u;
+  if (c) { o.addEventListener('load', function(e) { c(e); }); }
+  s.parentNode.insertBefore(o, s);
+})('//cdn.bootcss.com/pangu/3.3.0/pangu.min.js', function() {
+  pangu.spacingPage();
+});
+</script>
+
+    <section class="copyright">
+        &copy; 
+        
+            2022.03.03 - 
+        
+        2024·<i class="fas fa-bell"></i> <a id="days">0</a>Days<br>
+      共书写了180.4k字·共 18篇文章</br><span><p>
+    </section>
+    
+    <section class="powerby">
+        Enter through the narrow gate. <br />
+        For wide is the gate and broad is the way that leads to destruction,and many enter through it. <br />
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.2.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a><br />
+         <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">© Licensed Under CC BY-NC-SA 4.0</a>
+        
+
+    </section>
+
+<script>
+var s1 = '2022-03-03';
+s1 = new Date(s1.replace(/-/g, "/"));
+s2 = new Date();
+var days = s2.getTime() - s1.getTime();
+var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+document.getElementById('days').innerHTML = number_of_days;
+</script>
+    
+</footer>
+
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+    
+    
+    <aside class="sidebar right-sidebar sticky">
+        
+            <form action="/search/" class="search-form widget" >
+        <p>
+            <label>Search</label>
+            <input name="keyword" required placeholder="Type something..." />
+        
+            <button title="Search">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+            </button>
+        </p>
+    </form>
+        
+            
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#五秒钟即可掌握五分钟即可实操的obsidian入门步骤">五秒钟即可掌握，五分钟即可实操的obsidian入门步骤</a>
+      <ol>
+        <li><a href="#第一步">第一步</a></li>
+        <li><a href="#第二步">第二步</a></li>
+        <li><a href="#第三步">第三步</a></li>
+      </ol>
+    </li>
+    <li><a href="#再说一点粗的方向">再说一点粗的方向</a>
+      <ol>
+        <li><a href="#markdown">Markdown</a></li>
+        <li><a href="#快捷键">快捷键</a></li>
+        <li><a href="#插件">插件</a></li>
+        <li><a href="#主题外观">主题外观</a></li>
+        <li><a href="#同步问题">同步问题</a>
+          <ol>
+            <li><a href="#具体讲一下icloud">具体讲一下iCloud</a></li>
+            <li><a href="#remotely-save">Remotely Save</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#结尾">结尾</a></li>
+    <li><a href="#附录">附录</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+        
+            <section class="widget categories">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+  
+        </div> 
+        <h2 class="widget-title section-title">Categories</h2>
+    <div class="widget-categories--list">
+<div class="widget">
+    <h3 class="widget-title"> </h3>
+    <div class="widget-body">
+        <div class="category-list">
+            <div class="category-list-item"><a href="http://localhost:1313/categories/%E4%B9%90/" class="category-list-link">乐<span class="category-list-count">5</a>
+            </span></div>
+            <div class="category-list-item"><a href="http://localhost:1313/categories/%E4%B9%A6/" class="category-list-link">书<span class="category-list-count">3</a>
+            </span></div>
+            <div class="category-list-item"><a href="http://localhost:1313/categories/%E5%AD%A6%E4%B9%A0/" class="category-list-link">学习<span class="category-list-count">3</a>
+            </span></div>
+            <div class="category-list-item"><a href="http://localhost:1313/categories/%E5%B7%A5%E5%85%B7/" class="category-list-link">工具<span class="category-list-count">6</a>
+            </span></div>
+            <div class="category-list-item"><a href="http://localhost:1313/categories/%E6%97%A5%E5%B8%B8/" class="category-list-link">日常<span class="category-list-count">1</a>
+            </span></div>
+        </div>
+    </div>
+</div>
+    </div>
+    </section>
+        
+            <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Archives</h2>
+
+        
+        
+        
+        
+        
+        <div class="widget-archive--list">
+            <div class="archives-year">
+                    <a href="/archives/#2024">
+                        
+                            <span class="year">2024</span>
+                            <span class="count">1</span>
+                        
+                    </a> 
+                </div>
+            <div class="archives-year">
+                    <a href="/archives/#2022">
+                        
+                            <span class="year">2022</span>
+                            <span class="count">8</span>
+                        
+                    </a> 
+                </div>
+            <div class="archives-year">
+                    <a href="/archives/#2021">
+                        
+                            <span class="year">2021</span>
+                            <span class="count">9</span>
+                        
+                    </a> 
+                </div>
+            
+        </div>
+    </section>
+        
+            <section class="widget tagCloud">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+    </div>
+    <h2 class="widget-title section-title">Tags</h2>
+
+    <div class="tagCloud-tags">
+        
+            <a href="/tags/obsidian/" class="font_size_4">
+                Obsidian
+            </a>
+        
+            <a href="/tags/%E4%B8%93%E8%BE%91/" class="font_size_4">
+                专辑
+            </a>
+        
+            <a href="/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" class="font_size_3">
+                方法论
+            </a>
+        
+            <a href="/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B/" class="font_size_3">
+                生产力
+            </a>
+        
+            <a href="/tags/60s/" class="font_size_2">
+                60s
+            </a>
+        
+            <a href="/tags/crashcourse/" class="font_size_2">
+                CrashCourse
+            </a>
+        
+            <a href="/tags/%E4%B9%90%E9%98%9F/" class="font_size_2">
+                乐队
+            </a>
+        
+            <a href="/tags/%E7%BD%91%E8%AF%BE/" class="font_size_2">
+                网课
+            </a>
+        
+            <a href="/tags/css/" class="font_size_1">
+                Css
+            </a>
+        
+            <a href="/tags/jeff-buckley/" class="font_size_1">
+                Jeff Buckley
+            </a>
+        
+    </div>
+</section>
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<script src="/js/copy-to-clipboard.js"></script>
+    </body>
+</html>

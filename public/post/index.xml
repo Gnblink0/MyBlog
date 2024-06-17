@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 关门说话</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on 关门说话</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>舍友/伴侣同居防闹掰互检表</title>
+      <link>http://localhost:1313/2024/%E8%88%8D%E5%8F%8B/%E4%BC%B4%E4%BE%A3%E5%90%8C%E5%B1%85%E9%98%B2%E9%97%B9%E6%8E%B0%E4%BA%92%E6%A3%80%E8%A1%A8/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/%E8%88%8D%E5%8F%8B/%E4%BC%B4%E4%BE%A3%E5%90%8C%E5%B1%85%E9%98%B2%E9%97%B9%E6%8E%B0%E4%BA%92%E6%A3%80%E8%A1%A8/</guid>
+      <description>受到旅游防闹掰互检表的启发，而且自己的同居生活也踩了一些雷，我终于悟了：你们是很好的爱人、朋友、亲人，完全不代表你们能成为很好的舍友。 是否能</description>
+    </item>
+    <item>
+      <title>雅思经验分享</title>
+      <link>http://localhost:1313/2022/%E9%9B%85%E6%80%9D%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/</link>
+      <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/%E9%9B%85%E6%80%9D%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/</guid>
+      <description>前言 惯例先放成绩，还挺唬人，我查成绩的时候也被唬到了哈哈哈，其实有点发挥超常和出乎我意料，具体感受和体验如何，放到最后再说，先讲正事。 写得比</description>
+    </item>
+    <item>
+      <title>假期饼串记录🫓</title>
+      <link>http://localhost:1313/2022/%E5%81%87%E6%9C%9F%E9%A5%BC%E4%B8%B2%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/%E5%81%87%E6%9C%9F%E9%A5%BC%E4%B8%B2%E8%AE%B0%E5%BD%95/</guid>
+      <description>前言 （其实是深夜想到可以这个东西放在博客，就临时复制和打了点字在这，所以内容应该很跳跃断裂语无伦次，maybe 有空再改吧。。） 源头说起来还有</description>
+    </item>
+    <item>
+      <title>总结一下自己平时找电子书资源的流程</title>
+      <link>http://localhost:1313/2022/%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8B%E8%87%AA%E5%B7%B1%E5%B9%B3%E6%97%B6%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E8%B5%84%E6%BA%90%E7%9A%84%E6%B5%81%E7%A8%8B/</link>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8B%E8%87%AA%E5%B7%B1%E5%B9%B3%E6%97%B6%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E8%B5%84%E6%BA%90%E7%9A%84%E6%B5%81%E7%A8%8B/</guid>
+      <description>zlibrary 首先肯定是 世界上最大的电子书图书馆 zlibrary 需要注意，因为版权敏感问题，它的域名经常变更，解决方法是： 谷歌搜索“zlibrary”后直接点开第一个</description>
+    </item>
+    <item>
+      <title>ob暖暖换装（不是）——大幅美化ob的css片段</title>
+      <link>http://localhost:1313/2022/ob%E6%9A%96%E6%9A%96%E6%8D%A2%E8%A3%85%E4%B8%8D%E6%98%AF%E5%A4%A7%E5%B9%85%E7%BE%8E%E5%8C%96ob%E7%9A%84css%E7%89%87%E6%AE%B5/</link>
+      <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/ob%E6%9A%96%E6%9A%96%E6%8D%A2%E8%A3%85%E4%B8%8D%E6%98%AF%E5%A4%A7%E5%B9%85%E7%BE%8E%E5%8C%96ob%E7%9A%84css%E7%89%87%E6%AE%B5/</guid>
+      <description>前言 首先，什么是css片段呢？ 从盘古开天辟地说起，你看到的网页，基本由三个东西组成，html、css、javascript ，它们一起被称为前</description>
+    </item>
+    <item>
+      <title>在后冷战的文明之间</title>
+      <link>http://localhost:1313/2022/%E5%9C%A8%E5%90%8E%E5%86%B7%E6%88%98%E7%9A%84%E6%96%87%E6%98%8E%E4%B9%8B%E9%97%B4/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/%E5%9C%A8%E5%90%8E%E5%86%B7%E6%88%98%E7%9A%84%E6%96%87%E6%98%8E%E4%B9%8B%E9%97%B4/</guid>
+      <description>其实是个作业XD 所以在内容上啰嗦了点，后来的想法几乎是一口气写文又即兴了点。。 而且还有挺多没说的。 比如我不喜欢国际政治，怎么说呢……太非人了</description>
+    </item>
+    <item>
+      <title>Crash Course 心理学笔记</title>
+      <link>http://localhost:1313/2022/crash-course-%E5%BF%83%E7%90%86%E5%AD%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/crash-course-%E5%BF%83%E7%90%86%E5%AD%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>前言 说明 视频链接： 心理学 - Crash Course 中文字幕组 感谢前人栽树：十分钟速成课：心理学 第一季 - 剧评 大概前几天开始看的（4月中） 主讲人 Hank Green Crash Course最</description>
+    </item>
+    <item>
+      <title>Crash Course 经济学笔记</title>
+      <link>http://localhost:1313/2022/crash-course-%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/crash-course-%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>前言 说明 视频链接：【合集】10分钟速成课：经济学 - bilibili 感谢前人栽树：经济学学习笔记-Notion 一边看一边在obsidian做的笔记，做得比较</description>
+    </item>
+    <item>
+      <title>有关Markdown中的图片，你需要知道的一切</title>
+      <link>http://localhost:1313/2022/%E6%9C%89%E5%85%B3markdown%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E5%88%87/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/%E6%9C%89%E5%85%B3markdown%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E5%88%87/</guid>
+      <description>我一直觉得「图片」是理解markdown格式的一个艰难之处，因为它的图片逻辑和我们平时接触的图片逻辑都不一样，我一开始也完全不理解，花了挺久</description>
+    </item>
+    <item>
+      <title>保姆级别Obsidian入门操作思路指南</title>
+      <link>http://localhost:1313/2021/%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%88%ABobsidian%E5%85%A5%E9%97%A8%E6%93%8D%E4%BD%9C%E6%80%9D%E8%B7%AF%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2021/%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%88%ABobsidian%E5%85%A5%E9%97%A8%E6%93%8D%E4%BD%9C%E6%80%9D%E8%B7%AF%E6%8C%87%E5%8D%97/</guid>
+      <description>&amp;ldquo;我为什么要用这个玩意&amp;rdquo;，这篇文章已经花了几千字说明白了，接下来就是&amp;quot;我怎么用这个玩意&amp;quot;。 真·极</description>
+    </item>
+    <item>
+      <title>黑曜石——你的第二大脑</title>
+      <link>http://localhost:1313/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/</guid>
+      <description>以下大多是理论和“为什么”，字多不看行动派请点击：保姆级别 Obsidian 入门操作思路指南 A second brain, for you, forever. 你永远的第二大脑。 A second brain, for you, forever. 我21年9月通过《卡片</description>
+    </item>
+    <item>
+      <title>so real, sorry</title>
+      <link>http://localhost:1313/2021/so-real-sorry/</link>
+      <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2021/so-real-sorry/</guid>
+      <description>其实前几天才第一次正式听他，现在了解仅限于一专、几场live视频和录音、一部纪录片、几篇采访、维基百科。不过我码字一直是心血来潮，冷静下来就</description>
+    </item>
+    <item>
+      <title>摇滚乐队与乐队摇滚</title>
+      <link>http://localhost:1313/2021/%E6%91%87%E6%BB%9A%E4%B9%90%E9%98%9F%E4%B8%8E%E4%B9%90%E9%98%9F%E6%91%87%E6%BB%9A/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2021/%E6%91%87%E6%BB%9A%E4%B9%90%E9%98%9F%E4%B8%8E%E4%B9%90%E9%98%9F%E6%91%87%E6%BB%9A/</guid>
+      <description>英蓝那部纪录片里Jack Bruce说 “我们做的是试着用蓝调的语言创造出一种独一无二、原汁原味的音乐，一切都与芝加哥和三角洲无关，那只是激发的</description>
+    </item>
+    <item>
+      <title>20世纪的精神分裂患者及其痊愈</title>
+      <link>http://localhost:1313/2021/20%E4%B8%96%E7%BA%AA%E7%9A%84%E7%B2%BE%E7%A5%9E%E5%88%86%E8%A3%82%E6%82%A3%E8%80%85%E5%8F%8A%E5%85%B6%E7%97%8A%E6%84%88/</link>
+      <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2021/20%E4%B8%96%E7%BA%AA%E7%9A%84%E7%B2%BE%E7%A5%9E%E5%88%86%E8%A3%82%E6%82%A3%E8%80%85%E5%8F%8A%E5%85%B6%E7%97%8A%E6%84%88/</guid>
+      <description>中产阶级的孩子们 - 程巍 应该至少是今年对我影响最大的书。从4月开始看，中间搁置了几次，8月看完。 我翻开这本书仅仅因为对泛60年代文化的兴趣，却</description>
+    </item>
+    <item>
+      <title>前不朽，后生命不能承受之轻——米兰·昆德拉与现代性</title>
+      <link>http://localhost:1313/2021/%E5%89%8D%E4%B8%8D%E6%9C%BD%E5%90%8E%E7%94%9F%E5%91%BD%E4%B8%8D%E8%83%BD%E6%89%BF%E5%8F%97%E4%B9%8B%E8%BD%BB%E7%B1%B3%E5%85%B0%E6%98%86%E5%BE%B7%E6%8B%89%E4%B8%8E%E7%8E%B0%E4%BB%A3%E6%80%A7/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2021/%E5%89%8D%E4%B8%8D%E6%9C%BD%E5%90%8E%E7%94%9F%E5%91%BD%E4%B8%8D%E8%83%BD%E6%89%BF%E5%8F%97%E4%B9%8B%E8%BD%BB%E7%B1%B3%E5%85%B0%E6%98%86%E5%BE%B7%E6%8B%89%E4%B8%8E%E7%8E%B0%E4%BB%A3%E6%80%A7/</guid>
+      <description>“真正的资产阶级文化恰恰产生于60年代的这场旨在破坏传统文化和生活方式的革命之后：它被称为“后现代主义”，它推毁了文化的等级制，扩大了文化的</description>
+    </item>
+    <item>
+      <title>John Mclaughlin与Fusion（1970年附近的爵士与摇滚）</title>
+      <link>http://localhost:1313/2021/john-mclaughlin%E4%B8%8Efusion1970%E5%B9%B4%E9%99%84%E8%BF%91%E7%9A%84%E7%88%B5%E5%A3%AB%E4%B8%8E%E6%91%87%E6%BB%9A/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2021/john-mclaughlin%E4%B8%8Efusion1970%E5%B9%B4%E9%99%84%E8%BF%91%E7%9A%84%E7%88%B5%E5%A3%AB%E4%B8%8E%E6%91%87%E6%BB%9A/</guid>
+      <description>原文作者：Gene Santoro 其实一开始在《Birds of Fire》的CD内页看到，第一眼就觉得开头对fusion一词的定义溯源和嘲弄很有趣就想翻，后来</description>
+    </item>
+    <item>
+      <title>Donovan·The Hurdy Gurdy Man；披头士·迷幻·嬉皮·印度</title>
+      <link>http://localhost:1313/2021/donovanthe-hurdy-gurdy-man%E6%8A%AB%E5%A4%B4%E5%A3%AB%E8%BF%B7%E5%B9%BB%E5%AC%89%E7%9A%AE%E5%8D%B0%E5%BA%A6/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2021/donovanthe-hurdy-gurdy-man%E6%8A%AB%E5%A4%B4%E5%A3%AB%E8%BF%B7%E5%B9%BB%E5%AC%89%E7%9A%AE%E5%8D%B0%E5%BA%A6/</guid>
+      <description>资源：原版流媒体就有。资源为2005年重制版，主要是包含了7首bonus。 链接：https://pan.baidu.com/s/1C1-kl</description>
+    </item>
+    <item>
+      <title>Nothing really matters——Echoes的创作过程</title>
+      <link>http://localhost:1313/2021/nothing-really-mattersechoes%E7%9A%84%E5%88%9B%E4%BD%9C%E8%BF%87%E7%A8%8B/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2021/nothing-really-mattersechoes%E7%9A%84%E5%88%9B%E4%BD%9C%E8%BF%87%E7%A8%8B/</guid>
+      <description>Pink Floyd开始准备着手创造新专辑的时候并不顺利，大家头脑空空，彼此否定，一筹莫展，无所事事。不过无论如何，PF毕竟是个有灵感就上，没灵感（</description>
+    </item>
+  </channel>
+</rss>

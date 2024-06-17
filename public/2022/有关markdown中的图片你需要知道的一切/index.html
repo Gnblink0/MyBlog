@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Obsidian使用场景下的Markdown图片设定与操作'><title>有关Markdown中的图片，你需要知道的一切</title>
+
+<link rel='canonical' href='http://localhost:1313/2022/%E6%9C%89%E5%85%B3markdown%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E5%88%87/'>
+
+<link rel="stylesheet" href="/scss/style.min.a244b3b8c8f3e003abb4e22ba4401040ec1547ab2b1a0b28ad34c433f3e56906.css"><meta property='og:title' content='有关Markdown中的图片，你需要知道的一切'>
+<meta property='og:description' content='Obsidian使用场景下的Markdown图片设定与操作'>
+<meta property='og:url' content='http://localhost:1313/2022/%E6%9C%89%E5%85%B3markdown%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E5%88%87/'>
+<meta property='og:site_name' content='关门说话'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='生产力' /><meta property='article:tag' content='方法论' /><meta property='article:tag' content='obsidian' /><meta property='article:published_time' content='2022-03-05T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-03-05T00:00:00&#43;00:00'/><meta property='og:image' content='https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg' />
+<meta name="twitter:title" content="有关Markdown中的图片，你需要知道的一切">
+<meta name="twitter:description" content="Obsidian使用场景下的Markdown图片设定与操作"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg' />
+    <link rel="shortcut icon" href="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/favicon.png" />
+
+  
+
+<style>
+    :root {
+        --article-font-family: "Noto Serif SC", var(--base-font-family);
+    }
+</style>
+
+<script> 
+		(function () {
+		    const customFont = document.createElement('link');
+		    customFont.href = "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;700&display=swap"; 
+		    customFont.type = "text/css";
+		    customFont.rel = "stylesheet";
+		
+		    document.head.appendChild(customFont);
+		}());
+</script>
+
+    </head>
+    <body class="
+    article-page
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    <!-- 
+        extended
+     -->
+    on-phone--column extended
+">
+    
+<div id="article-toolbar">
+    <a href="http://localhost:1313/" class="back-home">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+        <span>Back</span>
+    </a>
+</div>
+    <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu7331c604e51c27b6e5cfc85d6dac2614_113250_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <h1 class="site-name"><a href="/">关门说话</a></h1>
+        <h2 class="site-description">𓆡𓆝𓆟𓆜 𓆞𓆝𓆟 𓆜𓆞</h2></header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>friends</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E%E6%88%91/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于我</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>Dark Mode</span>
+            </li>
+        
+    </ol>
+</aside>
+
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/2022/%E6%9C%89%E5%85%B3markdown%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E5%88%87/">
+                
+                    <img src="https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg" loading="lazy" alt="Featured image of post 有关Markdown中的图片，你需要知道的一切" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E5%B7%A5%E5%85%B7/" >
+                工具
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/2022/%E6%9C%89%E5%85%B3markdown%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E5%88%87/">有关Markdown中的图片，你需要知道的一切</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        Obsidian使用场景下的Markdown图片设定与操作
+    </h3>
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Mar 05, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-words">
+                    3153字
+                </time>
+            </div>
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>我一直觉得「图片」是理解markdown格式的一个艰难之处，因为它的图片逻辑和我们平时接触的图片逻辑都不一样，我一开始也完全不理解，花了挺久才搞懂而且逐渐习惯。所以这篇文章基本是把我走过的弯路总结出来，以便大家对markdown中的图片直接理解和上手，避免产生困惑浪费时间。</p>
+<p>所以如果你正在使用markdown，而且对它的图片设定抱有疑惑，比如：<strong>为什么我的图片是一个单独的page</strong>？<strong>为什么不能直接长按保存图片</strong>？<strong>为什么不能直接编辑图片</strong>？<strong>我要怎么修改图片大小</strong>？这篇文章应该能一次性解决你的很多疑惑。</p>
+<h2 id="弱图文排版特质">弱图文排版特质</h2>
+<p>首先，所有的图片在markdown格式中都是以<strong>链接</strong>（link）的形式<strong>嵌入</strong>（embed）文本中的，逻辑和网页链接、笔记链接没有区别。</p>
+<p>所以，鱼与熊掌不可兼得。markdown格式的优点在于忽略排版专注内容、大小极小清爽方便；而弱点就是<strong>不擅长图文排版</strong>。</p>
+<p>在markdown里可以链接插入图片以实现最基本的图片显示功能，但是如果想实现像word或者微信公众号里一样的丰富图文排版……几乎不可能，除非打很多插件疯狂折腾，但我觉得应该把合适的使用场景留给合适的工具，没有必要魔改强求。如果你有很高的图文排版要求，markdown并不是适合你的文本格式。</p>
+<blockquote>
+<p>关于markdown格式的进一步介绍：</p>
+<p><a class="link" href="https://zhuanlan.zhihu.com/p/86516807"  target="_blank" rel="noopener"
+    >为什么用Markdown，而不用Word？ - 知乎</a>；</p>
+<p><a class="link" href="https://markdown.com.cn/intro.html"  target="_blank" rel="noopener"
+    >Markdown 入门基础 | Markdown 官方教程</a>；</p>
+<p><a class="link" href="https://publish.obsidian.md/chinesehelp/01&#43;2021%E6%96%B0%E6%95%99%E7%A8%8B/MarkDown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B&#43;by&#43;%E6%88%90%E9%9B%99%E9%86%AC"  target="_blank" rel="noopener"
+    >MarkDown超级教程 by 成雙醬 - Obsidian中文教程</a>；</p>
+</blockquote>
+<h2 id="markdown中的两种图片形式">Markdown中的两种图片形式</h2>
+<p>首先介绍一个概念：</p>
+<p><code>!</code> （英文感叹号）在markdown中的意思是「渲染」， page、图片、pdf链接都可以通过前加 <code>!</code> 直接渲染。</p>
+<p>渲染的意思是「可以直接显示内容而不是标题」；如果去掉 <code>!</code>，则只会显示标题，鼠标悬停在上面才可以看见内容（即不渲染）。</p>
+<hr>
+<p>其次，Markdown之中有两种储存图片的方式。</p>
+<h3 id="本地储存internal-embeds">本地储存（internal embeds）</h3>
+<img src="https://s2.loli.net/2022/03/05/j9qiAQfdGWObMDK.png" alt="本地储存图片的格式与效果🌰" style="zoom:50%;" />
+<p>将图片以png、jpg、gif等图片格式直接存在你的本地硬盘（也就是你的 obsidian vault中）</p>
+<p>格式为： <code>![[图片名称.格式后缀]]</code></p>
+<p>当你直接把图片拖入或者粘贴到obsidian，obsidian会自动使用这个方式在本地创建一个图片page。可以修改该page的名字，但是不能修改后缀和格式，也不能往该界面内加任何其他内容（本质上就是 ob把图片存到了本地且读取后用page形式呈现了）。</p>
+<p>然后ob也就像引用其他page一样引用这个图片page，并通过<code>!</code> 渲染方式以直接显示图片。</p>
+<h3 id="外链渲染external-embeds">外链渲染（external embeds）</h3>
+<img src="https://s2.loli.net/2022/03/05/swz4xPeSoyp2QBc.png" alt="外链渲染图片的格式与效果🌰" style="zoom:50%;" />
+<p>像渲染外部网页链接一样直接渲染图片外链</p>
+<p>格式也完全一致，即： <code>![图片名称 /可以为空](图片链接)</code></p>
+<p>这样，图片不仅不会占用你的本地储存空间，而且如果你要把markdown里的图片上传到网络，可以直接使用该链接而无需任何额外更改和上传，任何网站都可以成功读取渲染这张图片。</p>
+<h3 id="取舍">取舍</h3>
+<p>这两者并无优劣之分，它们的优缺点是相反且互补的。</p>
+<ul>
+<li>
+<p>本地储存</p>
+<ul>
+<li>非常安全、不怕丢失 ✅</li>
+<li>上传加载迅速 ✅</li>
+<li>随时随地查看图片✅</li>
+<li>占用本地储存空间 ❌</li>
+<li>污染文件命名 / 每次都要命名图片很麻烦 ❌</li>
+</ul>
+</li>
+<li>
+<p>外链</p>
+<ul>
+<li>不占用本地空间 ✅</li>
+<li>方便在互联网直接传播 ✅</li>
+<li>没网的时候看不到图❌</li>
+<li>链接失效图片就会丢失 ❌</li>
+<li>上传下载缓慢 还有可能失败 ❌</li>
+</ul>
+</li>
+</ul>
+<p>下面会介绍以<strong>外链为主</strong>的<strong>两种方法的互补和转换</strong>。</p>
+<h2 id="我该如何上传图片">我该如何上传图片？</h2>
+<h3 id="本地">本地</h3>
+<ul>
+<li>
+<p>在pc端非常方便，直接复制图片粘贴、把图片拖入ob都行</p>
+</li>
+<li>
+<p>在移动端只能按按钮从相册导入，这也是本地图片不方便的一点</p>
+</li>
+</ul>
+<h4 id="提醒">提醒</h4>
+<p>如果要常用本地文件，最好设置一下单独的「附件」文件夹</p>
+<p>位置在 <code>设置-文件与链接</code> ，最下方的两个选项设置成如图（我这里取名“附件”，文件夹名称可以自定义，但首先你得创建这个文件夹）</p>
+<p><figure 
+	>
+	<a href="https://s2.loli.net/2022/04/08/uGLIPRQkEanXcAr.png" >
+		<img src="https://s2.loli.net/2022/04/08/uGLIPRQkEanXcAr.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<h3 id="图床">图床</h3>
+<p>本地图片是没有网络链接的，要把本地图片转成一个随处可以读取的链接，就要用到图床。</p>
+<h4 id="什么是图床">什么是图床？</h4>
+<p>图床就是给图片提供一个容身之处。</p>
+<p>平时，你的图片栖息在你的硬盘中，如果你想把图片分享到网络上，就必须要找到一个平台托管你的图片、赋予你一个代表该图的网络链接，然后以这个链接为基础才可以把图片共享到全互联网。</p>
+<p>其实你平时用的微博、朋友圈，都在帮你托管着图片，只是这仅仅是它们的一个附带功能，所以你并不会把它们看成是图床。而图床网站就是专门帮你托管图片、提供图片链接的网站。</p>
+<p>关于主流图床的选择请自行搜索，我目前认为最好的方法是【GitHub自建图床+jsDelivr国内加速】，同样请靠关键字自行搜索，此处不细讲。</p>
+<h4 id="自动化图床">自动化图床</h4>
+<p>现在我们有了图床，问题是，如果每次使用图片都需要<strong>手动操作</strong>（复制图片、粘贴图片、打开网站、点击上传、复制链接、粘贴链接）也太麻烦了。</p>
+<p>好在计算机工具的最大特点就是让人类可以通过脚本从重复劳动中解放出来。</p>
+<p>请看神器：PicGo （<a class="link" href="https://github.com/Molunerfinn/PicGo"  target="_blank" rel="noopener"
+    >Github下载地址</a>、<a class="link" href="https://picgo.github.io/PicGo-Doc/"  target="_blank" rel="noopener"
+    >帮助文档</a> 、<a class="link" href="https://picgo.github.io/PicGo-Doc/zh/guide/config.html#%E5%9B%BE%E5%BA%8A%E5%8C%BA"  target="_blank" rel="noopener"
+    >配置手册</a>），PicGo正是如此一个集合各大图床的脚本工具，它可以帮你把图床操作简化到<strong>图片上传、获取链接</strong>两步。</p>
+<h4 id="obsidian与图床联动">Obsidian与图床联动</h4>
+<p>没错，两步还不是最简单的，还有更简单的一步操作，你甚至不用上传图片只要复制粘贴就行了！</p>
+<p>请看神器：ob插件—— Image auto upload Plugin（<a class="link" href="https://github.com/renmu123/obsidian-image-auto-upload-plugin"  target="_blank" rel="noopener"
+    >Github下载地址</a>；你也可以在官方插件社区中直接搜索名字下载）</p>
+<p><figure 
+	>
+	<a href="https://s2.loli.net/2022/03/21/o6JExeBiLr2mKqw.png" >
+		<img src="https://s2.loli.net/2022/03/21/o6JExeBiLr2mKqw.png"
+			
+			
+			
+			loading="lazy"
+			alt="Image auto upload Plugin">
+	</a>
+	
+	<figcaption>Image auto upload Plugin</figcaption>
+	
+</figure></p>
+<p>只要你完成了PicGo的设置可以正常使用，直接下载这个插件就可以做到「直接粘贴/拖入图片→自动上传到图床→返回外链显示」，究极丝滑全自动化操作完全实现！<img src="https://media.cmx.edu.kg/cache/custom_emojis/images/000/129/022/original/c05485f442d4f70c.png" alt=":ablobcall:" style="zoom:25%;" /></p>
+<h4 id="图床转本地">图床转本地</h4>
+<p>如果你的图床跑路了，或者因为其他奇奇怪怪的原因你不想再用图床了，感觉还是自己的图片放在自己硬盘最舒心，你可以用插件把图床图片下载到本地</p>
+<p>插件：Local Images（<a class="link" href="https://github.com/aleksey-rezvov/obsidian-local-images"  target="_blank" rel="noopener"
+    >Github下载地址</a>），可以实现单页或全库的图床图片下载且转换为本地。</p>
+<p><figure 
+	>
+	<a href="https://s2.loli.net/2022/03/21/2QXjhNbBtAsl1Of.png" >
+		<img src="https://s2.loli.net/2022/03/21/2QXjhNbBtAsl1Of.png"
+			
+			
+			
+			loading="lazy"
+			alt="Local Images">
+	</a>
+	
+	<figcaption>Local Images</figcaption>
+	
+</figure></p>
+<h2 id="我该如何导出图片">我该如何导出图片？</h2>
+<p>上传到obsidian的图片在手机上无法直接长按保存，pc端也无法右键保存，这也是最开始困扰我的点。</p>
+<p><figure 
+	>
+	<a href="https://s2.loli.net/2022/03/03/DiCYbJh74qG9Oxo.png" >
+		<img src="https://s2.loli.net/2022/03/03/DiCYbJh74qG9Oxo.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>解决方式是</p>
+<ul>
+<li>
+<p>截图</p>
+<p>没错，如果你只是想快速分享，不追求保留原画质，截图仍是最方便快捷的方法</p>
+</li>
+<li>
+<p>因为<strong>本地图片</strong>本身就是一个图片附件，所以你可以直接找到并保存这个附件</p>
+<p>x 但我认为这个方法比较繁琐，不推荐使用</p>
+<ul>
+<li>pc端：把图片附件当成一个界面打开→点击右上角三个点→在系统资源管理器中显示→在弹出来的系统文件夹中右键拷贝/保存此图</li>
+<li>移动端：把图片附件当成一个界面打开→点击右上角三个点→分享→在弹出来的系统分享界面里拷贝/保存此图</li>
+</ul>
+</li>
+<li>
+<p>下载下面的Image Toolkit插件！</p>
+<p>下面那排的最后一个键就是复制此图，无论是本地还是外链皆可一键复制，这是我平时最常用的方法</p>
+</li>
+</ul>
+<h2 id="我可以改变图片大小吗">我可以改变图片大小吗？</h2>
+<p>❗️：这并不是markdown通用方法，而是obsidian特有的。</p>
+<p>你可以在图片名称里输入<code>|像素数字</code>改变图片大小，单独输入的数字默认是「宽度的像素值」。</p>
+<p>如，以下例子的意思为：保持宽高比，更改图片宽度为200像素。</p>
+<ul>
+<li><code>![[我是图片.jpg|200]]</code>。</li>
+<li><code>![|200](https://s2.loli.net/2022/03/03/DiCYbJh74qG9Oxo.png)</code></li>
+</ul>
+<p>如果想更改高度或宽高比，则数字格式为：100x100（前宽度；后高度）</p>
+<h2 id="其他相关插件推荐">其他相关插件推荐</h2>
+<h3 id="image-toolkit">Image Toolkit</h3>
+<p>仓库地址：https://github.com/sissilab/obsidian-image-toolkit</p>
+<p>markdown里的图片浏览体验非常简陋，只能放大查看。这个插件提供了一系列查看图片时可以按比例缩放、旋转、全屏、复制图片 等功能（注意：是「查看图片」，这代表图片视角暂时改变，不代表图片本身被编辑了）</p>
+<p><figure 
+	>
+	<a href="https://s2.loli.net/2022/03/21/JyZipEf5YTorlgq.gif" >
+		<img src="https://s2.loli.net/2022/03/21/JyZipEf5YTorlgq.gif"
+			
+			
+			
+			loading="lazy"
+			alt="效果">
+	</a>
+	
+	<figcaption>效果</figcaption>
+	
+</figure></p>
+<h3 id="media-extended">Media Extended</h3>
+<p>上文提到了 <code>!</code> 可以渲染page、图片、pdf链接，但是这也就是obsidian自带支持的唯三渲染了，没有想到吧！</p>
+<p>好吧，反正这个插件可以拓展可渲染媒体，包括音频、视频等，而且额外提供提供倍速播放等功能。</p>
+<p>效果：https://user-images.githubusercontent.com/31102694/118903678-dd82fe00-b94a-11eb-8ef3-7b5044a2bab8.mp4</p>
+
+</section>
+
+
+    
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Related contents</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="has-image">
+    <a href="/2021/%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%88%ABobsidian%E5%85%A5%E9%97%A8%E6%93%8D%E4%BD%9C%E6%80%9D%E8%B7%AF%E6%8C%87%E5%8D%97/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://www.solidsmack.com/wp-content/uploads/2020/08/obsidian-resin-block-finished--1100x618.jpg" loading="lazy" data-key="" data-hash="https://www.solidsmack.com/wp-content/uploads/2020/08/obsidian-resin-block-finished--1100x618.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">保姆级别Obsidian入门操作思路指南</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://s2.loli.net/2022/03/03/Eef1TqSDl9QuGNd.jpg" loading="lazy" data-key="" data-hash="https://s2.loli.net/2022/03/03/Eef1TqSDl9QuGNd.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">黑曜石——你的第二大脑</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/2022/ob%E6%9A%96%E6%9A%96%E6%8D%A2%E8%A3%85%E4%B8%8D%E6%98%AF%E5%A4%A7%E5%B9%85%E7%BE%8E%E5%8C%96ob%E7%9A%84css%E7%89%87%E6%AE%B5/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511174142.png" loading="lazy" data-key="" data-hash="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/img/20220511174142.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ob暖暖换装（不是）——大幅美化ob的css片段</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+     
+     
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (DISQUS) {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+  
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+<script>
+(function(u, c) {
+  var d = document, t = 'script', o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+  o.src = u;
+  if (c) { o.addEventListener('load', function(e) { c(e); }); }
+  s.parentNode.insertBefore(o, s);
+})('//cdn.bootcss.com/pangu/3.3.0/pangu.min.js', function() {
+  pangu.spacingPage();
+});
+</script>
+
+    <section class="copyright">
+        &copy; 
+        
+            2022.03.03 - 
+        
+        2024·<i class="fas fa-bell"></i> <a id="days">0</a>Days<br>
+      共书写了180.4k字·共 18篇文章</br><span><p>
+    </section>
+    
+    <section class="powerby">
+        Enter through the narrow gate. <br />
+        For wide is the gate and broad is the way that leads to destruction,and many enter through it. <br />
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.2.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a><br />
+         <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">© Licensed Under CC BY-NC-SA 4.0</a>
+        
+
+    </section>
+
+<script>
+var s1 = '2022-03-03';
+s1 = new Date(s1.replace(/-/g, "/"));
+s2 = new Date();
+var days = s2.getTime() - s1.getTime();
+var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+document.getElementById('days').innerHTML = number_of_days;
+</script>
+    
+</footer>
+
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+    
+    
+    <aside class="sidebar right-sidebar sticky">
+        
+            <form action="/search/" class="search-form widget" >
+        <p>
+            <label>Search</label>
+            <input name="keyword" required placeholder="Type something..." />
+        
+            <button title="Search">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+            </button>
+        </p>
+    </form>
+        
+            
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#弱图文排版特质">弱图文排版特质</a></li>
+    <li><a href="#markdown中的两种图片形式">Markdown中的两种图片形式</a>
+      <ol>
+        <li><a href="#本地储存internal-embeds">本地储存（internal embeds）</a></li>
+        <li><a href="#外链渲染external-embeds">外链渲染（external embeds）</a></li>
+        <li><a href="#取舍">取舍</a></li>
+      </ol>
+    </li>
+    <li><a href="#我该如何上传图片">我该如何上传图片？</a>
+      <ol>
+        <li><a href="#本地">本地</a>
+          <ol>
+            <li><a href="#提醒">提醒</a></li>
+          </ol>
+        </li>
+        <li><a href="#图床">图床</a>
+          <ol>
+            <li><a href="#什么是图床">什么是图床？</a></li>
+            <li><a href="#自动化图床">自动化图床</a></li>
+            <li><a href="#obsidian与图床联动">Obsidian与图床联动</a></li>
+            <li><a href="#图床转本地">图床转本地</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#我该如何导出图片">我该如何导出图片？</a></li>
+    <li><a href="#我可以改变图片大小吗">我可以改变图片大小吗？</a></li>
+    <li><a href="#其他相关插件推荐">其他相关插件推荐</a>
+      <ol>
+        <li><a href="#image-toolkit">Image Toolkit</a></li>
+        <li><a href="#media-extended">Media Extended</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+        
+            <section class="widget categories">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+  
+        </div> 
+        <h2 class="widget-title section-title">Categories</h2>
+    <div class="widget-categories--list">
+<div class="widget">
+    <h3 class="widget-title"> </h3>
+    <div class="widget-body">
+        <div class="category-list">
+            <div class="category-list-item"><a href="http://localhost:1313/categories/%E4%B9%90/" class="category-list-link">乐<span class="category-list-count">5</a>
+            </span></div>
+            <div class="category-list-item"><a href="http://localhost:1313/categories/%E4%B9%A6/" class="category-list-link">书<span class="category-list-count">3</a>
+            </span></div>
+            <div class="category-list-item"><a href="http://localhost:1313/categories/%E5%AD%A6%E4%B9%A0/" class="category-list-link">学习<span class="category-list-count">3</a>
+            </span></div>
+            <div class="category-list-item"><a href="http://localhost:1313/categories/%E5%B7%A5%E5%85%B7/" class="category-list-link">工具<span class="category-list-count">6</a>
+            </span></div>
+            <div class="category-list-item"><a href="http://localhost:1313/categories/%E6%97%A5%E5%B8%B8/" class="category-list-link">日常<span class="category-list-count">1</a>
+            </span></div>
+        </div>
+    </div>
+</div>
+    </div>
+    </section>
+        
+            <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Archives</h2>
+
+        
+        
+        
+        
+        
+        <div class="widget-archive--list">
+            <div class="archives-year">
+                    <a href="/archives/#2024">
+                        
+                            <span class="year">2024</span>
+                            <span class="count">1</span>
+                        
+                    </a> 
+                </div>
+            <div class="archives-year">
+                    <a href="/archives/#2022">
+                        
+                            <span class="year">2022</span>
+                            <span class="count">8</span>
+                        
+                    </a> 
+                </div>
+            <div class="archives-year">
+                    <a href="/archives/#2021">
+                        
+                            <span class="year">2021</span>
+                            <span class="count">9</span>
+                        
+                    </a> 
+                </div>
+            
+        </div>
+    </section>
+        
+            <section class="widget tagCloud">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+    </div>
+    <h2 class="widget-title section-title">Tags</h2>
+
+    <div class="tagCloud-tags">
+        
+            <a href="/tags/obsidian/" class="font_size_4">
+                Obsidian
+            </a>
+        
+            <a href="/tags/%E4%B8%93%E8%BE%91/" class="font_size_4">
+                专辑
+            </a>
+        
+            <a href="/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" class="font_size_3">
+                方法论
+            </a>
+        
+            <a href="/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B/" class="font_size_3">
+                生产力
+            </a>
+        
+            <a href="/tags/60s/" class="font_size_2">
+                60s
+            </a>
+        
+            <a href="/tags/crashcourse/" class="font_size_2">
+                CrashCourse
+            </a>
+        
+            <a href="/tags/%E4%B9%90%E9%98%9F/" class="font_size_2">
+                乐队
+            </a>
+        
+            <a href="/tags/%E7%BD%91%E8%AF%BE/" class="font_size_2">
+                网课
+            </a>
+        
+            <a href="/tags/css/" class="font_size_1">
+                Css
+            </a>
+        
+            <a href="/tags/jeff-buckley/" class="font_size_1">
+                Jeff Buckley
+            </a>
+        
+    </div>
+</section>
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<script src="/js/copy-to-clipboard.js"></script>
+    </body>
+</html>
