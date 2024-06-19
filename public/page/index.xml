@@ -20,7 +20,7 @@
       <link>http://localhost:1313/links/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/links/</guid>
-      <description>这个标题默认隐藏了标题与页尾，推荐用以下格式来交换友情链接。 友链头像放在/assets/link-img，友链数据放在/data/links</description>
+      <description></description>
     </item>
     <item>
       <title>About me</title>

@@ -4,7 +4,7 @@ title = "保姆级别Obsidian入门操作思路指南"
 date = "2021-12-29"
 description = "A second brain for you"
 categories = [
-    "工具"
+    "攻略"
 ]
 tags = [
     "obsidian",

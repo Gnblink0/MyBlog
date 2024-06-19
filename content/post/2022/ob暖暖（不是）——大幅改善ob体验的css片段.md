@@ -5,7 +5,7 @@ title = "ob暖暖换装（不是）——大幅美化ob的css片段"
 date = "2022-05-11"
 description = ""
 categories = [
-    "工具"
+    "攻略"
 ]
 tags = [
     "obsidian",
