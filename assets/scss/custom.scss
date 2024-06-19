@@ -305,7 +305,7 @@ body {
     font-family: var(--base-font-family) !important;
     font-size: 1.5rem;
     font-weight: 400;
-
+    -webkit-font-smoothing: antialiased;
 }
 
 // 图片并排
@@ -324,11 +324,20 @@ body {
   height: auto;
 }
 
+// 引用块
+.article-content blockquote {
+  margin-top: 0!important;
+}
+
+p~.quoteblock {
+  margin-bottom: 0;
+}
+
 // 段落缩小上下距离
-p {
+.article-content>p {
   display: block;
-  margin-block-start: 10px;
-  margin-block-end: 10px;
+  margin-block-start: 10px !important;
+  margin-block-end: 10px !important;
 }
 
 //列表左侧减少距离
