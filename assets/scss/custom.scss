@@ -295,6 +295,17 @@ blockquote.quote {
 
 // 自加改变
 
+body {
+  // 侧边栏深灰
+  --body-text-color: #9a9a9a;
+}
+
+.article-content{
+    font-family: var(--base-font-family) !important;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
 // 段落缩小上下距离
 p {
   display: block;
@@ -375,7 +386,7 @@ p {
 [class*=" box"] {
   background-color: #fffeb4a3;
 
-  padding: 0.5em;
+  padding: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
 

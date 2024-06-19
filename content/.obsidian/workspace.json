@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "9d9906b158c48bf9",
+    "type": "split",
+    "children": [
+      {
+        "id": "296a6b3301b2bcac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf2335c2a1b5ac2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "page/friends/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f8e01bee28fc863",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "787b68c0a76bc830",
+    "type": "split",
+    "children": [
+      {
+        "id": "63dbd9c5b7128008",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19e2bebdf392761e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9b7b35620370a241",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "980dc7222a866ae8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "306456803efbd5f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b701ea7b75cbd9a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2688b1f773a165ab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c799dfbb0052a25c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8107c3349547fc9d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9a338805ed39674e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1f8e01bee28fc863",
+  "lastOpenFiles": [
+    "post/2024/Clipboard - 2023-12-31 12.26.37.png",
+    "page/friends/index.md",
+    "page/archives/index.md",
+    "page/about/index.md",
+    "categories/Test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg",
+    "categories/Test/_index.md",
+    "post/2022/假期画饼.md",
+    "post/2022/后冷战的文明之间 博客版.md",
+    "post/2022/有关obsidian（markdown）中的图片，你需要知道的一切.md",
+    "post/2022/电子书资源.md",
+    "post/2022/雅思经验.md",
+    "post/2024/舍友:情侣防闹掰互检表.md",
+    "post/2024/带猫猫一起坐飞机从中国来加拿大.md"
+  ]
+}
