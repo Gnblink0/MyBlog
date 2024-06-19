@@ -311,9 +311,11 @@ body {
       "Segoe UI Emoji",
       Segoe UI Symbol;
     color: #122130!important;
-    font-size: 1.6rem;
+    font-size: 16px!important;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    letter-spacing: 0.35px;
 }
 
 // 图片并排
