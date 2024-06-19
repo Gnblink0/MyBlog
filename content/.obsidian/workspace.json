@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "page/friends/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "page/friends/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "page/friends/index.md"
+              }
             }
           }
         ]
@@ -151,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19e2bebdf392761e",
+  "active": "1f8e01bee28fc863",
   "lastOpenFiles": [
     "post/2022/假期画饼.md",
     "post/2024/Clipboard - 2023-12-31 12.26.37.png",

@@ -302,8 +302,16 @@ body {
 
 // 文章内容字体
 .article-content{
-    font-family: var(--base-font-family) !important;
-    font-size: 1.5rem;
+  
+    font-family: 
+      Helvetica Neue,
+      helvetica,
+      arial,
+      sans-serif,
+      "Apple Color Emoji",
+      "Segoe UI Emoji",
+      Segoe UI Symbol;
+    font-size: 1.6rem;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
 }
@@ -407,17 +415,17 @@ p {
 
 //infobox
 
-
-
 [class^="box"],
 [class*=" box"] {
   background-color: #fffeb4a3;
 
-  padding: 1em;
+  padding: 1em 1.5em 1em 1em;
   margin-top: 1em;
   margin-bottom: 1em;
 
   border-radius: 10px;
+
+  text-align:justify;
 
 }
 
