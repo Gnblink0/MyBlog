@@ -1,7 +1,7 @@
 {
   "baseFontSize": 15,
   "theme": "system",
-  "cssTheme": "",
+  "cssTheme": "Prism",
   "enabledCssSnippets": [
     "better quote",
     "【图标】预览网址加图标 - External Link Icons",

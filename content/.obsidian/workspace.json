@@ -168,6 +168,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-rich-links:Rich Links": false,
+      "obsidian-wordnet-plugin:WordNet Dictionary": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-daily-notes-viewer:Open Viewer": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,11 +190,15 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "obsidian-zhushi:打开注释面板": false,
       "templater-obsidian:Templater": false,
-      "obsidian-memos:Thino": false
+      "obsidian-memos:Thino": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "a926470b13aa8820",
   "lastOpenFiles": [
+    "blender.md",
+    "post/2022/有关markdown中的图片，你需要知道的一切.md",
+    "人类大脑的特质.md",
     "我的厌女.md",
     "长毛象离线嘟文.md",
     "博客.md",
@@ -212,9 +223,6 @@
     "ℹ️其他/blog/假期画饼.md",
     "草稿.md",
     "ℹ️其他/Untitled",
-    "受损提纯，利益包庇.md",
-    "厌女症.md",
-    "Hugo.md",
     "Pasted Image 20240615005658.jpeg",
     "🔗附件/fV3NrSHIaho96Pt.png",
     "室友 ",
