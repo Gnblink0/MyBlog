@@ -301,7 +301,15 @@ body {
 }
 
 // 文章内容字体
-.article-content{
+:root {
+    --card-text-color-main: #122130;
+}
+
+:root[data-scheme=dark] {
+  color: white;
+}
+
+.article-content {
     font-family: 
       Helvetica Neue,
       helvetica,
@@ -310,13 +318,18 @@ body {
       "Apple Color Emoji",
       "Segoe UI Emoji",
       Segoe UI Symbol;
-    color: #122130!important;
     font-size: 16px!important;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     line-height: 1.5;
     letter-spacing: 0.35px;
 }
+
+.menu {
+  font-size: 1em;
+}
+
+
 
 @media (max-width: 768px) {
   .article-content {
