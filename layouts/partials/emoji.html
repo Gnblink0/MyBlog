@@ -1,0 +1,4 @@
+{{ $content := .Content }}
+{{ $pattern := `\[表情\]\((https?://[^\s]+)\s*"[^"]*"\)` }}
+{{ $replacement := `<img src="$1" align="inline" width="30px"/>` }}
+{{ $content | replaceRE $pattern $replacement | safeHTML }}

@@ -1,0 +1,46 @@
+
+.custom-card {
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 60vw;
+    background-color: #fff;
+}
+
+@media (max-width: 1200px) {
+    .custom-card {
+        max-width: 70vw;
+        /* 中屏幕上最大宽度为视口宽度的70% */
+    }
+}
+
+@media (max-width: 992px) {
+    .custom-card {
+        max-width: 80vw;
+        /* 小屏幕上最大宽度为视口宽度的80% */
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-card {
+        max-width: 90vw;
+        /* 超小屏幕上最大宽度为视口宽度的90% */
+    }
+}
+
+.custom-card .article-meta {
+    font-size: 0.85em;
+    color: #BABABA;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: right;
+    /* 确保日期在右侧 */
+}
+
+.custom-card .article-content {
+    padding-top: 0.5em;
+    font-size: 1em;
+    color: #444;
+    text-align: justify;
+}

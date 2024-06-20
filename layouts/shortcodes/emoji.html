@@ -1,0 +1,8 @@
+{{- $alt := .Get 0 -}}
+{{- $src := .Get 1 -}}
+{{- $code := .Get 2 -}}
+{{- if eq $alt "表情" -}}
+<img src="{{ $src }}" align="inline" width="30px"/>
+{{- else -}}
+![{{ $alt }}]({{ $src }} "{{ $code }}")
+{{- end -}}

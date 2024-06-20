@@ -1,0 +1,19 @@
+{{ define "body-class" }}article-page keep-sidebar{{ end }}
+{{ define "main" }}
+    <head>
+        <link rel="stylesheet" href="/css/short-thoughts.css">
+    </head>
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+            {{ range (where .Site.RegularPages "Section" "short-thoughts") }}
+            <article class="article-card custom-card">
+            <div class="article-content">
+                {{ .Content | markdownify }}
+                <div class="article-meta">
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+{{ end }}

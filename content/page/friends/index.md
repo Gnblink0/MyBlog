@@ -11,7 +11,7 @@ menu:
         name: Friends
         weight: -90
         params:
-            icon: home
+            icon: link
         
 ---
 <style>
