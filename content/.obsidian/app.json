@@ -1,1 +1,37 @@
-{}
+{
+  "fileSortOrder": "byModifiedTime",
+  "legacyEditor": false,
+  "livePreview": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "🔗附件",
+  "smartIndentList": true,
+  "autoPairBrackets": true,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "userIgnoreFilters": [
+    "template/",
+    "🔠English/template/",
+    "👩🏼‍💻课程/大三上/中国近代史/",
+    "👩🏼‍💻课程/大三下/中国历史地理/",
+    "👩🏼‍💻课程/大三上/中国法制史/",
+    "👩🏼‍💻课程/大三上/中国社会经济史/",
+    "logseq/",
+    "👩🏼‍💻课程/大三下/魏晋名士与玄学/",
+    "🔠English/"
+  ],
+  "showLineNumber": false,
+  "strictLineBreaks": false,
+  "foldIndent": true,
+  "foldHeading": true,
+  "spellcheck": true,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "vimMode": false,
+  "showInlineTitle": false
+}

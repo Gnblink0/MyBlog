@@ -1,3 +1,33 @@
 {
-  "accentColor": ""
+  "baseFontSize": 15,
+  "theme": "system",
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "better quote",
+    "【图标】预览网址加图标 - External Link Icons",
+    "test",
+    "Footnote旁注",
+    "dataview cards",
+    "alternativeCheckboxes",
+    "bigger window",
+    "bt-callouts",
+    "clean embed",
+    "bullet",
+    "hyphenation-and-justification",
+    "obsidian.live-preview.css.block-ref-inline",
+    "引用引号",
+    "文件侧栏显示",
+    "标题颜色",
+    "边栏取消padding",
+    "链接图标",
+    "content font"
+  ],
+  "baseFontSizeAction": false,
+  "translucency": true,
+  "accentColor": "#557bb5",
+  "showViewHeader": true,
+  "nativeMenus": true,
+  "textFontFamily": "Helvetica Neue",
+  "interfaceFontFamily": "Helvetica Neue",
+  "monospaceFontFamily": "Helvetica Neue"
 }

@@ -1,0 +1,739 @@
+{
+  "workspaces": {
+    "MOC": {
+      "main": {
+        "id": "a533dfee65928c78",
+        "type": "split",
+        "children": [
+          {
+            "id": "0069e51ef426359c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏠主页 MOC.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            },
+            "group": "8038782a881d7e52"
+          },
+          {
+            "id": "1dacf113a1dde16f",
+            "type": "split",
+            "children": [
+              {
+                "id": "999006126a6d80f0",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "🏠主页 MOC.md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "",
+                      "localJumps": 2,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": false,
+                      "showArrow": false,
+                      "textFadeMultiplier": -2.5,
+                      "nodeSizeMultiplier": 0.948815381811555,
+                      "lineSizeMultiplier": 1.58107344632768,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.45508180503316953,
+                      "close": true
+                    }
+                  }
+                },
+                "group": "8038782a881d7e52"
+              },
+              {
+                "id": "d30478442b6d2aba",
+                "type": "split",
+                "children": [
+                  {
+                    "id": "a076538f25767db5",
+                    "type": "leaf",
+                    "state": {
+                      "type": "backlink",
+                      "state": {
+                        "file": "🏠主页 MOC.md",
+                        "collapseAll": false,
+                        "extraContext": false,
+                        "sortOrder": "alphabetical",
+                        "showSearch": false,
+                        "searchQuery": "",
+                        "backlinkCollapsed": false,
+                        "unlinkedCollapsed": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "e7c0b9e29ddd3ef6",
+                    "type": "leaf",
+                    "state": {
+                      "type": "outgoing-link",
+                      "state": {
+                        "file": "🏠主页 MOC.md",
+                        "linksCollapsed": false,
+                        "unlinkedCollapsed": true
+                      }
+                    }
+                  }
+                ],
+                "direction": "vertical"
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da8a0fd8dcaa02ea",
+        "type": "split",
+        "children": [
+          {
+            "id": "c88861c3e87943e2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "eab6b020a2191e9b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8121bd52520eebcf",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "044c257fd81460b0",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 301,
+        "collapsed": true
+      },
+      "right": {
+        "id": "7ad3093a383496ab",
+        "type": "split",
+        "children": [
+          {
+            "id": "91f83a4858606a4d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "efb312f821735213",
+                "type": "leaf",
+                "state": {
+                  "type": "ob_zhushi",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "c5c89b3c6444bb94",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cb7cb334b9a1478b",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "🏠主页 MOC.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 333.4410095214844,
+        "collapsed": true
+      },
+      "active": "999006126a6d80f0"
+    },
+    "主页": {
+      "main": {
+        "id": "a533dfee65928c78",
+        "type": "split",
+        "children": [
+          {
+            "id": "7de71dd6caac2eee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "《我们为什么要睡觉？》.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da8a0fd8dcaa02ea",
+        "type": "split",
+        "children": [
+          {
+            "id": "c88861c3e87943e2",
+            "type": "tabs",
+            "dimension": 60.22857142857143,
+            "children": [
+              {
+                "id": "eab6b020a2191e9b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "044c257fd81460b0",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "真诚",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "2392286ed3f6b30e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "侧栏.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "cb7cb334b9a1478b",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "《我们为什么要睡觉？》.md"
+                  }
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "8425ee5e642a6ab6",
+            "type": "tabs",
+            "dimension": 39.77142857142857,
+            "children": [
+              {
+                "id": "235bfa39ab809dd1",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "《我们为什么要睡觉？》.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 2,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": false,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1.0269757231405,
+                      "lineSizeMultiplier": 2.19059917355372,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.40714063668484435,
+                      "close": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 287
+      },
+      "right": {
+        "id": "7ad3093a383496ab",
+        "type": "split",
+        "children": [
+          {
+            "id": "afe07ebfcd928719",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "55aa3fe04f794ed6",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "《我们为什么要睡觉？》.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "e7c0b9e29ddd3ef6",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "《我们为什么要睡觉？》.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "8121bd52520eebcf",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "6cc2a4a9505e8fbf",
+                "type": "leaf",
+                "state": {
+                  "type": "ob_zhushi",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 306
+      },
+      "active": "7de71dd6caac2eee"
+    },
+    "完全体": {
+      "main": {
+        "id": "a533dfee65928c78",
+        "type": "split",
+        "children": [
+          {
+            "id": "7de71dd6caac2eee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "睡眠.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da8a0fd8dcaa02ea",
+        "type": "split",
+        "children": [
+          {
+            "id": "c88861c3e87943e2",
+            "type": "tabs",
+            "dimension": 60.22857142857143,
+            "children": [
+              {
+                "id": "eab6b020a2191e9b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "044c257fd81460b0",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "思想",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "2392286ed3f6b30e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "侧栏.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "cb7cb334b9a1478b",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "睡眠.md"
+                  }
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "8425ee5e642a6ab6",
+            "type": "tabs",
+            "dimension": 39.77142857142857,
+            "children": [
+              {
+                "id": "235bfa39ab809dd1",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "睡眠.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 2,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": false,
+                      "showArrow": false,
+                      "textFadeMultiplier": -1,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.45516572125010474,
+                      "close": true
+                    }
+                  }
+                }
+              },
+              {
+                "id": "f05165988167a4e9",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 306
+      },
+      "right": {
+        "id": "7ad3093a383496ab",
+        "type": "split",
+        "children": [
+          {
+            "id": "afe07ebfcd928719",
+            "type": "tabs",
+            "dimension": 54.400000000000006,
+            "children": [
+              {
+                "id": "55aa3fe04f794ed6",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "睡眠.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "e7c0b9e29ddd3ef6",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "睡眠.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "8121bd52520eebcf",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "ca9fb349e1deb22f",
+            "type": "tabs",
+            "dimension": 45.6,
+            "children": [
+              {
+                "id": "efb312f821735213",
+                "type": "leaf",
+                "state": {
+                  "type": "ob_zhushi",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 330
+      },
+      "active": "7de71dd6caac2eee"
+    },
+    "专注": {
+      "main": {
+        "id": "a533dfee65928c78",
+        "type": "split",
+        "children": [
+          {
+            "id": "7de71dd6caac2eee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "睡眠.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da8a0fd8dcaa02ea",
+        "type": "split",
+        "children": [
+          {
+            "id": "c88861c3e87943e2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "eab6b020a2191e9b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "044c257fd81460b0",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "我们在讲",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "2392286ed3f6b30e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "侧栏.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "cb7cb334b9a1478b",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "睡眠.md"
+                  }
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 287
+      },
+      "right": {
+        "id": "7ad3093a383496ab",
+        "type": "split",
+        "children": [
+          {
+            "id": "afe07ebfcd928719",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "55aa3fe04f794ed6",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "睡眠.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "e7c0b9e29ddd3ef6",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "睡眠.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "8121bd52520eebcf",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "6cc2a4a9505e8fbf",
+                "type": "leaf",
+                "state": {
+                  "type": "ob_zhushi",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 306
+      },
+      "active": "7de71dd6caac2eee"
+    }
+  },
+  "active": "完全体"
+}

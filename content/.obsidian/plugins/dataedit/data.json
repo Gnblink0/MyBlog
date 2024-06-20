@@ -1,0 +1,48 @@
+{
+  "autoSuggest": true,
+  "showNumberButtons": true,
+  "showTypeIcons": true,
+  "emptyValueDisplay": "-",
+  "queryLinksPropertyName": "dataedit-links",
+  "cssClassName": "",
+  "columnAliases": [
+    [
+      "thisColumn",
+      "showThisAlias"
+    ]
+  ],
+  "verticalAlignment": "top",
+  "horizontalAlignment": "start",
+  "alignmentByType": {
+    "text": {
+      "vertical": "top",
+      "horizontal": "start",
+      "enabled": false
+    },
+    "list": {
+      "vertical": "top",
+      "horizontal": "start",
+      "enabled": false
+    },
+    "number": {
+      "vertical": "top",
+      "horizontal": "start",
+      "enabled": false
+    },
+    "checkbox": {
+      "vertical": "top",
+      "horizontal": "start",
+      "enabled": false
+    },
+    "date": {
+      "vertical": "top",
+      "horizontal": "start",
+      "enabled": false
+    },
+    "datetime": {
+      "vertical": "top",
+      "horizontal": "start",
+      "enabled": false
+    }
+  }
+}

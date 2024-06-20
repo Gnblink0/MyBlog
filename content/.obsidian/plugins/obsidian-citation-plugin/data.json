@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "biblatex",
+  "literatureNoteTitleTemplate": "{{title}} {{authorString}}",
+  "literatureNoteFolder": "",
+  "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{authorString}}\nyear: {{year}}\ntag: \"论文\"\n---\n\n[ℤ《{{title}}》 {{authorString}}]({{zoteroSelectURI}})\n\n## 笔记\n\n## 摘要\n{{abstract}}\n\n## 正文",
+  "markdownCitationTemplate": "[ℤ《{{title}}》 {{authorString}}]({{zoteroSelectURI}})",
+  "alternativeMarkdownCitationTemplate": "@{{title}}",
+  "citationExportPath": "/Users/gnblink/Downloads/我的文库.bib"
+}

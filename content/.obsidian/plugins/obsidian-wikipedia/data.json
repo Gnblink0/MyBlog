@@ -1,0 +1,7 @@
+{
+  "template": "> [!Infobox right 45%] \n>肖像\n> \n|   []({{url}})   |        |\n|:--------:|:---------------------------------------------: |\n| 国籍     |                                   |\n| 出生     |                         |\n| 逝世     |           |\n| 身份    |     #人/              |\n| 活跃 |             |\n| 相关 |  <div> inspired：</div> <div> inspiring： </div> <div> related </div> |\n\n{{text}}",
+  "shouldUseParagraphTemplate": false,
+  "shouldBoldSearchTerm": false,
+  "paragraphTemplate": "> {{paragraphText}}\n>\n",
+  "language": "zh"
+}

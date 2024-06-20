@@ -1,0 +1,3 @@
+.cm-active:not(.cm-gutterElement) {
+  background: #EBF3FB;
+}

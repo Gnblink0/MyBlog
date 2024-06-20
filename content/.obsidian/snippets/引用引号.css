@@ -1,0 +1,54 @@
+/* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
+/* author: https://forum.obsidian.md/u/Thery/summary */
+/* source: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/39 */
+
+.markdown-preview-view blockquote {
+  font-style: normal;
+}
+
+blockquote:before {
+  font: 14px/20px italic Times, serif;
+  content: "“";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+/* 
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before {
+  font: 14px/20px italic Times, serif;
+  content: "“";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+ */
+
+/* Remove blockquote left margin */
+
+blockquote {
+  margin-inline-start: 0;
+}
+
+
+
+.markdown-source-view.mod-cm6.cm-s-obsidian span.cm-quote:not(.cm-formatting-quote) {
+  font-style: normal;
+}
+
+
+.cm-s-obsidian span.cm-quote {
+  color: var(--text-muted);
+  color: #878787;
+}
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote {
+  background-color: transparent;
+  padding: 0 0 0 1rem;
+  /* border-left: 1px solid #CCCCCC; */
+  border-left: 2px solid var(--shade-plus-darker);
+}

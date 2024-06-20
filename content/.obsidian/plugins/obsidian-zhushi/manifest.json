@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-zhushi",
+	"name": "注释列表",
+	"version": "0.1.0",
+	"minAppVersion": "0.13.00",
+	"description": "提取笔记中%%注释%%内容并显示到侧边栏面板，点击可在正文中跳转。",
+	"author": "蚕子",
+	"authorUrl": "",
+	"isDesktopOnly": false
+}

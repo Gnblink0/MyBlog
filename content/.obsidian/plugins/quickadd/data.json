@@ -1,0 +1,160 @@
+{
+  "choices": [
+    {
+      "id": "dfa91011-c7fe-40b7-8d7c-c75653f39e53",
+      "name": "CreateReadNote",
+      "type": "Template",
+      "command": false,
+      "templatePath": "template/ReadNote.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "659cb177-51de-4275-8a78-9eac3f25d7c4",
+      "name": "CreateMovieNote",
+      "type": "Template",
+      "command": false,
+      "templatePath": "template/MovieNote.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:name}}"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "b1bfb43d-9ad8-47ea-9fd2-9dba1fabeb1a",
+      "name": "豆瓣",
+      "type": "Macro",
+      "command": true,
+      "macroId": "02f16003-5803-4c11-8e94-bdad5e87b9ae"
+    },
+    {
+      "id": "d197ca50-3489-45e9-9a69-701e1b1237c6",
+      "name": "人物",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "c53f4f08-4f2f-40cd-a22f-58666d64a122",
+          "name": "人物模板",
+          "type": "Template",
+          "command": false,
+          "templatePath": "template/人物模版.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": false,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "68f9c137-187a-49ed-986a-ec7f4bb9881e",
+      "name": "雅思写作",
+      "type": "Template",
+      "command": true,
+      "templatePath": "template/雅思写作文章模版.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": false
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [
+    {
+      "name": "豆瓣",
+      "id": "02f16003-5803-4c11-8e94-bdad5e87b9ae",
+      "commands": [
+        {
+          "name": "doubanInOne",
+          "type": "UserScript",
+          "id": "ef412e86-72d3-433c-a307-66df299d4a89",
+          "path": "doubanInOne.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "1.0.2",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

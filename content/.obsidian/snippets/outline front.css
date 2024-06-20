@@ -1,0 +1,3 @@
+.outline .tree-item-inner::before {
+  content: "一"
+}

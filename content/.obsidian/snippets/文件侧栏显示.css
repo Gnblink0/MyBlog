@@ -1,0 +1,12 @@
+.nav-file-title {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.nav-file-title-content,
+.nav-folder-title-content {
+  padding: 4px 0;
+  border: none;
+  line-height: 1.3;
+  border-radius: 0;
+}

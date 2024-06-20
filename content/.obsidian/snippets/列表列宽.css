@@ -1,0 +1,6 @@
+.cc-trim-table-cols td,
+.cc-trim-table-cols th {
+  overflow: hidden;
+  min-width: unset;
+  max-width: unset;
+}

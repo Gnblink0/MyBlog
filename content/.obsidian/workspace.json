@@ -1,63 +1,63 @@
 {
   "main": {
-    "id": "9d9906b158c48bf9",
+    "id": "a533dfee65928c78",
     "type": "split",
     "children": [
       {
-        "id": "296a6b3301b2bcac",
+        "id": "3599b8ab6a7a417f",
         "type": "tabs",
         "children": [
           {
-            "id": "bf2335c2a1b5ac2c",
+            "id": "a926470b13aa8820",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "page/friends/index.md",
+                "file": "post/2022/有关markdown中的图片，你需要知道的一切.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "1f8e01bee28fc863",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "787b68c0a76bc830",
+    "id": "da8a0fd8dcaa02ea",
     "type": "split",
     "children": [
       {
-        "id": "63dbd9c5b7128008",
+        "id": "c88861c3e87943e2",
         "type": "tabs",
         "children": [
           {
-            "id": "19e2bebdf392761e",
+            "id": "eab6b020a2191e9b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
           {
-            "id": "9b7b35620370a241",
+            "id": "e61567bf2c876b66",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "044c257fd81460b0",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"👩🏼‍💻课程/\" ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +67,7 @@
             }
           },
           {
-            "id": "980dc7222a866ae8",
+            "id": "8bf0fd9095cf2299",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 290.5
   },
   "right": {
-    "id": "306456803efbd5f7",
+    "id": "7ad3093a383496ab",
     "type": "split",
     "children": [
       {
-        "id": "b701ea7b75cbd9a8",
+        "id": "afe07ebfcd928719",
         "type": "tabs",
         "children": [
           {
-            "id": "2688b1f773a165ab",
+            "id": "55aa3fe04f794ed6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "page/friends/index.md",
+                "file": "post/2022/有关markdown中的图片，你需要知道的一切.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,19 +106,19 @@
             }
           },
           {
-            "id": "c799dfbb0052a25c",
+            "id": "e7c0b9e29ddd3ef6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "page/friends/index.md",
+                "file": "post/2022/有关markdown中的图片，你需要知道的一切.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "8107c3349547fc9d",
+            "id": "8121bd52520eebcf",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -129,20 +129,41 @@
             }
           },
           {
-            "id": "9a338805ed39674e",
+            "id": "8816d8a168acd4cd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "98105bbc3888a29c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "e50c902d95a007d2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "page/friends/index.md"
+                "file": "post/2022/有关markdown中的图片，你需要知道的一切.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 332.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -152,23 +173,67 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "media-extended:Open media": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "obsidian-zhushi:打开注释面板": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-memos:Thino": false
     }
   },
-  "active": "1f8e01bee28fc863",
+  "active": "a926470b13aa8820",
   "lastOpenFiles": [
-    "post/2022/假期画饼.md",
-    "post/2024/Clipboard - 2023-12-31 12.26.37.png",
-    "page/friends/index.md",
-    "page/archives/index.md",
-    "page/about/index.md",
-    "categories/Test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg",
-    "categories/Test/_index.md",
-    "post/2022/后冷战的文明之间 博客版.md",
-    "post/2022/有关obsidian（markdown）中的图片，你需要知道的一切.md",
-    "post/2022/电子书资源.md",
-    "post/2022/雅思经验.md",
-    "post/2024/舍友:情侣防闹掰互检表.md",
-    "post/2024/带猫猫一起坐飞机从中国来加拿大.md"
+    "我的厌女.md",
+    "长毛象离线嘟文.md",
+    "博客.md",
+    "网页设计.md",
+    "GTD.md",
+    "CSS.md",
+    "网站百宝箱MOC.md",
+    "设计网站.md",
+    "Neu Van CSA 第一学期总结.md",
+    "恋爱让我体会到父母的心态.md",
+    "NEU CSA.md",
+    "CS 5001.md",
+    "HTML.md",
+    "CS 5002.md",
+    "改善社交.md",
+    "带猫猫一起坐飞机从中国来加拿大.md",
+    "ℹ️其他/blog/Nothing really matters——Echoes的创作过程 copy.md",
+    "GPT Prompt.md",
+    "Viewer.md",
+    "热情 信仰 寄托.md",
+    "自给自足自娱自乐自洽的回避型人格.md",
+    "ℹ️其他/blog/假期画饼.md",
+    "草稿.md",
+    "ℹ️其他/Untitled",
+    "受损提纯，利益包庇.md",
+    "厌女症.md",
+    "Hugo.md",
+    "Pasted Image 20240615005658.jpeg",
+    "🔗附件/fV3NrSHIaho96Pt.png",
+    "室友 ",
+    "食谱/已搬运",
+    "食谱/已搬运",
+    "🔗附件/睡眠时相序列图.jpg",
+    "🔗附件/Pasted image 20220714110748.png",
+    "🔗附件/Pasted image 20220714110515.png",
+    "🔗附件/Pasted image 20220707013558.png",
+    "🔗附件/Pasted image 20220807140146.png",
+    "Heatmap/view.css",
+    "Heatmap/view copy.js",
+    "view.js",
+    "Heatmap/view.js",
+    "Heatmap",
+    "untitled folder",
+    "assets/p2215886505.webp",
+    "assets/p466727772.webp",
+    "assets/s28789195.jpg",
+    "Untitled.canvas"
   ]
 }
