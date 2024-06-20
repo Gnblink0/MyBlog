@@ -1,7 +1,7 @@
 {
   "baseFontSize": 15,
   "theme": "system",
-  "cssTheme": "Prism",
+  "cssTheme": "",
   "enabledCssSnippets": [
     "better quote",
     "【图标】预览网址加图标 - External Link Icons",
@@ -24,7 +24,7 @@
   ],
   "baseFontSizeAction": false,
   "translucency": true,
-  "accentColor": "#557bb5",
+  "accentColor": "",
   "showViewHeader": true,
   "nativeMenus": true,
   "textFontFamily": "Helvetica Neue",

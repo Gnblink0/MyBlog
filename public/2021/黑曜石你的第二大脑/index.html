@@ -33,7 +33,17 @@
 		    document.head.appendChild(customFont);
 		}());
 </script>
-<script defer src="https://umami-one-khaki-61.vercel.app/script.js" data-website-id="c0033bec-ef4a-4b6c-ab15-053dc3c491be"></script>    
+<script>
+  var host = window.location.hostname;
+  if (host !== "localhost") {
+    var script = document.createElement('script');
+    script.src = "https://umami-one-khaki-61.vercel.app/script.js";
+    script.defer = true;
+    script.dataset.websiteId = "c0033bec-ef4a-4b6c-ab15-053dc3c491be";
+    document.head.appendChild(script);
+  }
+</script>
+
     </head>
     <body class="
     article-page
@@ -758,7 +768,7 @@ APP多到让人难以忍耐后，出现了小程序，在微信里登陆存在�
             2022.03.03 - 
         
         2024·<i class="fas fa-bell"></i> <a id="days">0</a>Days<br>
-      共书写了180.4k字·共 18篇文章</br><span><p>
+      共书写了181.4k字·共 18篇文章</br><span><p>
     </section>
     
     <section class="powerby">

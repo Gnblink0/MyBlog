@@ -130,23 +130,30 @@ image = "https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg"
 
 #### 图床推荐
 
-图床的选择，我完整地从差到好试过每一个方法，踩过每一个坑，目前认为最好的方法是【阿里云OSS】，建议一步到位
-- 图床网站（SM.MS、Imgur、：最简单，但是最不推荐。非常高
-- 写这篇文章
+图床的选择，我完整地从差到好试过每一个方法，踩过每一个坑。目前认为最好的方法是【阿里云 OSS】，建议一步到位
+
+- [图床网站](https://juejin.cn/post/7140120525245775886)：最简单，网页上传式傻瓜操作。但是最不推荐，因为天底下没有免费的午餐，储存图片很耗服务器、烧钱，有非常高的概率网站跑路/图片失效。我的早期博文很多图片失效就是因为用的图床网站。
+
+-  [GitHub 自建图床+jsDelivr 国内加速](https://www.google.com/search?q=GitHub%20%E8%87%AA%E5%BB%BA%E5%9B%BE%E5%BA%8A%2BjsDelivr%20%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9F)：相当于把 GitHub 的库白嫖作为图床。最初写这篇文章的时候，我用的是这个方法，但后来也发现一些问题，比如 GitHub 会被墙，图片加载慢或者干脆加载不出，用上 jsdelivr 也没法完全解决这个问题。而且说白了 GitHub 本意并不是给你当图床用的……名不正言不顺也会遇到各种各样的问题。
+
+- [阿里云 OSS](https://www.google.com/search?q=%E9%98%BF%E9%87%8C%E4%BA%91+OSS+%E5%9B%BE%E5%BA%8A+obsidian)：目前认为最优的解决方法，已经用了两三年了，还没出过什么问题，甚至顺便作为了 remotely save 同步的储存库。
+  
+> ChatGPT：OSS（Object Storage Service，对象存储服务）是一种云存储方式，用来存放和管理各种类型的文件（如图片、视频、文档）。它通过互联网提供高容量和高可用性的存储空间，用户可以方便地上传、下载和管理这些文件。
+> 
+> OSS 与网盘的区别：
+> - 使用场景：网盘通常面向个人用户，用于存储个人文件，如照片、视频、文档等。而 OSS 主要面向企业和开发者，用于存储海量数据，如网站图片、视频流媒体、大数据分析文件等。
+> - 访问方式：网盘通常通过一个用户友好的界面进行文件管理，而 OSS 通常通过 API 或 SDK 进行访问和管理，适用于集成到应用程序或服务中。
+> - 扩展性：OSS 具有高度可扩展性，可以根据需要动态扩展存储空间，而网盘的存储空间通常有限。
+> - 性能：OSS 通常提供更高的性能和可靠性，适合高流量和高并发访问，而网盘更适合个人使用。
+
+OSS 相当于你向服务器多到用不过来的大企业花钱购买了一点属于自己的网上储存空间，如果不是企业无底线抽风的话，数据非常安全，提供的访问也稳定快速。
+
+它的配置并不麻烦，只用于图片和文字备份的话价格非常便宜（我只知道阿里的价格），可能一个月只要几毛钱（需要注意的是，上传和获取的流量是分开计费的，仅仅上传个人图片文字的话非常便宜，但是我也会把图片放在博客里，有时博客点击量高了访问暴增价格就上去了，可能一天会花个几块。为了防止恶意刷流量，记得设置价格阈值提醒。）
+
+![这是每个月的价格哈！](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/20240620144214.png)
 
 
-
-##### 
-
-
-##### GitHub自建图床+jsDelivr国内加速
-
-
-
-##### 阿里云OSS
-
-目前认为最优的解决方法，已经用了两三年了，还没出过什么问题
-
+PicGo 默认支持阿里云 OSS，我当时人在国内，用的也是这个。如果不放心国内的储存服务，国外大公司很多都有这个服务：Amazon S3、Google Cloud Storage、Microsoft Azure Blob Storage，PicGo 可以通过打插件来支持这些服务商。
 
 #### 自动化图床
 
@@ -164,7 +171,7 @@ image = "https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg"
 
 ![Image auto upload Plugin](https://s2.loli.net/2022/03/21/o6JExeBiLr2mKqw.png)
 
-只要你完成了PicGo的设置可以正常使用，直接下载这个插件就可以做到「直接粘贴/拖入图片→自动上传到图床→返回外链显示」，究极丝滑全自动化操作完全实现！<img src="https://media.cmx.edu.kg/cache/custom_emojis/images/000/129/022/original/c05485f442d4f70c.png" alt=":ablobcall:" style="zoom:25%;" />
+只要你完成了PicGo的设置可以正常使用，直接下载这个插件就可以做到「直接粘贴/拖入图片→自动上传到图床→返回外链显示」，究极丝滑全自动化操作完全实现！
 
 
 
@@ -215,6 +222,7 @@ image = "https://s2.loli.net/2022/03/05/cgXDSvRQGK6T1WB.jpg"
 如果想更改高度或宽高比，则数字格式为：100x100（前宽度；后高度）
 
 
+- 下面的 Mousewheel Image zoom，可以用快捷键和鼠标滚轮快捷调节图片大小
 
 ## 其他相关插件推荐
 
@@ -225,9 +233,17 @@ markdown里的图片浏览体验非常简陋，只能放大查看。这个插件
 
 ![效果](https://s2.loli.net/2022/03/21/JyZipEf5YTorlgq.gif)
 
+### Mousewheel Image zoom
+
+仓库地址： https://github.com/nicojeske/mousewheel-image-zoom
+
+上文提到要在 `[ ]` 内输入数字才能控制图片大小，这个插件可以让你用“按住一个快捷键+滚动鼠标滚轮”的方式快捷调整图片大小
+
+![plugin demo.gif](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/plugin%20demo.gif)
+
 ### Media Extended
-上文提到了 `!` 可以渲染page、图片、pdf链接，但是这也就是obsidian自带支持的唯三渲染了，没有想到吧！
+上文提到了 `!` 可以渲染 page、图片、pdf 链接，但是这也就是 obsidian 自带支持的唯三渲染了，没有想到吧！
 
 好吧，反正这个插件可以拓展可渲染媒体，包括音频、视频等，而且额外提供提供倍速播放等功能。
 
-效果：https://user-images.githubusercontent.com/31102694/118903678-dd82fe00-b94a-11eb-8ef3-7b5044a2bab8.mp4
+效果： https://user-images.githubusercontent.com/31102694/118903678-dd82fe00-b94a-11eb-8ef3-7b5044a2bab8.mp4
