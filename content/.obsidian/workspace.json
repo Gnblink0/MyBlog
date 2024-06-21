@@ -19,8 +19,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "af67be762fb8177d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "short-thoughts/冰锥.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2855b19963614d22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "short-thoughts/安利.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "post/2022/有关markdown中的图片，你需要知道的一切.md",
+                "file": "short-thoughts/安利.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "post/2022/有关markdown中的图片，你需要知道的一切.md",
+                "file": "short-thoughts/安利.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "post/2022/有关markdown中的图片，你需要知道的一切.md"
+                "file": "short-thoughts/安利.md"
               }
             }
           }
@@ -195,10 +222,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a926470b13aa8820",
+  "active": "2855b19963614d22",
   "lastOpenFiles": [
-    "blender.md",
+    "short-thoughts/2024-06-15.md",
+    "short-thoughts/三个大脑.md",
+    "short-thoughts/冰锥.md",
+    "short-thoughts/安利.md",
     "post/2022/有关markdown中的图片，你需要知道的一切.md",
+    "blender.md",
     "人类大脑的特质.md",
     "我的厌女.md",
     "长毛象离线嘟文.md",
@@ -219,10 +250,6 @@
     "ℹ️其他/blog/Nothing really matters——Echoes的创作过程 copy.md",
     "GPT Prompt.md",
     "Viewer.md",
-    "热情 信仰 寄托.md",
-    "自给自足自娱自乐自洽的回避型人格.md",
-    "ℹ️其他/blog/假期画饼.md",
-    "草稿.md",
     "ℹ️其他/Untitled",
     "Pasted Image 20240615005658.jpeg",
     "🔗附件/fV3NrSHIaho96Pt.png",
