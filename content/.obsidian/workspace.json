@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "short-thoughts/安利.md",
+                "file": "post/2024/磨刀.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "short-thoughts/安利.md",
+                "file": "post/2024/磨刀.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "short-thoughts/安利.md",
+                "file": "post/2024/磨刀.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "short-thoughts/安利.md"
+                "file": "post/2024/磨刀.md"
               }
             }
           }
@@ -236,10 +236,10 @@
   },
   "active": "bd69f326b2557687",
   "lastOpenFiles": [
-    "post/2024/Untitled.md",
+    "short-thoughts/安利.md",
+    "post/2024/磨刀.md",
     "post/2024/舍友伴侣防闹掰互检表.md",
     "post/2024/带猫猫一起坐飞机从中国来加拿大.md",
-    "short-thoughts/安利.md",
     "short-thoughts/2024-06-15.md",
     "short-thoughts/三个大脑.md",
     "short-thoughts/冰锥.md",
