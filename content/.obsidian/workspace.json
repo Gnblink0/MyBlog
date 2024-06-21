@@ -39,6 +39,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "post/2024/舍友伴侣防闹掰互检表.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd69f326b2557687",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "short-thoughts/安利.md",
                 "mode": "source",
                 "backlinks": true,
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -221,12 +234,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2855b19963614d22",
+  "active": "bd69f326b2557687",
   "lastOpenFiles": [
+    "post/2024/Untitled.md",
+    "post/2024/舍友伴侣防闹掰互检表.md",
+    "post/2024/带猫猫一起坐飞机从中国来加拿大.md",
+    "short-thoughts/安利.md",
     "short-thoughts/2024-06-15.md",
     "short-thoughts/三个大脑.md",
     "short-thoughts/冰锥.md",
-    "short-thoughts/安利.md",
     "post/2022/有关markdown中的图片，你需要知道的一切.md",
     "blender.md",
     "人类大脑的特质.md",
@@ -246,9 +262,6 @@
     "CS 5002.md",
     "改善社交.md",
     "带猫猫一起坐飞机从中国来加拿大.md",
-    "ℹ️其他/blog/Nothing really matters——Echoes的创作过程 copy.md",
-    "GPT Prompt.md",
-    "Viewer.md",
     "ℹ️其他/Untitled",
     "Pasted Image 20240615005658.jpeg",
     "🔗附件/fV3NrSHIaho96Pt.png",
