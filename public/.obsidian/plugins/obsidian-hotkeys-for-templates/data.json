@@ -1,0 +1,17 @@
+{
+  "files": [
+    "食谱.md"
+  ],
+  "templaterFiles": [
+    "食谱.md"
+  ],
+  "newFileTemplates": [
+    {
+      "folder": "食谱",
+      "path": "食谱.md",
+      "plugin": "core"
+    }
+  ],
+  "openNewFileTemplateInNewPane": true,
+  "useNewFileTemplateOnFileCreation": true
+}
