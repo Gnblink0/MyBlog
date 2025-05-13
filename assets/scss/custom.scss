@@ -1,5 +1,8 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
 
+/*=========================
+  Layout & Structure
+=========================*/
 .right-sidebar {
   max-height: 100vh;
   overflow-y: auto;
@@ -11,6 +14,9 @@
   }
 }
 
+/*=========================
+  Form Elements
+=========================*/
 input[type="text"] {
   width: 100%;
   padding: 7px;
@@ -20,27 +26,21 @@ input[type="text"] {
 
   @media (max-width: 600px) {
       input[type="text"] {
-        /* 在这里，你可以为较小的屏幕设置特定的样式 */
         padding: 8px;
-        /* 可以减少内边距 */
       }
     }
   
-    /* 你也可以为大屏幕添加媒体查询 */
     @media (min-width: 601px) {
       input[type="text"] {
-        /* 在这里，你可以为较大的屏幕设置特定的样式 */
         max-width: 500px;
-        /* 例如，限制最大宽度 */
         margin: 0 auto;
-        /* 如果你想让输入框在大屏幕上居中显示 */
       }
     }
 }
 
-/* 可选择的复选框样式 */
-
-
+/*=========================
+  Checkbox Styles
+=========================*/
 // 去除复选框前的点
 li:has(> input[type="checkbox"])::marker {
   content: none;
@@ -169,9 +169,9 @@ li:has(> input[type="checkbox"])::marker {
 // }
 
 
-// 引用块CSS
-// 文件位置：~/assets/scss/custom/_custom.scss
-
+/*=========================
+  Quote Block Styles
+=========================*/
 blockquote.quote {
   position: relative;
   margin: 1.5em -10em 0 -10;
@@ -236,6 +236,9 @@ blockquote.quote {
 
 
 
+/*=========================
+  Text Effects
+=========================*/
 //文本高斯模糊
 .blur {
   color: transparent;
@@ -264,6 +267,9 @@ blockquote.quote {
 
 
 
+/*=========================
+  Link Styles
+=========================*/
 //友情链接双栏
 @media (min-width: 1024px) {
   .article-list--compact.links {
@@ -286,15 +292,18 @@ blockquote.quote {
   }
 }
 
-//修改选中颜色
+/*=========================
+  Selection Style
+=========================*/
 ::selection {
   color: #fff;
   background: #34495e;
 }
 
 
-// 自加改变
-
+/*=========================
+  Theme & Colors
+=========================*/
 body {
   // 侧边栏深灰
   --body-text-color: #9a9a9a;
@@ -309,6 +318,9 @@ body {
   color: white;
 }
 
+/*=========================
+  Typography
+=========================*/
 .article-content {
     font-family: 
       Helvetica Neue,
@@ -325,17 +337,15 @@ body {
     letter-spacing: 0.35px;
 }
 
-.menu {
-  font-size: 1em;
-}
-
 @media (max-width: 768px) {
   .article-content {
     line-height: 1.7;
   }
 }
 
-// 图片并排
+/*=========================
+  Image Layout
+=========================*/
 .image-row {
   display: flex;
   justify-content: space-between;
@@ -351,6 +361,9 @@ body {
   height: auto;
 }
 
+/*=========================
+  Content Spacing
+=========================*/
 // 引用块
 .article-content blockquote {
   margin-top: 0!important;
@@ -367,6 +380,9 @@ p~.quoteblock {
   margin-block-end: 10px !important;
 }
 
+/*=========================
+  List Styles
+=========================*/
 //列表左侧减少距离
 ul {
   padding-inline-start: 20px;
@@ -382,6 +398,9 @@ li {
   margin-block-end: 10px;
 }
 
+/*=========================
+  Heading Styles
+=========================*/
 //标题大小
 h2 {
   font-size: 1.6em;
@@ -390,16 +409,17 @@ h2 {
 
 
 h3 {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 600;
 }
 
 h4 {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 h5 {
   font-size: 1em;
+  font-weight: 400;
 }
 
 h6 {
@@ -421,6 +441,9 @@ h6 {
   margin-bottom: -5px;
 }
 
+/*=========================
+  Text Highlighting
+=========================*/
 mark {
   background-color: #FAEDB1;
 }
@@ -432,8 +455,9 @@ p {
 }
 
 
-//infobox
-
+/*=========================
+  Info Boxes
+=========================*/
 [class^="box"],
 [class*=" box"] {
   background-color: #fffeb4a3;
@@ -520,13 +544,10 @@ p {
 }
 
 
-//infobox
-
-
-
-
+/*=========================
+  Code Block
+=========================*/
 // 代码块复制
-
 .highlight-copy-btn {
   position: absolute;
   top: 7px;
@@ -546,4 +567,19 @@ p {
   background-color: #666;
 }
 
-//代码块复制
+/*=========================
+  Internal Links
+=========================*/
+.internal-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    padding: 0 2px;  /* 添加一点内边距 */
+    border-bottom: 2px dotted rgba(33, 150, 243, 0.3);  /* 添加点状下划线 */
+    transition: all 0.3s ease;
+}
+
+.internal-link:hover {
+    color: var(--accent-color-darker);
+    background-color: rgba(33, 150, 243, 0.1);  
+    border-bottom: 2px solid var(--accent-color);  /* 实线下划线 */
+}

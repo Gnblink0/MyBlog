@@ -8,11 +8,10 @@ comments: false
 license: false
 menu: 
     main:
-        name: Friends
+        name: 友链 | Friends
         weight: -90
         params:
             icon: link
-        
 ---
 <style>
 .article-header {

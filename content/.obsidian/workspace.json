@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a926470b13aa8820",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "post/2022/有关markdown中的图片，你需要知道的一切.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "af67be762fb8177d",
             "type": "leaf",
             "state": {
@@ -39,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post/2024/舍友伴侣防闹掰互检表.md",
+                "file": "高强度使用 ob 三年，我高频使用和留下的插件.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +34,25 @@
             }
           },
           {
-            "id": "bd69f326b2557687",
+            "id": "a517aa879174dc93",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post/2024/磨刀.md",
+                "file": "post/2022/后冷战的文明之间 博客版.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74f1cc2c813841f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "高强度使用 ob 三年，我高频使用和留下的插件.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "post/2024/磨刀.md",
+                "file": "高强度使用 ob 三年，我高频使用和留下的插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "post/2024/磨刀.md",
+                "file": "高强度使用 ob 三年，我高频使用和留下的插件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "post/2024/磨刀.md"
+                "file": "高强度使用 ob 三年，我高频使用和留下的插件.md"
               }
             }
           }
@@ -233,17 +233,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bd69f326b2557687",
+  "active": "74f1cc2c813841f5",
   "lastOpenFiles": [
-    "Use a Knife Sharpener Step 3.360p.mp4",
-    "post/2024/磨刀.md",
-    "short-thoughts/安利.md",
+    "page/about/index.md",
+    "雌雄同体.md",
+    "高强度使用 ob 三年，我高频使用和留下的插件.md",
     "post/2024/舍友伴侣防闹掰互检表.md",
+    "高强度使用 ob 三年，我高频使用和留下的插件.md",
+    "post/2024/磨刀.md",
+    "short-thoughts/冰锥.md",
+    "post/2022/有关markdown中的图片，你需要知道的一切.md",
+    "post/2022/后冷战的文明之间 博客版.md",
+    "page/short-thoughts/index.md",
+    "page/friends/index.md",
+    "Use a Knife Sharpener Step 3.360p.mp4",
+    "short-thoughts/安利.md",
     "post/2024/带猫猫一起坐飞机从中国来加拿大.md",
     "short-thoughts/2024-06-15.md",
     "short-thoughts/三个大脑.md",
-    "short-thoughts/冰锥.md",
-    "post/2022/有关markdown中的图片，你需要知道的一切.md",
     "blender.md",
     "人类大脑的特质.md",
     "我的厌女.md",
@@ -255,12 +262,6 @@
     "网站百宝箱MOC.md",
     "设计网站.md",
     "Neu Van CSA 第一学期总结.md",
-    "恋爱让我体会到父母的心态.md",
-    "NEU CSA.md",
-    "CS 5001.md",
-    "HTML.md",
-    "CS 5002.md",
-    "改善社交.md",
     "ℹ️其他/Untitled",
     "Pasted Image 20240615005658.jpeg",
     "🔗附件/fV3NrSHIaho96Pt.png",
@@ -277,7 +278,6 @@
     "view.js",
     "Heatmap/view.js",
     "Heatmap",
-    "untitled folder",
     "assets/p2215886505.webp",
     "assets/p466727772.webp",
     "assets/s28789195.jpg",

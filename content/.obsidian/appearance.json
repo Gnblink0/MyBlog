@@ -1,5 +1,5 @@
 {
-  "baseFontSize": 15,
+  "baseFontSize": 17,
   "theme": "system",
   "cssTheme": "",
   "enabledCssSnippets": [
@@ -27,7 +27,7 @@
   "accentColor": "",
   "showViewHeader": true,
   "nativeMenus": true,
-  "textFontFamily": "Helvetica Neue",
+  "textFontFamily": "PingFang SC",
   "interfaceFontFamily": "Helvetica Neue",
   "monospaceFontFamily": "Helvetica Neue"
 }

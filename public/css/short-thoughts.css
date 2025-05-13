@@ -1,11 +1,25 @@
-
 .custom-card {
     padding: 0.5em;
     margin-bottom: 1.5em;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--shadow-l1);
     max-width: 60vw;
-    background-color: #fff;
+    background-color: var(--card-background);
+}
+
+/* 添加图片控制 */
+.custom-card .article-content img {
+    max-width: 100%;  /* 确保图片不会超出卡片宽度 */
+    height: auto;     /* 保持图片比例 */
+    display: block;   /* 块级显示 */
+    margin: 1em auto; /* 上下间距和居中 */
+    border-radius: var(--tag-border-radius); /* 使用主题的圆角变量 */
+}
+
+.custom-card .article-content a {
+    text-decoration: none;  /* 移除链接下划线 */
+    cursor: default;        /* 移除鼠标手型指针 */
+    pointer-events: none;   /* 禁用点击事件 */
 }
 
 @media (max-width: 1200px) {
@@ -31,7 +45,7 @@
 
 .custom-card .article-meta {
     font-size: 0.85em;
-    color: #BABABA;
+    color: var(--card-text-color-tertiary);  /* 使用主题的第三级文字颜色 */
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     text-align: right;
@@ -41,6 +55,6 @@
 .custom-card .article-content {
     padding-top: 0.5em;
     font-size: 1em;
-    color: #444;
+    color: var(--card-text-color-main);  /* 使用主题的主要文字颜色 */
     text-align: justify;
 }

@@ -1,5 +1,5 @@
 ---
-title: About me
+title: 关于 | About
 description: 
 date: 2001-03-10
 aliases:

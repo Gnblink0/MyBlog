@@ -5,6 +5,7 @@ layout: "archives"
 slug: "archives"
 menu:
     main:
+        name: 博文 | Archives
         weight: -70
         params: 
             icon: archives

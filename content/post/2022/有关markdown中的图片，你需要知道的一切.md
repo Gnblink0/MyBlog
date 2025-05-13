@@ -4,7 +4,7 @@ title = "有关Markdown中的图片，你需要知道的一切"
 date = "2022-03-05"
 description = "Obsidian使用场景下的Markdown图片设定与操作"
 categories = [
-    "工具"
+    "攻略"
 ]
 tags = [
     "生产力",

@@ -6,28 +6,35 @@
     <description>Recent content in 生产力 on 关门说话</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>高强度使用 ob 三年，我高频使用和留下的插件</title>
+      <link>http://localhost:1313/%E9%AB%98%E5%BC%BA%E5%BA%A6%E4%BD%BF%E7%94%A8-ob-%E4%B8%89%E5%B9%B4%E6%88%91%E9%AB%98%E9%A2%91%E4%BD%BF%E7%94%A8%E5%92%8C%E7%95%99%E4%B8%8B%E7%9A%84%E6%8F%92%E4%BB%B6/</link>
+      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/%E9%AB%98%E5%BC%BA%E5%BA%A6%E4%BD%BF%E7%94%A8-ob-%E4%B8%89%E5%B9%B4%E6%88%91%E9%AB%98%E9%A2%91%E4%BD%BF%E7%94%A8%E5%92%8C%E7%95%99%E4%B8%8B%E7%9A%84%E6%8F%92%E4%BB%B6/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;自从 21 年 9 月第一次听说和接触以来，我已经高强度使用 obsidian 三年多。&lt;/p&gt;&#xA;&lt;p&gt;这三年以来，只要我需要编辑文字内容，只要我摸得到电脑，几乎是每日必用，obsidian 已经成为了我名副其实、必不可少的「第二大脑」。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>有关Markdown中的图片，你需要知道的一切</title>
       <link>http://localhost:1313/2022/%E6%9C%89%E5%85%B3markdown%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E5%88%87/</link>
       <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/2022/%E6%9C%89%E5%85%B3markdown%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E5%88%87/</guid>
-      <description>我一直觉得「图片」是理解markdown格式的一个艰难之处，因为它的图片逻辑和我们平时接触的图片逻辑都不一样，我一开始也完全不理解，花了挺久</description>
+      <description>&lt;p&gt;我一直觉得「图片」是理解markdown格式的一个艰难之处，因为它的图片逻辑和我们平时接触的图片逻辑都不一样，我一开始也完全不理解，花了挺久才搞懂而且逐渐习惯。所以这篇文章基本是把我走过的弯路总结出来，以便大家对markdown中的图片直接理解和上手，避免产生困惑浪费时间。&lt;/p&gt;</description>
     </item>
     <item>
       <title>保姆级别Obsidian入门操作思路指南</title>
       <link>http://localhost:1313/2021/%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%88%ABobsidian%E5%85%A5%E9%97%A8%E6%93%8D%E4%BD%9C%E6%80%9D%E8%B7%AF%E6%8C%87%E5%8D%97/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/2021/%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%88%ABobsidian%E5%85%A5%E9%97%A8%E6%93%8D%E4%BD%9C%E6%80%9D%E8%B7%AF%E6%8C%87%E5%8D%97/</guid>
-      <description>&amp;ldquo;我为什么要用这个玩意&amp;rdquo;，这篇文章已经花了几千字说明白了，接下来就是&amp;quot;我怎么用这个玩意&amp;quot;。 真·极</description>
+      <description>&lt;p&gt;&amp;ldquo;我为什么要用这个玩意&amp;rdquo;，&lt;a class=&#34;link&#34; href=&#34;https://hugo-stack-theme-mod-six.vercel.app/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xA;    &gt;这篇文章&lt;/a&gt;已经花了几千字说明白了，接下来就是&amp;quot;我怎么用这个玩意&amp;quot;。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;figure &#xA;&#x9;&gt;&#xA;&#x9;&lt;a href=&#34;https://s2.loli.net/2022/03/03/3WEQ6PnAkszNeFH.jpg&#34; &gt;&#xA;&#x9;&#x9;&lt;img src=&#34;https://s2.loli.net/2022/03/03/3WEQ6PnAkszNeFH.jpg&#34;&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;loading=&#34;lazy&#34;&#xA;&#x9;&#x9;&#x9;alt=&#34;真·极简&#34;&gt;&#xA;&#x9;&lt;/a&gt;&#xA;&#x9;&#xA;&#x9;&lt;figcaption&gt;真·极简&lt;/figcaption&gt;&#xA;&#x9;&#xA;&lt;/figure&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>黑曜石——你的第二大脑</title>
       <link>http://localhost:1313/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/2021/%E9%BB%91%E6%9B%9C%E7%9F%B3%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91/</guid>
-      <description>以下大多是理论和“为什么”，字多不看行动派请点击：保姆级别 Obsidian 入门操作思路指南 A second brain, for you, forever. 你永远的第二大脑。 A second brain, for you, forever. 我21年9月通过《卡片</description>
+      <description>&lt;p&gt;以下大多是理论和“为什么”，字多不看行动派请点击：&lt;a class=&#34;link&#34; href=&#34;https://hugo-stack-theme-mod-six.vercel.app/2021/%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%88%ABobsidian%E5%85%A5%E9%97%A8%E6%93%8D%E4%BD%9C%E6%80%9D%E8%B7%AF%E6%8C%87%E5%8D%97/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xA;    &gt;保姆级别 Obsidian 入门操作思路指南&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A second brain, for you, forever.&#xA;你永远的第二大脑。&#xA;&lt;figure &#xA;&#x9;&gt;&#xA;&#x9;&lt;a href=&#34;https://s2.loli.net/2022/02/02/P9UHE5ZSeJNlFGw.jpg&#34; &gt;&#xA;&#x9;&#x9;&lt;img src=&#34;https://s2.loli.net/2022/02/02/P9UHE5ZSeJNlFGw.jpg&#34;&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;loading=&#34;lazy&#34;&#xA;&#x9;&#x9;&#x9;alt=&#34;A second brain, for you, forever.&#34;&gt;&#xA;&#x9;&lt;/a&gt;&#xA;&#x9;&#xA;&#x9;&lt;figcaption&gt;A second brain, for you, forever.&lt;/figcaption&gt;&#xA;&#x9;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;我21年9月通过《卡片笔记法》第一次接触obsidian，可以肯定地说这是我去年为止用过的最天才的产品，只有一个原因，我认为这是最适合我们大脑运作方式的知识管理方法。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
