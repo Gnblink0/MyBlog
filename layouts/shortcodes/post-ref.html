@@ -1,4 +1,8 @@
-{{ $path := .Get 0 }}
-{{ with .Site.GetPage $path }}
-<a href="{{ .RelPermalink }}" class="internal-link">{{ path.Base .File.Path | replaceRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}-?(.+)\\.md$" "$1" }}</a>
+{{ $path := .Get 0 }} {{ $displayText := .Get 1 }} {{ with .Site.GetPage $path
+}}
+<a href="{{ .RelPermalink }}" class="internal-link">
+  {{- if $displayText -}} {{- $displayText -}} {{- else -}} {{- path.Base
+  .File.Path | replaceRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}-?(.+)\\.md$" "$1" -}} {{-
+  end -}}
+</a>
 {{ end }}
