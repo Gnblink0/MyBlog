@@ -583,3 +583,8 @@ p {
     background-color: rgba(33, 150, 243, 0.1);  
     border-bottom: 2px solid var(--accent-color);  /* 实线下划线 */
 }
+
+.article-page .main-article .article-content img {
+  max-height: 500px ;
+  height: auto;
+}
