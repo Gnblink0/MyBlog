@@ -32,6 +32,11 @@ image = "https://picture-guan.oss-cn-hangzhou.aliyuncs.com/714F1D94-357E-4FA3-AB
 
 Chilliwack 是一片位于温哥华东部的区域，Chilliwack Lake 是该区域最大的湖，属于省立公园。从市区出发经过 Abbotsford 和Chilliwack，后面有一条专门的小公路通向 Chilliwack Lake，开车 150km 2 小时即可到达。
 
+我们中途在 Abbotsford 的 Costco 停了一下，加了油还在 Food Court 稍微吃了点东西。Costco 加油真的非常划算！市区一般是 150-165，Costco 这里 142。但是大温地区只有 suburb 的 3 家 Costco 有加油站，我们常去的那几个市区里的 Costco 都是没有的，趁着来东边刚好蹭个便宜的油。
+
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/20250903165747.png)
+
+
 ### Lindeman Lake Trail
 
 <iframe class="alltrails" src=" https://www.alltrails.com/widget/trail/canada/british-columbia/lindeman-lake-trail?u=m&sh=1iavpr" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
