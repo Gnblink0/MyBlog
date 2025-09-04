@@ -55,7 +55,12 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: twikoo
+
+        twikoo:
+            envId: https://twikoo-comment-gn.netlify.app/.netlify/functions/twikoo
+            path: window.location.pathname
+            lang: zh
 
         disqusjs:
             shortname:

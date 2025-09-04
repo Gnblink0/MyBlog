@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2025 on 关门说话</title>
-    <link>http://localhost:1313/tags/2025/</link>
+    <link>http://localhost:60783/tags/2025/</link>
     <description>Recent content in 2025 on 关门说话</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/2025/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:60783/tags/2025/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chilliwack Lake 划船游泳 &amp; Lindeman Lake Hiking</title>
+      <link>http://localhost:60783/2025/chilliwack-lake-%E5%88%92%E8%88%B9%E6%B8%B8%E6%B3%B3-lindeman-lake-hiking/</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60783/2025/chilliwack-lake-%E5%88%92%E8%88%B9%E6%B8%B8%E6%B3%B3-lindeman-lake-hiking/</guid>
+      <description>&lt;h2 id=&#34;准备&#34;&gt;准备&lt;/h2&gt;&#xA;&lt;p&gt;上周一个有车的朋友问我们想不想去一个 Lake，我突然想起另一个朋友上次提到可以二手卖我 Amazon 的充气 Kayak。&#xA;于是答应下来，又急忙购入朋友的友情价 Kayak + 友情提供救生衣，提前几天吆喝，邀请到了对象、10 位小伙伴、总共 3 辆车周六去 Chilliwack Lake 划船游泳野餐 Hiking。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>有车有房总是很忙 - 2025 年 2 月小结</title>
-      <link>http://localhost:1313/2025/%E6%9C%89%E8%BD%A6%E6%9C%89%E6%88%BF%E6%80%BB%E6%98%AF%E5%BE%88%E5%BF%99-2025-%E5%B9%B4-2-%E6%9C%88%E5%B0%8F%E7%BB%93/</link>
+      <link>http://localhost:60783/2025/%E6%9C%89%E8%BD%A6%E6%9C%89%E6%88%BF%E6%80%BB%E6%98%AF%E5%BE%88%E5%BF%99-2025-%E5%B9%B4-2-%E6%9C%88%E5%B0%8F%E7%BB%93/</link>
       <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2025/%E6%9C%89%E8%BD%A6%E6%9C%89%E6%88%BF%E6%80%BB%E6%98%AF%E5%BE%88%E5%BF%99-2025-%E5%B9%B4-2-%E6%9C%88%E5%B0%8F%E7%BB%93/</guid>
+      <guid>http://localhost:60783/2025/%E6%9C%89%E8%BD%A6%E6%9C%89%E6%88%BF%E6%80%BB%E6%98%AF%E5%BE%88%E5%BF%99-2025-%E5%B9%B4-2-%E6%9C%88%E5%B0%8F%E7%BB%93/</guid>
       <description>&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;&#xA;&lt;p&gt;因为 2024 年度总结过于难产，发现我还是需要月度总结，而不是 12 月怀胎憋个大的。但因为难产就是我的本性，所以我会干出5月发布2月总结这种事！&lt;/p&gt;&#xA;&lt;p&gt;2 月的主线：忙，快，猝不及防，一气呵成……&lt;/p&gt;</description>
     </item>
   </channel>
