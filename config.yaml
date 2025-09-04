@@ -4,8 +4,6 @@ theme: stack
 paginate: 5
 title: 关门说话
 
-# Change it to your Disqus shortname before using
-disqusShortname: stack
 
 # GA Tracking ID
 googleAnalytics:
@@ -59,15 +57,6 @@ params:
 
         twikoo:
             envId: https://twikoo-comment-gn.netlify.app/.netlify/functions/twikoo
-            path: window.location.pathname
-            lang: zh
-
-        disqusjs:
-            shortname:
-            apiUrl:
-            apiKey:
-            admin:
-            adminLabel:
 
         utterances:
             repo:
@@ -102,12 +91,6 @@ params:
             placeholder:
             locale:
                 admin: Admin
-
-        twikoo:
-            envId:
-            region:
-            path:
-            lang:
 
         # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
         cactus:
