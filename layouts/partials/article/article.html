@@ -1,7 +1,30 @@
 <article class="{{ if .Params.image }}has-image {{ end }}main-article">
     {{ partial "article/components/header" . }}
 
-    {{ partial "article/components/content" . }}
+    {{ if .Params.protected_question }}
+        {{ $articleId := printf "protected-article-%d" (now.Unix) }}
+        <div class="protected-wall" id="{{ $articleId }}">
+            <div class="protected-prompt">
+                <div class="protected-icon">🔒</div>
+                <h3 class="protected-title">此文章需要验证访问</h3>
+                <p class="protected-question">{{ .Params.protected_question }}</p>
+                <div class="protected-form">
+                    <input type="text" class="protected-input" placeholder="请输入答案..." autocomplete="off">
+                    <button class="protected-submit" onclick="verifyProtectedArticle('{{ $articleId }}', '{{ .Params.protected_article_id | default "test-article" }}', this)">
+                        验证
+                    </button>
+                </div>
+                <div class="protected-error" style="display: none;">
+                    答案错误，请重试
+                </div>
+            </div>
+        </div>
+        <div class="protected-content-container" style="display: none;">
+            {{ partial "article/components/content" . }}
+        </div>
+    {{ else }}
+        {{ partial "article/components/content" . }}
+    {{ end }}
 
     {{ partial "article/components/footer" . }}
 

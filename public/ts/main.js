@@ -491,6 +491,138 @@
   });
   window.Stack = Stack;
   window.createElement = createElement_default;
+  function verifyProtectedContent(containerId, encodedAnswer, buttonElement) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    const input = container.querySelector(".protected-input");
+    const errorDiv = container.querySelector(".protected-error");
+    const hiddenDiv = container.querySelector(".protected-hidden");
+    const promptDiv = container.querySelector(".protected-prompt");
+    if (!input || !errorDiv || !hiddenDiv || !promptDiv) return;
+    const userAnswer = input.value.trim();
+    const correctAnswer = atob(encodedAnswer).trim();
+    if (userAnswer === correctAnswer) {
+      try {
+        const decodedContent = atob(hiddenDiv.textContent || "");
+        container.innerHTML = decodedContent;
+        sessionStorage.setItem(`protected-${containerId}`, "unlocked");
+      } catch (e) {
+        console.error("Failed to decode content:", e);
+        errorDiv.textContent = "\u89E3\u5BC6\u5931\u8D25\uFF0C\u8BF7\u5237\u65B0\u9875\u9762\u91CD\u8BD5";
+        errorDiv.style.display = "block";
+      }
+    } else {
+      errorDiv.style.display = "block";
+      input.classList.add("error");
+      buttonElement.disabled = true;
+      setTimeout(() => {
+        errorDiv.style.display = "none";
+        input.classList.remove("error");
+        input.value = "";
+        buttonElement.disabled = false;
+      }, 2e3);
+    }
+  }
+  document.addEventListener("DOMContentLoaded", () => {
+    const protectedElements = document.querySelectorAll(".protected-content");
+    protectedElements.forEach((element) => {
+      const containerId = element.id;
+      if (sessionStorage.getItem(`protected-${containerId}`) === "unlocked") {
+        const hiddenDiv = element.querySelector(".protected-hidden");
+        if (hiddenDiv) {
+          try {
+            const decodedContent = atob(hiddenDiv.textContent || "");
+            element.innerHTML = decodedContent;
+          } catch (e) {
+            console.error("Failed to restore content:", e);
+          }
+        }
+      }
+    });
+  });
+  async function verifyProtectedArticle(containerId, articleId, buttonElement) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    const input = container.querySelector(".protected-input");
+    const errorDiv = container.querySelector(".protected-error");
+    if (!input || !errorDiv) return;
+    const userAnswer = input.value.trim();
+    if (!userAnswer) {
+      errorDiv.textContent = "\u8BF7\u8F93\u5165\u7B54\u6848";
+      errorDiv.style.display = "block";
+      return;
+    }
+    buttonElement.disabled = true;
+    buttonElement.textContent = "\u9A8C\u8BC1\u4E2D...";
+    errorDiv.style.display = "none";
+    try {
+      const isLocalhost = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+      let result;
+      if (isLocalhost) {
+        console.log("\u672C\u5730\u5F00\u53D1\u6A21\u5F0F\uFF1A\u8DF3\u8FC7\u670D\u52A1\u7AEF\u9A8C\u8BC1");
+        const localAnswers = {
+          "test-article": "\u5173\u95E8\u8BF4\u8BDD",
+          "my-secret-diary": "1990-01-01"
+        };
+        const isCorrect = userAnswer === localAnswers[articleId];
+        result = { success: isCorrect, message: isCorrect ? "\u9A8C\u8BC1\u6210\u529F" : "\u7B54\u6848\u9519\u8BEF" };
+      } else {
+        const response = await fetch("/api/verify-article", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            articleId,
+            userAnswer
+          })
+        });
+        result = await response.json();
+      }
+      if (result.success) {
+        container.style.display = "none";
+        const contentContainer = document.querySelector(".protected-content-container");
+        if (contentContainer) {
+          contentContainer.style.display = "block";
+          console.log("\u9A8C\u8BC1\u6210\u529F\uFF0C\u663E\u793A\u6587\u7AE0\u5185\u5BB9");
+        }
+        sessionStorage.setItem(`protected-article-${containerId}`, "unlocked");
+      } else {
+        errorDiv.textContent = result.message || "\u9A8C\u8BC1\u5931\u8D25";
+        errorDiv.style.display = "block";
+        input.classList.add("error");
+        setTimeout(() => {
+          errorDiv.style.display = "none";
+          input.classList.remove("error");
+          input.value = "";
+          buttonElement.disabled = false;
+          buttonElement.textContent = "\u9A8C\u8BC1";
+        }, 2e3);
+      }
+    } catch (error) {
+      console.error("API\u8C03\u7528\u5931\u8D25:", error);
+      errorDiv.textContent = "\u7F51\u7EDC\u9519\u8BEF\uFF0C\u8BF7\u91CD\u8BD5";
+      errorDiv.style.display = "block";
+      buttonElement.disabled = false;
+      buttonElement.textContent = "\u9A8C\u8BC1";
+    }
+  }
+  document.addEventListener("DOMContentLoaded", () => {
+    const protectedWalls = document.querySelectorAll(".protected-wall");
+    protectedWalls.forEach((wall) => {
+      const containerId = wall.id;
+      if (sessionStorage.getItem(`protected-article-${containerId}`) === "unlocked") {
+        wall.style.display = "none";
+        const contentContainer = document.querySelector(".protected-content-container");
+        if (contentContainer) {
+          contentContainer.style.display = "block";
+          console.log("\u4F1A\u8BDD\u6062\u590D\uFF1A\u663E\u793A\u6B63\u5E38\u5185\u5BB9\u5BB9\u5668");
+        }
+      }
+    });
+  });
+  window.verifyProtectedContent = verifyProtectedContent;
+  window.verifyProtectedArticle = verifyProtectedArticle;
 })();
 /*!
 *   Hugo Theme Stack

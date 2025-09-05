@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/2025/%E6%9C%89%E8%BD%A6%E6%9C%89%E6%88%BF%E6%80%BB%E6%98%AF%E5%BE%88%E5%BF%99-2025-%E5%B9%B4-2-%E6%9C%88%E5%B0%8F%E7%BB%93/</guid>
       <description>&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;&#xA;&lt;p&gt;因为 2024 年度总结过于难产，发现我还是需要月度总结，而不是 12 月怀胎憋个大的。但因为难产就是我的本性，所以我会干出5月发布2月总结这种事！&lt;/p&gt;&#xA;&lt;p&gt;2 月的主线：忙，快，猝不及防，一气呵成……&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>我的私密文章</title>
+      <link>http://localhost:1313/2024/%E6%88%91%E7%9A%84%E7%A7%81%E5%AF%86%E6%96%87%E7%AB%A0/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/%E6%88%91%E7%9A%84%E7%A7%81%E5%AF%86%E6%96%87%E7%AB%A0/</guid>
+      <description>&lt;p&gt;这是受保护的文章内容。只有答对问题的人才能看到整篇文章。&lt;/p&gt;&#xA;&lt;h2 id=&#34;这是一个标题&#34;&gt;这是一个标题&lt;/h2&gt;&#xA;&lt;p&gt;你可以在这里写任何内容：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Markdown格式完全支持&lt;/li&gt;&#xA;&lt;li&gt;图片、链接、代码块等&lt;/li&gt;&#xA;&lt;li&gt;所有内容都会被保护&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
   </channel>
 </rss>

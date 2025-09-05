@@ -1,0 +1,24 @@
+{{ $question := .Get "question" }}
+{{ $answer := .Get "answer" }}
+{{ $content := .Inner }}
+{{ $id := printf "protected-%d" (now.Unix) }}
+
+<div class="protected-content" id="{{ $id }}">
+    <div class="protected-prompt">
+        <div class="protected-icon">🔒</div>
+        <h3 class="protected-title">此内容需要验证访问</h3>
+        <p class="protected-question">{{ $question }}</p>
+        <div class="protected-form">
+            <input type="text" class="protected-input" placeholder="请输入答案..." autocomplete="off">
+            <button class="protected-submit" onclick="verifyProtectedContent('{{ $id }}', '{{ $answer | base64Encode }}', this)">
+                验证
+            </button>
+        </div>
+        <div class="protected-error" style="display: none;">
+            答案错误，请重试
+        </div>
+    </div>
+    <div class="protected-hidden" style="display: none;">
+        {{ $content | base64Encode }}
+    </div>
+</div>
