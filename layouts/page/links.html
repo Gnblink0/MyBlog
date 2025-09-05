@@ -21,11 +21,18 @@
                     </div>
             
                     {{ if $link.image }}
-                        {{ $image := $siteResources.Get (delimit (slice "link-img/" $link.image) "") | resources.Fingerprint "md5" }}
-                        {{ $imageResized := $image.Resize "120x120" }}
                         <div class="article-image">
-                            <img src="{{ $imageResized.RelPermalink }}" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}"
-                                loading="lazy" data-key="links-{{ $link.website }}" data-hash="{{ $image.Data.Integrity }}">
+                            {{ if hasPrefix $link.image "http" }}
+                                {{/* External image */}}
+                                <img src="{{ $link.image }}" width="120" height="120"
+                                    loading="lazy" data-key="links-{{ $link.website }}">
+                            {{ else }}
+                                {{/* Local image */}}
+                                {{ $image := $siteResources.Get (delimit (slice "link-img/" $link.image) "") | resources.Fingerprint "md5" }}
+                                {{ $imageResized := $image.Resize "120x120" }}
+                                <img src="{{ $imageResized.RelPermalink }}" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}"
+                                    loading="lazy" data-key="links-{{ $link.website }}" data-hash="{{ $image.Data.Integrity }}">
+                            {{ end }}
                         </div>
                     {{ end }}
                 </a>

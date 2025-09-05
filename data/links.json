@@ -5,10 +5,52 @@
         "image": "mantyke.png",
         "description": "我们会一起遇见鲸鱼吗？"
     },
+    {
+        "title": "第三夏尔",
+        "website": "https://thirdshire.com",
+        "image": "https://thirdshire.com/blackcat_avatar.jpg",
+        "description": "认真生活，积极摸鱼"
+    },
+    {
+        "title": "嘰嘰乞乞",
+        "website": "https://www.gigigatgat.ca/",
+        "image": "https://www.gigigatgat.ca/img/logo.png",
+        "description": "但願我靈魂沒有生鏽"
+    },
 	{
         "title": "空心菜菜子",
         "website": "https://josiewei2023.github.io/",
         "image": "",
         "description": "Footprints on the Moon"
+    },
+    {
+        "title": "椒盐豆豉",
+        "website": "https://blog.douchi.space/",
+        "image": "https://blog.douchi.space/dino.gif",
+        "description": "喜欢就买 不行就分 多喝热水 重启电脑"
+    },
+    {
+        "title": "Asphyxia.",
+        "website": "https://tantalum.life/",
+        "image": "https://tantalum.life/img/author_hu_7c9f4acb4fa43046.jpg",
+        "description": "各部分的我分散在各个社交网络，全部拼凑起来也不是真实的我。"
+    },
+    {
+        "title": "你留下点希望的影像吧",
+        "website": "https://www.asecarc.top/",
+        "image": "https://www.asecarc.top/img/avatar_hu14d3babd8664c89a2433d3c71df1ebd9_361601_300x0_resize_box_3.png",
+        "description": "回到现场时我们只发现了这个"
+    },
+    {
+        "title": "Moon in Nowhere",
+        "website": "https://innowhere.icu/",
+        "image": "https://i.postimg.cc/rwnB72fC/avatar.png",
+        "description": "我看见你，在无人知晓之地。"
+    },
+    {
+        "title": "狐狸反走矣",
+        "website": "https://blog.southfox.me/",
+        "image": "https://media.cmx.edu.kg/cache/preview_cards/images/002/142/870/original/e221e8d74b4a1ec4.png",
+        "description": "KEEP CALM AND CARRY ON"
     }
 ]
