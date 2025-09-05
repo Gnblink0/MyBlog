@@ -6,10 +6,7 @@ description = "这是一篇需要验证的私密文章"
 categories = [
     "日常"
 ]
-tags = [
-    "私密"
-]
-protected_question = "我的毛象简介的第一句是什么？"
+protected_question = "我的毛象简介的第一行是什么？（复制粘贴第一行即可）"
 protected_article_id = "test-article"
 +++
 
