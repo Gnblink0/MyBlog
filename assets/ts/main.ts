@@ -197,45 +197,27 @@ async function verifyProtectedArticle(containerId: string, articleId: string, bu
     errorDiv.style.display = 'none';
 
     try {
-        // 检查是否在本地开发环境
-        const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-        
-        let result;
-        
-        if (isLocalhost) {
-            // 本地开发模式：简单验证（开发用，不安全）
-            console.log('本地开发模式：跳过服务端验证');
-            const localAnswers = {
-                'test-article': '关门说话',
-                'my-secret-diary': '1990-01-01'
-            };
-            
-            const isCorrect = userAnswer === localAnswers[articleId];
-            result = { success: isCorrect, message: isCorrect ? '验证成功' : '答案错误' };
-        } else {
-            // 生产环境：调用 Vercel API 验证
-            const response = await fetch('/api/verify-article', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    articleId: articleId,
-                    userAnswer: userAnswer
-                })
-            });
+        // 调用 Vercel API 验证
+        const response = await fetch('/api/verify-article', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                articleId: articleId,
+                userAnswer: userAnswer
+            })
+        });
 
-            result = await response.json();
-        }
+        const result = await response.json();
 
-        if (result.success) {
+        if (response.ok && result.success) {
             // 验证成功 - 隐藏验证墙并显示内容
             container.style.display = 'none';
             
             const contentContainer = document.querySelector('.protected-content-container') as HTMLElement;
             if (contentContainer) {
                 contentContainer.style.display = 'block';
-                console.log('验证成功，显示文章内容');
             }
             
             // 存储会话状态
@@ -257,7 +239,6 @@ async function verifyProtectedArticle(containerId: string, articleId: string, bu
             }, 2000);
         }
     } catch (error) {
-        console.error('API调用失败:', error);
         errorDiv.textContent = '网络错误，请重试';
         errorDiv.style.display = 'block';
         
@@ -280,7 +261,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const contentContainer = document.querySelector('.protected-content-container') as HTMLElement;
             if (contentContainer) {
                 contentContainer.style.display = 'block';
-                console.log('会话恢复：显示正常内容容器');
             }
         }
     });

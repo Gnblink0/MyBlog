@@ -556,35 +556,22 @@
     buttonElement.textContent = "\u9A8C\u8BC1\u4E2D...";
     errorDiv.style.display = "none";
     try {
-      const isLocalhost = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
-      let result;
-      if (isLocalhost) {
-        console.log("\u672C\u5730\u5F00\u53D1\u6A21\u5F0F\uFF1A\u8DF3\u8FC7\u670D\u52A1\u7AEF\u9A8C\u8BC1");
-        const localAnswers = {
-          "test-article": "\u5173\u95E8\u8BF4\u8BDD",
-          "my-secret-diary": "1990-01-01"
-        };
-        const isCorrect = userAnswer === localAnswers[articleId];
-        result = { success: isCorrect, message: isCorrect ? "\u9A8C\u8BC1\u6210\u529F" : "\u7B54\u6848\u9519\u8BEF" };
-      } else {
-        const response = await fetch("/api/verify-article", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({
-            articleId,
-            userAnswer
-          })
-        });
-        result = await response.json();
-      }
-      if (result.success) {
+      const response = await fetch("/api/verify-article", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          articleId,
+          userAnswer
+        })
+      });
+      const result = await response.json();
+      if (response.ok && result.success) {
         container.style.display = "none";
         const contentContainer = document.querySelector(".protected-content-container");
         if (contentContainer) {
           contentContainer.style.display = "block";
-          console.log("\u9A8C\u8BC1\u6210\u529F\uFF0C\u663E\u793A\u6587\u7AE0\u5185\u5BB9");
         }
         sessionStorage.setItem(`protected-article-${containerId}`, "unlocked");
       } else {
@@ -600,7 +587,6 @@
         }, 2e3);
       }
     } catch (error) {
-      console.error("API\u8C03\u7528\u5931\u8D25:", error);
       errorDiv.textContent = "\u7F51\u7EDC\u9519\u8BEF\uFF0C\u8BF7\u91CD\u8BD5";
       errorDiv.style.display = "block";
       buttonElement.disabled = false;
@@ -616,7 +602,6 @@
         const contentContainer = document.querySelector(".protected-content-container");
         if (contentContainer) {
           contentContainer.style.display = "block";
-          console.log("\u4F1A\u8BDD\u6062\u590D\uFF1A\u663E\u793A\u6B63\u5E38\u5185\u5BB9\u5BB9\u5668");
         }
       }
     });

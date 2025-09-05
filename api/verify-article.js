@@ -11,18 +11,8 @@ export default function handler(req, res) {
     return res.status(400).json({ error: 'Missing required fields' });
   }
 
-  // 文章配置 - 在这里定义受保护文章的问题和答案
-  const protectedArticles = {
-    "test-article": {
-      question: "我的毛象简介的第一句是什么？",
-      answer: "关念",
-    },
-    // 可以添加更多文章
-    // 'another-article': {
-    //   question: '另一个问题？',
-    //   answer: '另一个答案'
-    // }
-  };
+  // 从环境变量读取配置
+  const protectedArticles = JSON.parse(process.env.PROTECTED_ARTICLES || '{}');
 
   // 检查文章是否存在
   const article = protectedArticles[articleId];
@@ -30,7 +20,7 @@ export default function handler(req, res) {
     return res.status(404).json({ error: 'Article not found' });
   }
 
-  // 验证答案（不区分大小写，去除前后空格）
+  // 验证答案
   const isCorrect = userAnswer.trim().toLowerCase() === article.answer.toLowerCase();
 
   if (isCorrect) {
