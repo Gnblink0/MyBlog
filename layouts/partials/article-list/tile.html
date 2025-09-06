@@ -32,6 +32,9 @@
 
         <div class="article-details">
             <h2 class="article-title">
+                {{ if .context.Params.protected_question }}
+                    <span class="protected-indicator">🔒</span>
+                {{ end }}
                 {{- .context.Title -}}
             </h2>
         </div>
