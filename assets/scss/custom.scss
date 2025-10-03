@@ -589,6 +589,13 @@ p {
   height: auto;
 }
 
+.article-page .main-article .article-content figure img {
+  max-height: 500px ;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+
 /*=========================
   Protected Content
 =========================*/

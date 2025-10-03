@@ -50,19 +50,7 @@ Goat Ridge Trail 总长度 6km 总爬升 1km，总长度和总爬升在 hard tra
 
 马上就碰上了 G 之前发的那种需要扯着绳子才能上去的近似垂直坡，但是正因为有绳子，所以确实不在话下而且挺好玩的。
 
-<div class="image-row">
-    <div class="image-row-item">
-<figure>
-		<img src="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/IMG_0028.jpeg" loading="lazy" >
-</figure>
-    </div>
-    <div class="image-row-item">
-        <figure>
-		<img src="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/IMG_3807.jpeg" loading="lazy" alt="">
-</figure>
-    </div>
-</div>
-
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/IMG_0028.jpeg) ![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/IMG_3807.jpeg)
 
 但是我们也逐渐认识到了这条 trail 的恶心之处，还并不是这种吓人的垂直坡度，而是这整条 trail 一直保持了超陡坡度，属于稳定持续的折磨，而且要么是大石头要么是疏松土质，滑、不好走、灰还大。而且因为坡度太陡整个脚一直是斜着向上的，我又掉以轻心穿了普通袜子，休息了第一次之后我就发现我的后脚跟很痛，每走一步都痛，后脚跟承受了太多……甚至担心人类的后脚跟有没有可能起水泡。
 
