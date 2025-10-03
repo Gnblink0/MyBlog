@@ -29,9 +29,7 @@ image = "https://s2.loli.net/2022/03/03/cFi9LECpVUfBXSj.png"
 
 但Hurdy Gurdy Man是他和披头士那圈人真的去印度“修行”回来后做出的，确实整个和66年已经有迷幻元素但稚嫩的Sunshine Superman非常不同。此后Hurdy Gurdy Man也成为了他常提起的一个形象，而且2016年的自传也以此命名。 整专都被印度异域迷幻气质笼罩，融爵士（Get Thy Bearings）常规操作，又保持了英国人的天真敏感、平静绝望和对温馨惬意阳光、田野的偏爱。总体来说非常梦幻悦耳，或许封面的意象已经完美反映出了——一圈被紫水环绕的绿草，一只红鸟从上掠过，草叶装饰的字写着DONOVAN。 在《Forever Changes》里我说会偏爱类似少年维特自己躲起来弹弹琴唱唱歌气质的歌，Donovan就是这样，躲在茶杯后的英国人什么的…
 
-![](https://s2.loli.net/2022/03/03/Mwfs1ULgAtz486W.jpg)
-
-![](https://img9.doubanio.com/view/thing_review/raw/public/p6155225.jpg)
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/20251002232041.png)
 
 这专从各方面来说都很有趣，好几首歌都有梗，又恰好反映了这个时期我比较感兴趣的几个主题，嬉皮风潮、早期摇滚、迷幻如何始于致幻剂却最终转向印度、滚圈与session musicians（他和虫的乔治和泡关系很好，还有齐柏林乱入），甚至突然想起深紫那首《Lelana》也是翻唱他的。
 

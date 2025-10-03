@@ -75,7 +75,6 @@ image = "https://s2.loli.net/2022/03/03/TwZuKJ1nLtoVEaU.jpg"
 
 [^6]:我也不知道怎么翻译/解释，总之可以理解成印度民族传统音乐里一种很牛逼的音乐框架、旋律结构。
 
-![Vina/Veena/维纳琴](https://s2.loli.net/2022/03/03/ATh17x6kN3BvLz4.jpg)
 
 ### 早期组队：Lifetime
 

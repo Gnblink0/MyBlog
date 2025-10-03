@@ -1,8 +1,10 @@
 baseurl: https://hugo-stack-theme-mod-six.vercel.app/
 languageCode: en-us
 theme: stack
-paginate: 5
 title: 关门说话
+
+pagination:
+    pagerSize: 10
 
 
 # GA Tracking ID
@@ -159,7 +161,11 @@ params:
         cover:
             enabled: true
         content:
-            enabled: true
+            enabled: false
+    render:
+        image:
+            externalLink:
+                enabled: true
 
 ### Custom menu
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
