@@ -118,10 +118,12 @@ Goat Ridge Trail 总长度 6km 总爬升 1km，总长度和总爬升在 hard tra
 
 总结一下，Goat Ridge 名如其名：
 
-首先它是一条非常邪恶的线，因为山羊代表恶魔，而 Goat Ridge 是一种持续不断、西西弗斯式的折磨，地势是我最讨厌的超细扬尘沙土路就宛如在地狱，而且最陡的路段还在开始/结尾的地方，让你返程最累的时候走最难的路！总之就是一种进入之前欢声笑语，但是深陷其中无法自拔，脱离了之后还越回忆越不对劲的邪恶 🚬
+首先，它是一条非常邪恶的线，因为山羊代表恶魔，而 Goat Ridge 是一种持续不断、西西弗斯式的折磨，地势是我最讨厌的超细扬尘沙土路就宛如在地狱，而且最陡的路段还在开始/结尾的地方，让你返程最累的时候走最难的路！总之就是一种进入之前欢声笑语，但是深陷其中无法自拔，脱离了之后还越回忆越不对劲的邪恶 🚬
 
 
 其次，这条线在大温 trails 种绝对属于难度 GOAT，爬完它的人就是 Goat！！
+
+最后，这条路是为 Goat 设计的，不是为人设计的！
 
 在 alltrails 上，Norvan Fall 也是 Hard，Joffre Lake 也是 Hard，Goat Ridge 也是 Hard。回家之后在小红书上一搜，看到[网友个人排名](http://xhslink.com/o/77F4pssw7Ew)，这条 trail 超越了 panorama ridge，位于大温 trail 最难的第二梯队。。（第一是 black tusk+pr+garibaldi lake 全爬完。作为对比，pr 在 4，酋长岩 123 全爬在 5，Garibaldi Lake 在 6，Joffre lake 在 8）
 
