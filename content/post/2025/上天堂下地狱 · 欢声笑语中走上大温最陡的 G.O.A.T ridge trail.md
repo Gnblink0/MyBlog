@@ -24,18 +24,7 @@ image = "https://picture-guan.oss-cn-hangzhou.aliyuncs.com/135ne%202025-09-26%20
 
 Goat Ridge Trail 总长度 6km 总爬升 1km，总长度和总爬升在 hard trail 里都不算特别长，出发前 G 也发图提醒我们预警，我也没有放在心上，毕竟我可是攀岩人，这种悬崖峭壁不仅不在话下而且还挺好玩的！
 
-<div class="image-row">
-    <div class="image-row-item">
-<figure>
-		<img src=" https://picture-guan.oss-cn-hangzhou.aliyuncs.com/20250921211946.png" loading="lazy" >
-</figure>
-    </div>
-    <div class="image-row-item">
-        <figure>
-		<img src=" https://picture-guan.oss-cn-hangzhou.aliyuncs.com/20250921212014.png" loading="lazy" alt="">
-</figure>
-    </div>
-</div>
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/20250921211946.png) ![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/20250921212014.png)
 
 
 最后体验下来才发现我们错得有多离谱，简直是无知无畏初生牛犊不怕虎，掉以轻心忽视了这个变态坡度，首先这个爬升并不是 6:1 因为 6km 是来回，那么就是 3km 的路程有 1km 的爬升，那么就是 3:1，也就是 30% 的坡度，其次我也不知道原来全程 30% 的爬升感是这种**上天堂下地狱**的程度。
@@ -58,19 +47,8 @@ Goat Ridge Trail 总长度 6km 总爬升 1km，总长度和总爬升在 hard tra
 
 之前一直在树林里埋头受苦，现在视野突然开阔，顿时感觉心旷神怡，忘了刚刚的受苦，开启了拍拍拍模式，在依然开阔的一片空地吃了饭。
 
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/IMG_3806.jpeg) ![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/IMG_3808.jpeg)
 
-<div class="image-row">
-    <div class="image-row-item">
-<figure>
-		<img src="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/IMG_3806.jpeg" loading="lazy" >
-</figure>
-    </div>
-    <div class="image-row-item">
-        <figure>
-		<img src="https://picture-guan.oss-cn-hangzhou.aliyuncs.com/IMG_3808.jpeg" loading="lazy" alt="">
-</figure>
-    </div>
-</div>
 
 我们继续上路之后，居然再次进入了树林，甚至还有一段下降的鞍部。
 

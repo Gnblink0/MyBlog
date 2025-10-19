@@ -53,34 +53,14 @@ Abbotsford 是一个单独的城市，离美国边境比较近，我们几次路
 
 喂动物活动只有山羊和鸡，一块钱一包干玉米粒 lol 农场创收项目。山羊吃东西是用舌头席卷的，所以喂山羊就会被舔手，吃得非常快一把玉米喂不了多久。
 
-<div class="image-row">
-    <div class="image-row-item">
-<figure>
-		<img src=" https://picture-guan.oss-cn-hangzhou.aliyuncs.com/8b3eb3016fc26bc202d7e3ba7c36a916.jpg" loading="lazy" >
-</figure>
-    </div>
-    <div class="image-row-item">
-        <figure>
-		<img src=" https://picture-guan.oss-cn-hangzhou.aliyuncs.com/d082fc406eba19a1ed96bbe2e2e9691b.jpg" loading="lazy" alt="">
-</figure>
-    </div>
-</div>
+
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/8b3eb3016fc26bc202d7e3ba7c36a916.jpg) ![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/d082fc406eba19a1ed96bbe2e2e9691b.jpg)
+
 
 旁边还有个室内农舍，基本上都空了，只有一只山羊和联通室外的鸡舍。里面味道很冲，对象一进去就笑了表示和他老家农舍里的味一模一样。
 
+![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/20250912202601.png) ![](https://picture-guan.oss-cn-hangzhou.aliyuncs.com/20250912202825.png)
 
-<div class="image-row">
-    <div class="image-row-item">
-<figure>
-		<img src=" https://picture-guan.oss-cn-hangzhou.aliyuncs.com/20250912202601.png" loading="lazy" >
-</figure>
-    </div>
-    <div class="image-row-item">
-        <figure>
-		<img src=" https://picture-guan.oss-cn-hangzhou.aliyuncs.com/20250912202825.png" loading="lazy" alt="">
-</figure>
-    </div>
-</div>
 
 农场里有很多这种专门给人拍照的木板，是笔画上去的，真是网红打卡景点必备，但还挺好玩。不过非常多都是给四口之家的！什么农家乐。
 
