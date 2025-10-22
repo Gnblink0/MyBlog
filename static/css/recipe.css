@@ -6,6 +6,96 @@
     --recipe-text-muted: var(--body-text-color-secondary, #666);
 }
 
+/* Recipe header with overlay */
+.recipe-page .recipe-header {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.recipe-page .recipe-hero {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.recipe-page .recipe-hero img {
+    width: 100% !important;
+    height: 400px !important;
+    object-fit: cover !important;
+    display: block !important;
+}
+
+.recipe-page .recipe-overlay {
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    background: linear-gradient(transparent, rgba(0,0,0,0.7)) !important;
+    color: white !important;
+    padding: 3rem 2rem 2rem !important;
+    margin: 0 !important;
+}
+
+.recipe-page .recipe-overlay .article-title {
+    margin: 0 0 0.5rem 0 !important;
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+}
+
+.recipe-page .recipe-overlay .article-title a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.recipe-page .recipe-overlay .article-subtitle {
+    margin: 0 !important;
+    font-size: 1.4rem !important;
+    font-weight: 400 !important;
+    opacity: 0.9 !important;
+    line-height: 1.4 !important;
+    color: white !important;
+}
+
+.recipe-page .recipe-overlay .article-time {
+    margin: 0 !important;
+    opacity: 0.8 !important;
+    font-size: 0.9rem !important;
+    color: white !important;
+    position: absolute !important;
+    bottom: 2rem !important;
+    right: 2rem !important;
+}
+
+.recipe-page .recipe-overlay .article-time div {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+}
+
+@media (max-width: 768px) {
+    .recipe-page .recipe-hero img {
+        height: 300px !important;
+    }
+
+    .recipe-page .recipe-overlay {
+        padding: 2rem 1.5rem 1.5rem !important;
+    }
+
+    .recipe-page .recipe-overlay .article-title {
+        font-size: 2rem !important;
+    }
+
+    .recipe-page .recipe-overlay .article-subtitle {
+        font-size: 1.2rem !important;
+    }
+
+    .recipe-page .recipe-overlay .article-time {
+        bottom: 1.5rem !important;
+        right: 1.5rem !important;
+    }
+}
+
 /* Dark theme support */
 [data-scheme="dark"] .recipe-page {
     --recipe-border: var(--card-border, #3a3a3a);

@@ -14,7 +14,85 @@
     </head>
 
     <article class="main-article">
-        {{ partial "article/components/header.html" . }}
+        <header class="article-header recipe-header">
+            {{- $image := partialCached "helper/image" (dict "Context" . "Type" "article") .RelPermalink "article" -}}
+            {{ if $image.exists }}
+                <div class="article-image recipe-hero">
+                    {{ if $image.resource }}
+                        {{- $Permalink := $image.resource.RelPermalink -}}
+                        {{- $Width := $image.resource.Width -}}
+                        {{- $Height := $image.resource.Height -}}
+                        {{- $Srcset := "" -}}
+
+                        {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
+                            {{- $thumbnail := $image.resource.Resize "800x" -}}
+                            {{- $thumbnailRetina := $image.resource.Resize "1600x" -}}
+                            {{- $Srcset = printf "%s 800w, %s 1600w" $thumbnail.RelPermalink $thumbnailRetina.RelPermalink -}}
+                            {{- $Permalink = $thumbnail.RelPermalink -}}
+                            {{- $Width = $thumbnail.Width -}}
+                            {{- $Height = $thumbnail.Height -}}
+                        {{- end -}}
+
+                        <img src="{{ $Permalink }}"
+                            {{ with $Srcset }}srcset="{{ . }}"{{ end }}
+                            width="{{ $Width }}"
+                            height="{{ $Height }}"
+                            loading="lazy"
+                            alt="Featured image of post {{ .Title }}" />
+                    {{ else }}
+                        <img src="{{ $image.permalink }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
+                    {{ end }}
+
+                    <div class="article-details recipe-overlay">
+                        <h2 class="article-title">
+                            <a href="{{ .RelPermalink }}">
+                                {{- .Title -}}
+                            </a>
+                        </h2>
+
+                        {{ with .Params.description }}
+                        <h3 class="article-subtitle">
+                            {{ . }}
+                        </h3>
+                        {{ end }}
+
+                        {{ if not .Date.IsZero }}
+                        <footer class="article-time">
+                            <div>
+                                <time class="article-time--published">
+                                    {{- .Date.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+                                </time>
+                            </div>
+                        </footer>
+                        {{ end }}
+                    </div>
+                </div>
+            {{ else }}
+                <div class="article-details">
+                    <h2 class="article-title">
+                        <a href="{{ .RelPermalink }}">
+                            {{- .Title -}}
+                        </a>
+                    </h2>
+
+                    {{ with .Params.description }}
+                    <h3 class="article-subtitle">
+                        {{ . }}
+                    </h3>
+                    {{ end }}
+
+                    {{ if not .Date.IsZero }}
+                    <footer class="article-time">
+                        <div>
+                            <time class="article-time--published">
+                                {{- .Date.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+                            </time>
+                        </div>
+                    </footer>
+                    {{ end }}
+                </div>
+            {{ end }}
+        </header>
 
         <div class="article-content">
             {{ if .Content }}
