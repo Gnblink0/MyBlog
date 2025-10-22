@@ -30,6 +30,13 @@
       <description></description>
     </item>
     <item>
+      <title>Recipe</title>
+      <link>http://localhost:1313/categories/recipe/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/recipe/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>攻略</title>
       <link>http://localhost:1313/categories/%E6%94%BB%E7%95%A5/</link>
       <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>

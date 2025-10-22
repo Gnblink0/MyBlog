@@ -20,25 +20,27 @@
             {{ if .Params.ingredients }}
             <section class="recipe-ingredients">
                 <h2>食材清单</h2>
-                {{ range $category, $items := .Params.ingredients }}
-                <div class="ingredient-category">
-                    <h3 class="category-title">{{ $category }}</h3>
-                    <ul class="ingredients-list">
-                    {{ range $items }}
-                        <li class="ingredient-item">
-                            <label class="ingredient-checkbox">
-                                <input type="checkbox" />
-                                <span class="checkmark"></span>
-                                <span class="ingredient-name">{{ .item }}</span>
-                                {{ if .amount }}
-                                <span class="ingredient-amount">{{ .amount }}</span>
-                                {{ end }}
-                            </label>
-                        </li>
+                <div class="ingredients-container">
+                    {{ range $category, $items := .Params.ingredients }}
+                    <div class="ingredient-category">
+                        <h3 class="category-title">{{ $category }}</h3>
+                        <ul class="ingredients-list">
+                        {{ range $items }}
+                            <li class="ingredient-item">
+                                <label class="ingredient-checkbox">
+                                    <input type="checkbox" />
+                                    <span class="checkmark"></span>
+                                    <span class="ingredient-name">{{ .item }}</span>
+                                    {{ if .amount }}
+                                    <span class="ingredient-amount">{{ .amount }}</span>
+                                    {{ end }}
+                                </label>
+                            </li>
+                        {{ end }}
+                        </ul>
+                    </div>
                     {{ end }}
-                    </ul>
                 </div>
-                {{ end }}
             </section>
             {{ end }}
 

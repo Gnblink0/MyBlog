@@ -7,9 +7,6 @@ description = ""
 categories = [
     "游记"
 ]
-tags = [
-    "2025"
-]
 image = "https://picture-guan.oss-cn-hangzhou.aliyuncs.com/135ne%202025-09-26%20231531.963.jpg"
 
 +++

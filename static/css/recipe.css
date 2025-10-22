@@ -23,19 +23,41 @@
 }
 
 .ingredient-category {
-    margin: 1.5rem 0;
+    flex: 1;
+    min-width: 0;
 }
 
-.ingredient-category:first-child {
-    margin-top: 0;
+
+/* Override any default border styling */
+.recipe-page h2,
+.recipe-page h3,
+.recipe-page .category-title {
+    border: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    position: relative;
+}
+
+.recipe-page h2::before,
+.recipe-page h3::before,
+.recipe-page .category-title::before {
+    display: none !important;
 }
 
 .category-title {
-    font-size: 1rem;
+    font-size: inherit;
     font-weight: 600;
     color: var(--recipe-text);
     margin: 0 0 0.75rem 0;
-    padding-bottom: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    background: #f5f5f5;
+    border-radius: 4px;
+    position: static;
+}
+
+[data-scheme="dark"] .category-title {
+    background: #3a3a3a;
 }
 
 .ingredients-list {
@@ -44,9 +66,36 @@
     margin: 0;
 }
 
+/* Two-column layout for larger screens */
+@media (min-width: 768px) {
+    .recipe-ingredients {
+        display: block;
+    }
+
+    .recipe-ingredients h2 {
+        margin-bottom: 1rem;
+    }
+
+    .ingredient-category {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+        margin-right: 5%;
+    }
+
+    .ingredient-category:last-child {
+        margin-right: 0;
+    }
+}
+
 .ingredient-item {
     margin: 0.5rem 0;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+.ingredients-list {
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .ingredient-item:hover {
@@ -61,8 +110,14 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    position: relative;
-    font-size: 1.1rem;
+    position: static;
+    font-size: inherit;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px dotted var(--recipe-border);
+}
+
+.ingredient-checkbox:last-child {
+    border-bottom: none;
 }
 
 .ingredient-checkbox input[type="checkbox"] {
@@ -75,11 +130,12 @@
     height: 18px;
     width: 18px;
     background-color: var(--recipe-bg);
-    border: 1px solid var(--recipe-text-muted);
+    border: 2px solid var(--recipe-text-muted);
     border-radius: 3px;
     margin-right: 12px;
     position: relative;
     transition: all 0.2s;
+    flex-shrink: 0;
 }
 
 [data-scheme="dark"] .checkmark {
@@ -94,10 +150,10 @@
 .ingredient-checkbox input[type="checkbox"]:checked ~ .checkmark:after {
     content: "";
     position: absolute;
-    left: 5px;
+    left: 4px;
     top: 1px;
-    width: 5px;
-    height: 9px;
+    width: 6px;
+    height: 10px;
     border: solid white;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
@@ -117,6 +173,7 @@
     color: var(--recipe-text-muted);
     font-weight: 500;
     margin-left: auto;
+    flex-shrink: 0;
 }
 
 /* Steps styling for ordered lists */
@@ -161,22 +218,38 @@
     color: var(--recipe-text);
 }
 
-/* Tips section (if present) */
-.recipe-tips {
-    background: var(--recipe-bg);
-    border: 1px solid var(--recipe-border);
+/* Step images */
+.recipe-page .article-content ol li img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     border-radius: 8px;
-    padding: 1.5rem;
-    margin: 2rem 0;
+    margin: 0.75rem 0;
+    display: block;
 }
 
-.tips-content ul {
-    padding-left: 1.2rem;
+/* Tips section and blockquotes */
+.recipe-page .article-content h2:contains("小贴士") + p,
+.recipe-page .article-content h2:contains("来源") + p,
+.recipe-page .article-content blockquote {
+    background: var(--recipe-bg);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 4px solid var(--accent-color, var(--recipe-text-muted));
 }
 
-.tips-content ul li {
+.recipe-page .article-content blockquote p {
     margin: 0.5rem 0;
-    line-height: 1.5;
+}
+
+.recipe-page .article-content blockquote a {
+    color: var(--accent-color, var(--recipe-text));
+    text-decoration: none;
+}
+
+.recipe-page .article-content blockquote a:hover {
+    text-decoration: underline;
 }
 
 /* Mobile Responsive */
