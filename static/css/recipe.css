@@ -1,0 +1,206 @@
+/* Recipe Page Styles - Simple & Theme-adaptive */
+.recipe-page {
+    --recipe-border: var(--card-border, #e0e0e0);
+    --recipe-bg: var(--card-background, #fff);
+    --recipe-text: var(--body-text-color, #333);
+    --recipe-text-muted: var(--body-text-color-secondary, #666);
+}
+
+/* Dark theme support */
+[data-scheme="dark"] .recipe-page {
+    --recipe-border: var(--card-border, #3a3a3a);
+    --recipe-bg: var(--card-background, #2a2a2a);
+    --recipe-text: var(--body-text-color, #e0e0e0);
+    --recipe-text-muted: var(--body-text-color-secondary, #aaa);
+}
+
+/* Ingredients List */
+
+/* Ingredients from front matter */
+.recipe-ingredients {
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.ingredient-category {
+    margin: 1.5rem 0;
+}
+
+.ingredient-category:first-child {
+    margin-top: 0;
+}
+
+.category-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--recipe-text);
+    margin: 0 0 0.75rem 0;
+    padding-bottom: 0.25rem;
+}
+
+.ingredients-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ingredient-item {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+.ingredient-item:hover {
+    background: var(--card-background-selected, rgba(0,0,0,0.03));
+}
+
+[data-scheme="dark"] .ingredient-item:hover {
+    background: var(--card-background-selected, rgba(255,255,255,0.03));
+}
+
+.ingredient-checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.1rem;
+}
+
+.ingredient-checkbox input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.checkmark {
+    height: 18px;
+    width: 18px;
+    background-color: var(--recipe-bg);
+    border: 1px solid var(--recipe-text-muted);
+    border-radius: 3px;
+    margin-right: 12px;
+    position: relative;
+    transition: all 0.2s;
+}
+
+[data-scheme="dark"] .checkmark {
+    border: 2px solid var(--recipe-text-muted);
+}
+
+.ingredient-checkbox input[type="checkbox"]:checked ~ .checkmark {
+    background-color: var(--accent-color, #4caf50);
+    border-color: var(--accent-color, #4caf50);
+}
+
+.ingredient-checkbox input[type="checkbox"]:checked ~ .checkmark:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.ingredient-checkbox input[type="checkbox"]:checked ~ .ingredient-name {
+    text-decoration: line-through;
+    color: var(--recipe-text-muted);
+}
+
+.ingredient-name {
+    flex: 1;
+    transition: all 0.2s;
+}
+
+.ingredient-amount {
+    color: var(--recipe-text-muted);
+    font-weight: 500;
+    margin-left: auto;
+}
+
+/* Steps styling for ordered lists */
+.recipe-page .article-content ol {
+    counter-reset: step-counter;
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-page .article-content ol li {
+    counter-increment: step-counter;
+    margin: 1.5rem 0;
+    padding: 0 0 0 3rem;
+    position: relative;
+    line-height: 1.6;
+}
+
+.recipe-page .article-content ol li::before {
+    content: counter(step-counter);
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    background: var(--accent-color, var(--recipe-text));
+    color: var(--recipe-bg);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.recipe-page .article-content ol li p {
+    margin: 0.25rem 0;
+}
+
+.recipe-page .article-content ol li strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--recipe-text);
+}
+
+/* Tips section (if present) */
+.recipe-tips {
+    background: var(--recipe-bg);
+    border: 1px solid var(--recipe-border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.tips-content ul {
+    padding-left: 1.2rem;
+}
+
+.tips-content ul li {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .recipe-ingredients,
+    .recipe-tips {
+        padding: 1rem;
+    }
+
+    .recipe-page .article-content ol li {
+        padding: 0.75rem 0.75rem 0.75rem 2.5rem;
+    }
+
+    .recipe-page .article-content ol li::before {
+        width: 1.25rem;
+        height: 1.25rem;
+        font-size: 0.75rem;
+        left: 0.5rem;
+        top: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .ingredient-checkbox {
+        font-size: 0.9rem;
+    }
+}

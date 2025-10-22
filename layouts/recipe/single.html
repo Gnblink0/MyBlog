@@ -1,0 +1,72 @@
+{{ define "body-class" }}
+    {{ $TOCEnabled := default (default false .Site.Params.article.toc) .Params.toc }}
+    {{- .Scratch.Set "hasTOC" (and (ge (len .TableOfContents) 100) $TOCEnabled) -}}
+    article-page recipe-page
+{{ end }}
+
+{{ define "container-class" }}
+    on-phone--column {{ if .Site.Params.widgets.enabled }}extended{{ else }}compact{{ end }}
+{{ end }}
+
+{{ define "main" }}
+    <head>
+        <link rel="stylesheet" href="/css/recipe.css">
+    </head>
+
+    <article class="main-article">
+        {{ partial "article/components/header.html" . }}
+
+        <div class="article-content">
+            {{ if .Params.ingredients }}
+            <section class="recipe-ingredients">
+                <h2>食材清单</h2>
+                {{ range $category, $items := .Params.ingredients }}
+                <div class="ingredient-category">
+                    <h3 class="category-title">{{ $category }}</h3>
+                    <ul class="ingredients-list">
+                    {{ range $items }}
+                        <li class="ingredient-item">
+                            <label class="ingredient-checkbox">
+                                <input type="checkbox" />
+                                <span class="checkmark"></span>
+                                <span class="ingredient-name">{{ .item }}</span>
+                                {{ if .amount }}
+                                <span class="ingredient-amount">{{ .amount }}</span>
+                                {{ end }}
+                            </label>
+                        </li>
+                    {{ end }}
+                    </ul>
+                </div>
+                {{ end }}
+            </section>
+            {{ end }}
+
+            {{ if .Content }}
+                {{ .Content | safeHTML }}
+            {{ end }}
+        </div>
+    </article>
+
+    {{ partial "article/components/related-contents" . }}
+
+    {{ if or (not (isset .Params "comments")) (eq .Params.comments "true")}}
+        {{ partial "comments/include" . }}
+    {{ end }}
+
+    {{ partialCached "article/components/photoswipe" . }}
+{{ end }}
+
+{{ define "left-sidebar" }}
+    <div id="article-toolbar">
+        <a href="{{ .Site.BaseURL }}" class="back-home">
+            {{ (resources.Get "icons/back.svg").Content | safeHTML }}
+            <span>{{ T "article.back" }}</span>
+        </a>
+    </div>
+    {{ partial "sidebar/left.html" . }}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" . }}
+{{ end }}
