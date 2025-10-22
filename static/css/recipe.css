@@ -274,6 +274,15 @@
 
 @media (max-width: 480px) {
     .ingredient-checkbox {
-        font-size: 0.9rem;
+        font-size: inherit;
+        padding: 0.75rem;
+    }
+
+    .ingredient-name {
+        font-size: inherit;
+    }
+
+    .ingredient-amount {
+        font-size: inherit;
     }
 }
