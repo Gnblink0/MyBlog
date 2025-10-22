@@ -17,35 +17,64 @@
         {{ partial "article/components/header.html" . }}
 
         <div class="article-content">
-            {{ if .Params.ingredients }}
-            <section class="recipe-ingredients">
-                <h2>食材清单</h2>
-                <div class="ingredients-container">
-                    {{ range $category, $items := .Params.ingredients }}
-                    <div class="ingredient-category">
-                        <h3 class="category-title">{{ $category }}</h3>
-                        <ul class="ingredients-list">
-                        {{ range $items }}
-                            <li class="ingredient-item">
-                                <label class="ingredient-checkbox">
-                                    <input type="checkbox" />
-                                    <span class="checkmark"></span>
-                                    <span class="ingredient-name">{{ .item }}</span>
-                                    {{ if .amount }}
-                                    <span class="ingredient-amount">{{ .amount }}</span>
-                                    {{ end }}
-                                </label>
-                            </li>
-                        {{ end }}
-                        </ul>
-                    </div>
-                    {{ end }}
-                </div>
-            </section>
-            {{ end }}
-
             {{ if .Content }}
-                {{ .Content | safeHTML }}
+                {{ $content := .Content }}
+                {{ $parts := split $content "<h2" }}
+                {{ $beforeMethod := "" }}
+                {{ $afterMethod := "" }}
+                {{ $hasMethod := false }}
+
+                {{ range $index, $part := $parts }}
+                    {{ if (findRE "^[^>]*>做法</h2>" $part) }}
+                        {{ $hasMethod = true }}
+                        {{ $beforeMethod = delimit ($parts | first $index) "<h2" }}
+                        {{ $afterMethod = printf "<h2%s" $part }}
+                        {{ range $i, $p := ($parts | after $index) }}
+                            {{ if gt $i 0 }}
+                                {{ $afterMethod = printf "%s<h2%s" $afterMethod $p }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+
+                {{ if $hasMethod }}
+                    <!-- 显示做法前的内容 -->
+                    {{ $beforeMethod | safeHTML }}
+
+                    <!-- 插入食材清单 -->
+                    {{ if .Params.ingredients }}
+                    <section class="recipe-ingredients">
+                        <h2>食材清单</h2>
+                        <div class="ingredients-container">
+                            {{ range $category, $items := .Params.ingredients }}
+                            <div class="ingredient-category">
+                                <h3 class="category-title">{{ $category }}</h3>
+                                <ul class="ingredients-list">
+                                {{ range $items }}
+                                    <li class="ingredient-item">
+                                        <label class="ingredient-checkbox">
+                                            <input type="checkbox" />
+                                            <span class="checkmark"></span>
+                                            <span class="ingredient-name">{{ .item }}</span>
+                                            {{ if .amount }}
+                                            <span class="ingredient-amount">{{ .amount }}</span>
+                                            {{ end }}
+                                        </label>
+                                    </li>
+                                {{ end }}
+                                </ul>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </section>
+                    {{ end }}
+
+                    <!-- 显示做法及之后的内容 -->
+                    {{ $afterMethod | safeHTML }}
+                {{ else }}
+                    <!-- 如果没有做法标题，正常显示内容 -->
+                    {{ .Content | safeHTML }}
+                {{ end }}
             {{ end }}
         </div>
     </article>
