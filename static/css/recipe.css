@@ -228,6 +228,28 @@
     display: block;
 }
 
+/* Step notes/tips styling - auto detect italic paragraphs in steps */
+.recipe-page .article-content ol li p em {
+    display: block !important;
+    font-size: 1.5rem !important;
+    color: #999 !important;
+    font-style: italic !important;
+    margin: 0.3rem 0 !important;
+}
+
+.recipe-page .article-content ol li p em::before {
+    content: "* ";
+    color: #999;
+}
+
+[data-scheme="dark"] .recipe-page .article-content ol li p em {
+    color: #aaa !important;
+}
+
+[data-scheme="dark"] .recipe-page .article-content ol li p em::before {
+    color: #aaa;
+}
+
 /* Tips section and blockquotes */
 .recipe-page .article-content h2:contains("小贴士") + p,
 .recipe-page .article-content h2:contains("来源") + p,
