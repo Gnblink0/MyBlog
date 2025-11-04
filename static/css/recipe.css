@@ -266,14 +266,14 @@
     flex-shrink: 0;
 }
 
-/* Steps styling for ordered lists */
-.recipe-page .article-content ol {
+/* Steps styling for ordered lists - exclude blockquote */
+.recipe-page .article-content > ol {
     counter-reset: step-counter;
     list-style: none;
     padding: 0;
 }
 
-.recipe-page .article-content ol li {
+.recipe-page .article-content > ol > li {
     counter-increment: step-counter;
     margin: 1.5rem 0;
     padding: 0 0 0 3rem;
@@ -298,30 +298,52 @@
     font-size: 0.8rem;
 }
 
+/* Reset styles for lists inside blockquotes */
+.recipe-page .article-content blockquote ol,
+.recipe-page .article-content blockquote ul {
+    counter-reset: none;
+    list-style: initial;
+    padding-left: 2rem;
+}
+
+.recipe-page .article-content blockquote ol li,
+.recipe-page .article-content blockquote ul li {
+    counter-increment: none;
+    margin: 0.5rem 0;
+    padding: 0;
+    position: static;
+    line-height: 1.6;
+}
+
+.recipe-page .article-content blockquote ol li::before,
+.recipe-page .article-content blockquote ul li::before {
+    display: none;
+}
+
 /* 嵌套列表样式调整 */
-.recipe-page .article-content ol li ul li,
-.recipe-page .article-content ol li ol li {
+.recipe-page .article-content > ol li ul li,
+.recipe-page .article-content > ol li ol li {
     padding-left: 0;
     margin: 0.25rem 0;
 }
 
-.recipe-page .article-content ol li ul li::before,
-.recipe-page .article-content ol li ol li::before {
+.recipe-page .article-content > ol li ul li::before,
+.recipe-page .article-content > ol li ol li::before {
     display: none;
 }
 
-.recipe-page .article-content ol li p {
+.recipe-page .article-content > ol li p {
     margin: 0.25rem 0;
 }
 
-.recipe-page .article-content ol li strong {
+.recipe-page .article-content > ol li strong {
     display: block;
     margin-bottom: 0.5rem;
     color: var(--recipe-text);
 }
 
 /* Step images */
-.recipe-page .article-content ol li img {
+.recipe-page .article-content > ol li img {
     width: 100%;
     max-width: 400px;
     height: auto;
@@ -331,7 +353,7 @@
 }
 
 /* Step notes/tips styling - auto detect italic paragraphs in steps */
-.recipe-page .article-content ol li p em {
+.recipe-page .article-content > ol li p em {
     display: block !important;
     font-size: 1.5rem !important;
     color: #999 !important;
@@ -339,17 +361,151 @@
     margin: 0.3rem 0 !important;
 }
 
-.recipe-page .article-content ol li p em::before {
+.recipe-page .article-content > ol li p em::before {
     content: "* ";
     color: #999;
 }
 
-[data-scheme="dark"] .recipe-page .article-content ol li p em {
+[data-scheme="dark"] .recipe-page .article-content > ol li p em {
     color: #aaa !important;
 }
 
-[data-scheme="dark"] .recipe-page .article-content ol li p em::before {
+[data-scheme="dark"] .recipe-page .article-content > ol li p em::before {
     color: #aaa;
+}
+
+/* Gallery styles */
+.recipe-page .gallery {
+    padding: 0;
+    margin: 1rem 0;
+    justify-content: center;
+}
+
+.recipe-page .gallery li {
+    list-style: none;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.recipe-page .gallery li img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Specific gallery-image figure styling */
+.recipe-page .article-content figure.gallery-image {
+    display: block !important;
+    margin: 1rem auto !important;
+    text-align: center !important;
+    flex: none !important;
+    flex-grow: 0 !important;
+    flex-basis: auto !important;
+    width: auto !important;
+    max-width: calc(100% - 2rem) !important;
+    padding: 0 1rem !important;
+    box-sizing: border-box !important;
+}
+
+.recipe-page figure.gallery-image {
+    display: block !important;
+    margin: 1rem auto !important;
+    text-align: center !important;
+    flex: none !important;
+    flex-grow: 0 !important;
+    flex-basis: auto !important;
+    width: auto !important;
+    max-width: calc(100% - 2rem) !important;
+    padding: 0 1rem !important;
+    box-sizing: border-box !important;
+}
+
+/* More specific override for gallery containers */
+.recipe-page .gallery figure.gallery-image {
+    display: block !important;
+    flex: none !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    flex-basis: auto !important;
+}
+
+.recipe-page figure.gallery-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Override theme's gallery flex layout */
+.recipe-page .article-content .gallery {
+    display: block !important;
+    text-align: center !important;
+    flex-direction: unset !important;
+    justify-content: unset !important;
+    position: relative !important;
+    margin: 1.5em auto !important;
+    width: auto !important;
+    max-width: calc(100% - 2rem) !important;
+}
+
+.recipe-page .gallery {
+    display: block !important;
+    text-align: center !important;
+}
+
+/* Force override with highest specificity */
+.recipe-page .article-content div.gallery > figure.gallery-image {
+    display: block !important;
+    margin: 1rem auto !important;
+    flex: none !important;
+    flex-grow: 0 !important;
+    flex-basis: auto !important;
+    max-width: calc(100% - 2rem) !important;
+    padding: 0 1rem !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
+}
+
+/* Even more specific selector to override inline styles */
+body .recipe-page .article-content div.gallery figure.gallery-image[style] {
+    display: block !important;
+    margin: 1rem auto !important;
+    flex: none !important;
+    flex-grow: 0 !important;
+    flex-basis: auto !important;
+    flex-shrink: 0 !important;
+    width: auto !important;
+    max-width: calc(100% - 2rem) !important;
+    padding: 0 1rem !important;
+    box-sizing: border-box !important;
+}
+
+/* Target the style attribute directly */
+.recipe-page figure.gallery-image[style*="flex-grow"] {
+    flex-grow: 0 !important;
+}
+
+.recipe-page figure.gallery-image[style*="flex-basis"] {
+    flex-basis: auto !important;
+}
+
+
+/* Center all images in recipe content */
+.recipe-page .article-content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Also center images in paragraphs */
+.recipe-page .article-content p img {
+    display: block;
+    margin: 0 auto;
 }
 
 /* Tips section and blockquotes */
