@@ -494,19 +494,27 @@ body .recipe-page .article-content div.gallery figure.gallery-image[style] {
 }
 
 
-/* Center all images in recipe content */
-.recipe-page .article-content img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+/* Center all images in recipe content (desktop) */
+@media (min-width: 769px) {
+    .recipe-page .article-content img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .recipe-page .article-content p img {
+        display: block;
+        margin: 0 auto;
+    }
 }
 
-/* Also center images in paragraphs */
-.recipe-page .article-content p img {
+/* Base image styles */
+.recipe-page .article-content img {
     display: block;
-    margin: 0 auto;
+    height: auto;
+    border-radius: 8px;
 }
 
 /* Tips section and blockquotes */
@@ -551,6 +559,65 @@ body .recipe-page .article-content div.gallery figure.gallery-image[style] {
         left: 0.5rem;
         top: 0.75rem;
     }
+
+    /* Make images align with text on mobile - force override */
+    .recipe-page .article-content img {
+        margin: 0.5rem 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .recipe-page .article-content > ol li img {
+        margin: 0.5rem 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .recipe-page .article-content p img {
+        margin: 0.5rem 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .recipe-page figure.gallery-image {
+        margin: 0.5rem 0 !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    .recipe-page .article-content div.gallery > figure.gallery-image {
+        margin: 0.5rem 0 !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    .recipe-page figure.gallery-image img {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Target specific figure elements */
+    body .recipe-page .article-content figure.gallery-image {
+        margin: 0.5rem 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    /* Even more specific to override inline styles */
+    .recipe-page .article-content figure.gallery-image[style] {
+        margin: 0.5rem 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
 }
 
 @media (max-width: 480px) {
@@ -565,5 +632,28 @@ body .recipe-page .article-content div.gallery figure.gallery-image[style] {
 
     .ingredient-amount {
         font-size: inherit;
+    }
+
+    /* Ultra specific mobile image overrides */
+    .recipe-page .article-content img,
+    .recipe-page .article-content p img,
+    .recipe-page .article-content > ol li img,
+    .recipe-page figure.gallery-image img,
+    .recipe-page .article-content div.gallery > figure.gallery-image img {
+        margin: 0.5rem 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .recipe-page figure.gallery-image,
+    .recipe-page .article-content figure.gallery-image,
+    .recipe-page .article-content div.gallery > figure.gallery-image {
+        margin: 0.5rem 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
     }
 }
