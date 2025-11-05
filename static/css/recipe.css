@@ -115,6 +115,7 @@
 .ingredient-category {
     flex: 1;
     min-width: 0;
+    margin-bottom: 2rem;
 }
 
 
@@ -166,15 +167,15 @@
         margin-bottom: 1rem;
     }
 
-    .ingredient-category {
-        display: inline-block;
-        width: 45%;
-        vertical-align: top;
-        margin-right: 5%;
+    .ingredients-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
     }
 
-    .ingredient-category:last-child {
-        margin-right: 0;
+    .ingredient-category {
+        margin-bottom: 0;
+        padding: 0 1rem;
     }
 }
 
